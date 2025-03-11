@@ -1,0 +1,345 @@
+﻿### Turian_NameList
+### Created by LostInACave 
+
+#Each line = 20~ Names#
+
+Turian_Hierarchy = {
+	randomized = no
+	alias = "Turian"
+
+	ship_names = {
+		science = {	
+			Obstinatio Diligens Zephyrus Aenigma Scylla Sanctor Aspera Eminentia Astutia Alacritas Prosperitas Perseverantia Apex Lumen Memoria Peregrinatio Vagabundus Viator Legatus Emissarius
+		}
+		
+		constructor = {
+			Industria Sedulitas Gnavitas Assiduitas Conatus Procuratio Operarius Conditor Aedifex Artifex Opifex Confector Progressus Machinator Promissio Ministerium Tectum Creator Fabrica Architectus
+		}
+		
+		colonizer = {
+			Salve Virtus Potentia Expansio Praecursor Prosperitas Culmen Seminarium Messis Colonia Fundatio Stirps Progenies Obligatio Propositus Providentia Adquiritor Aurora Communitas Fraternitas
+		}
+		
+		transport = {
+			Exodia Motus Increbsesco Onerariis Adveho Migro Transversa Supera Supra Oblicum 
+		}
+		
+		corvette = {
+			Agilis Arcaria Sagitta Pulsatrix Cherub Chimaera Spatha Ascia Manuballista Verrikan Deterrens Errans Fidelis Ferox Gladia Fera Corvus Malleus Vampyrus Velox 
+			Venatrix Vindicatrix Venerabilis Venenosa Taciturna Suprema Victrix Scinditrix Seraphin Serpens Ignitrix Persecutrix Strategema Cymitharra Flagellum Falx Nuntius Formidabilis Raptrix Prodiga 
+			Rapperia Prudens Persistens Incomparabilis Myrmidon Indignans Hasta Eques Lupa Bonaventura Adventura Pugil Pirata Remissa Caelestialis Quadriga Cometa Ordalia Cyclon Decretoria 
+			Dextra Diadema Seria Eclipsis Malleatrix Fortunata Manica Gryphus Horizon Calcar Typhon Jubilans Lanciarius Fulgur Magia Mediatrix Nympha Sirena Meteorum Ministerialis 
+			Tempestas Pugnator Titanus Supremus Propulsator Maiestas Avatar Behemoth Centurio Arx Oblivio Praenuntius Pristis Galatea Insidia Vindicator Prohibeo Coacto Impetia Robur
+		}
+		
+		destroyer = {
+			Havincaw Adversarius Sicarius Sica Audax Pertinax Officium Strages Naufragium Heros Impeccabilis Infernalis Contundor Malitia Minax Immitis Immisericors Pestis Maleficium Civis 
+			Praedator Potens Punitor Ultor Vindex Atrox Malignus Invidiosus Terminator Triturator Mantichora Interdictor Intrusus Vexator Versipellis Studiosus Zelus Petulans Phantasma Stylus
+			Secutor Incursor Arcus Caelestis Rapidus Redemptio Implacabilis Superbus Strictus Robustus Machaera Salvatio Sanguineus Scarabaeus Sceptrum Circe Sirena Maga Summitas Spectrum   
+			Resistens Firmus Strenuus Superbus Miraculum Robustus Talentum Ingenium Fascinum Unguis Taurus Tenax Filius Jovis Tonitralis Indefatigabilis Efficax Pius Mixta Diligens
+			Ultor Vindex Victor Gloria Immortalis Judicator Praeventor Exculcator Demolitor Draco Executor Furiosus Gladiator Magnificentior Orcus Impetus Injuria Domitor Vehemens Basiliscum
+		}
+		
+		cruiser = {
+			Corinthus Nyx Arterius Pallin Sidonis Sparatus Vakarian Victus Actus Kandros Oraka Lupigius Gratcius Sullinus Terlin Actyon Eraspanus Brulin Velso Caenis 
+			Tulus Tibetius Septilius Procnian Natarian Scrilian Sancnian Camrian Bromscus Taniana Consevia Canian Canius Orodus Achamius Akerian Alerian Victian Canditumus Simtumus 
+			Vicnianus Nazados Quinia Quinian Bulcus Adaril Dexilin Caelrius Olymia Capirius Quintius Florinian Vedorian Fedorian Feroxia Ultoria Ultroius Arxian Insidius Vindictius 
+			Victius Rhenian Lucifia Posnian Varidonis Taninian Simpmius Premis Premix Concordia Spes Asclepius Salus Athenonix Satyra Rhenus Libertas Vindicta Triumphalis Nemesis 
+			Impestia Manus Manix Acertas Vigix 
+		}
+		
+		battleship = {
+			Indomitable Unification "Will of Invictus" Imperator Venator Justitia "Spirit of Fire" Inquisitor Exsequor Coercitor Lustitiae Immortal Authoritix Angoria Domandix Vincix Evincia Vanquish Fortis Virtue
+			Victoria Incolumitas Triumphus Imperium Excelsior Supremus Praevalens Exemplaris Memorandus Incorruptibilis Integritas Probitas Prudentia Obstinatio Diligentia Augusta Valor Constantia Perseverantia Disciplina
+			Resolute Undaunted Spiritus Leviathan Prophecy Redoubtable Rectus Fidenix Valorix Piraplix Galatex Diodexia Faratilia Sagitix Vesusvix Zelix Macedix Macedyia Cipritix Praecusix 
+			Astute Vanguard Arbitix Vendetixia Vulca Trident Valiant Unwaverix Tausix Defiance Spiritix Audasia Fearix Relyansia Paladix Tetrix Unshaken Versitilia Urgentia Vendetrix 
+		}
+		
+		titan = {
+			"Palven's Pride" "Spirit's Vengeance" Diatryma Rubicon "Taetrus' Justitia" "Lance of Menae" "Martial Supremia" "Trebia Invicta" 
+		}
+
+		colossus = {
+			Retributio Justitia Puritas Gloria Invicta
+		}
+		
+		ion_cannon = {
+			Alpha Beta Gamma Epsilon Zeta Omega Iota Sigma Omicron Tau Upsilon Theta Kappa Mu Iambda Eta Rho Kio Liopa Dixca
+		}
+			
+		military_station_small = {
+			"Castra Victoria" "Castra Augusta" "Castra Imperialis" "Castra Superior" "Castra Inexpugnabilis" "Castra Suprema" "Castra Exemplaris" "Castra Optima" "Castra Trajana" "Castra Nova" 
+			"Castra Constantia" "Castra Agrippina" "Castra Flavia" "Castra Superba" "Castra Aelia" "Castra Julia" "Castra Severa" "Castra Alba" "Castra Regina" "Castra Tiberia" 
+			"Castra Claudia" "Castra Perfecta" "Castra Aemilia" "Castra Caecilia" "Castra Crispina" "Castra Epidia" "Castra Fabia" "Castra Fulvia" "Castra Proba" "Castra Galeria" 
+			"Castra Herminia" "Castra Livia" "Castra Lucia" "Castra Minucia" "Castra Numeria" "Castra Octavia" "Castra Octaviana" "Castra Petronia" "Castra Pompeia" "Castra Pompilia" 
+			"Castra Quirinia" "Castra Rufa" "Castra Salvia" "Castra Scribonia" "Castra Septimia" "Castra Sextia" "Castra Sulpicia" "Castra Tullia" "Castra Valeria" "Castra Fulicia"
+		}
+			
+		mining_station = {}
+		research_station = {}
+		#terraform_station = {}
+		observation_station = {}	
+	}
+
+	fleet_names = {
+		sequential_name = MESP_TURIAN_FLEET
+	}
+
+	army_names = {
+		machine_defense = {
+			sequential_name = MESP_TURIAN_xxPLANETARYGUARD_ROM
+		}
+
+		machine_assault_1 = {
+			sequential_name = MESP_TURIAN_xxEXPEDITIONARYFORCE_ROM
+		}
+
+		machine_assault_2 = {
+			sequential_name = MESP_TURIAN_xxEXPEDITIONARYFORCE_ROM
+		}
+
+		machine_assault_3 = {
+			sequential_name = MESP_TURIAN_xxEXPEDITIONARYFORCE_ROM
+		}
+
+		defense_army = {
+			sequential_name = MESP_TURIAN_xxPLANETARYGUARD_ROM
+		}
+
+		assault_army = {
+			sequential_name = MESP_TURIAN_xxEXPEDITIONARYFORCE_ROM
+		}
+
+		slave_army = {
+			sequential_name = MESP_TURIAN_xxINDENTUREDRIFLES_ROM
+		}
+
+		clone_army = {
+			sequential_name = MESP_TURIAN_xxCLONEARMY_ROM
+		}
+
+		undead_army = {
+			sequential_name = MESP_TURIAN_xxDREADCOMMANDO_ROM
+		}
+
+		robotic_army = {
+			sequential_name = MESP_TURIAN_xxHUNTERKILLERGROUP_ROM
+		}
+
+		robotic_defense_army = {
+			sequential_name = MESP_TURIAN_xxGROUNDDEFENSEMATRIX_ROM
+		}
+
+		psionic_army = {
+			sequential_name = MESP_TURIAN_xxPSICOMMANDO_ROM
+		}
+
+		xenomorph_army = {
+			sequential_name = MESP_TURIAN_xxBIOWARFAREDIVISION_ROM
+		}
+
+		gene_warrior_army = {
+			sequential_name = MESP_TURIAN_xxBIOENGINEEREDSQUADRON_ROM
+		}
+
+		occupation_army = {
+			sequential_name = MESP_TURIAN_xxGARRISONFORCE_ROM
+		}
+
+		robotic_occupation_army = {
+			sequential_name = MESP_TURIAN_xxMECHANIZEDGARRISON_ROM
+		}
+
+		primitive_army = {
+			sequential_name = MESP_TURIAN_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = MESP_TURIAN_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = MESP_TURIAN_POSTATOMICARMYxx_SEQ
+		}
+	}
+
+	planet_names = {
+		generic = {
+			names = {
+				Palaven Taetrus Baetika Gothis Invictus Solregit Oma Ker Edessan Cannis Epyrus Farin Macedyn Pulan Quadim Silona Digeris Aesphus Bostra Carthaan Chatti Galatana
+				Gellix Pheiros Magna Maitrum Nimines Parthia Rocam Syglar Thracia Tridend "Triginta Petra" Xerceo	
+				}
+		}
+		
+		pc_desert = {
+			names = {
+				
+			}
+		}
+		
+		pc_arid = {
+			names = {
+				
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+				
+			}
+		}
+		
+		pc_continental = {
+			names = {
+							
+			}
+		}
+		
+		pc_gaia = {
+			names = {
+				
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+				
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+				
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+				
+			}
+		}
+		
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = { 
+			}
+		}
+	}
+
+	### CHARACTERS
+	character_names = {
+		default = {
+			first_names_male = {
+				MESP_TURAN_MALE_FIRST_NAME_Adrien MESP_TURAN_MALE_FIRST_NAME_Tarquin MESP_TURAN_MALE_FIRST_NAME_Garrus MESP_TURAN_MALE_FIRST_NAME_Saren 
+				MESP_TURAN_MALE_FIRST_NAME_Desolas MESP_TURAN_MALE_FIRST_NAME_Timus MESP_TURAN_MALE_FIRST_NAME_Septimus MESP_TURAN_MALE_FIRST_NAME_Etarn 
+				MESP_TURAN_MALE_FIRST_NAME_Tonn MESP_TURAN_MALE_FIRST_NAME_Elanos MESP_TURAN_MALE_FIRST_NAME_Lorik MESP_TURAN_MALE_FIRST_NAME_Illo 
+				MESP_TURAN_MALE_FIRST_NAME_Preitior MESP_TURAN_MALE_FIRST_NAME_Nihlus MESP_TURAN_MALE_FIRST_NAME_Lantar MESP_TURAN_MALE_FIRST_NAME_Irix 
+				MESP_TURAN_MALE_FIRST_NAME_Venari MESP_TURAN_MALE_FIRST_NAME_Joram MESP_TURAN_MALE_FIRST_NAME_Chisilix MESP_TURAN_MALE_FIRST_NAME_Rolan 
+				MESP_TURAN_MALE_FIRST_NAME_Sato MESP_TURAN_MALE_FIRST_NAME_Lilihierax MESP_TURAN_MALE_FIRST_NAME_Mehrkuri MESP_TURAN_MALE_FIRST_NAME_Chisilix 
+				MESP_TURAN_MALE_FIRST_NAME_Venari MESP_TURAN_MALE_FIRST_NAME_Garkko MESP_TURAN_MALE_FIRST_NAME_Grizz MESP_TURAN_MALE_FIRST_NAME_Ogrinn 
+				MESP_TURAN_MALE_FIRST_NAME_Tactus MESP_TURAN_MALE_FIRST_NAME_Enterus MESP_TURAN_MALE_FIRST_NAME_Ellis MESP_TURAN_MALE_FIRST_NAME_Neno 
+				MESP_NAMELIST_TURAN_MALE_FIRST_NAME_Idus MESP_TURAN_MALE_FIRST_NAME_Razun MESP_TURAN_MALE_FIRST_NAME_Iustinix MESP_TURAN_MALE_FIRST_NAME_Extan 
+				MESP_NAMELIST_TURAN_MALE_FIRST_NAME_Kihilix MESP_TURAN_MALE_FIRST_NAME_Daherax MESP_TURAN_MALE_FIRST_NAME_Serus MESP_TURAN_MALE_FIRST_NAME_Alsadrus 
+				MESP_TURAN_MALE_FIRST_NAME_Uvalum MESP_TURAN_MALE_FIRST_NAME_Titrinus MESP_TURAN_MALE_FIRST_NAME_Janus MESP_TURAN_MALE_FIRST_NAME_Lahere 
+				MESP_TURAN_MALE_FIRST_NAME_Sanus MESP_TURAN_MALE_FIRST_NAME_Ulrixen MESP_TURAN_MALE_FIRST_NAME_Hanae MESP_TURAN_MALE_FIRST_NAME_Teheris 
+				MESP_TURAN_MALE_FIRST_NAME_Derius MESP_TURAN_MALE_FIRST_NAME_Meln MESP_TURAN_MALE_FIRST_NAME_Vertin MESP_TURAN_MALE_FIRST_NAME_Huck 
+				MESP_TURAN_MALE_FIRST_NAME_Hexnar MESP_TURAN_MALE_FIRST_NAME_Sanex MESP_TURAN_MALE_FIRST_NAME_Gradius MESP_TURAN_MALE_FIRST_NAME_Ternitus 
+				MESP_TURAN_MALE_FIRST_NAME_Vamire MESP_TURAN_MALE_FIRST_NAME_Faros MESP_TURAN_MALE_FIRST_NAME_Elgus MESP_TURAN_MALE_FIRST_NAME_Jaxum 
+				MESP_TURAN_MALE_FIRST_NAME_Salur MESP_TURAN_MALE_FIRST_NAME_Ferrus MESP_TURAN_MALE_FIRST_NAME_Minador MESP_TURAN_MALE_FIRST_NAME_Quart 
+				MESP_TURAN_MALE_FIRST_NAME_Hunner MESP_TURAN_MALE_FIRST_NAME_Astrae MESP_TURAN_MALE_FIRST_NAME_Tobestick MESP_TURAN_MALE_FIRST_NAME_Marnek 
+				MESP_TURAN_MALE_FIRST_NAME_Joppa MESP_TURAN_MALE_FIRST_NAME_Delwian MESP_TURAN_MALE_FIRST_NAME_Ledius MESP_TURAN_MALE_FIRST_NAME_Eratian 
+				MESP_TURAN_MALE_FIRST_NAME_Pratur MESP_TURAN_MALE_FIRST_NAME_Actin MESP_TURAN_MALE_FIRST_NAME_Sareko MESP_TURAN_MALE_FIRST_NAME_Cheros 
+				MESP_TURAN_MALE_FIRST_NAME_Tusi MESP_TURAN_MALE_FIRST_NAME_Lorir MESP_TURAN_MALE_FIRST_NAME_Teras
+			}
+			first_names_female = {
+				MESP_TURAN_FEMALE_FIRST_NAME_Nyreen MESP_TURAN_FEMALE_FIRST_NAME_Pavan MESP_TURAN_FEMALE_FIRST_NAME_Shastina MESP_TURAN_FEMALE_FIRST_NAME_Abrudas 
+				MESP_TURAN_FEMALE_FIRST_NAME_Vetra MESP_TURAN_FEMALE_FIRST_NAME_Octa MESP_TURAN_FEMALE_FIRST_NAME_Anela MESP_TURAN_FEMALE_FIRST_NAME_Arayna 
+				MESP_TURAN_FEMALE_FIRST_NAME_Dinara MESP_TURAN_FEMALE_FIRST_NAME_Orinia MESP_TURAN_FEMALE_FIRST_NAME_Lilira MESP_TURAN_FEMALE_FIRST_NAME_Naxus 
+				MESP_TURAN_FEMALE_FIRST_NAME_Reta MESP_TURAN_FEMALE_FIRST_NAME_Himar MESP_TURAN_FEMALE_FIRST_NAME_Lana MESP_TURAN_FEMALE_FIRST_NAME_Vitola 
+				MESP_TURAN_FEMALE_FIRST_NAME_Dixali MESP_TURAN_FEMALE_FIRST_NAME_Solana MESP_TURAN_FEMALE_FIRST_NAME_Nyvan MESP_TURAN_FEMALE_FIRST_NAME_Nytina 
+				MESP_TURAN_FEMALE_FIRST_NAME_Nydas MESP_TURAN_FEMALE_FIRST_NAME_Nyra MESP_TURAN_FEMALE_FIRST_NAME_Nyta MESP_TURAN_FEMALE_FIRST_NAME_Pareen 
+				MESP_TURAN_FEMALE_FIRST_NAME_Patina MESP_TURAN_FEMALE_FIRST_NAME_Padas MESP_TURAN_FEMALE_FIRST_NAME_Para MESP_TURAN_FEMALE_FIRST_NAME_Pata 
+				MESP_TURAN_FEMALE_FIRST_NAME_Shasreen MESP_TURAN_FEMALE_FIRST_NAME_Shasvan MESP_TURAN_FEMALE_FIRST_NAME_Shasdas MESP_TURAN_FEMALE_FIRST_NAME_Shasra 
+				MESP_TURAN_FEMALE_FIRST_NAME_Shasta MESP_TURAN_FEMALE_FIRST_NAME_Abrureen MESP_TURAN_FEMALE_FIRST_NAME_Abruvan MESP_TURAN_FEMALE_FIRST_NAME_Abrutina 
+				MESP_TURAN_FEMALE_FIRST_NAME_Abrura MESP_TURAN_FEMALE_FIRST_NAME_Abruta MESP_TURAN_FEMALE_FIRST_NAME_Ocreen MESP_TURAN_FEMALE_FIRST_NAME_Ocvan 
+				MESP_TURAN_FEMALE_FIRST_NAME_Octina MESP_TURAN_FEMALE_FIRST_NAME_Ocdas MESP_TURAN_FEMALE_FIRST_NAME_Ocra MESP_TURAN_FEMALE_FIRST_NAME_Maxivia
+			}
+			second_names = {
+				MESP_TURAN_SECOND_NAME_Victus MESP_TURAN_SECOND_NAME_Vakarian MESP_TURAN_SECOND_NAME_Arterius MESP_TURAN_SECOND_NAME_Aurelos MESP_TURAN_SECOND_NAME_Oraka 
+				MESP_TURAN_SECOND_NAME_Tiron MESP_TURAN_SECOND_NAME_Actus MESP_TURAN_SECOND_NAME_Haliat MESP_TURAN_SECOND_NAME_Quiin MESP_TURAN_SECOND_NAME_Nazario 
+				MESP_TURAN_SECOND_NAME_Gavorn MESP_TURAN_SECOND_NAME_Kryik MESP_TURAN_SECOND_NAME_Sidonis MESP_TURAN_SECOND_NAME_Kuril MESP_TURAN_SECOND_NAME_Coronati 
+				MESP_TURAN_SECOND_NAME_Pallin MESP_TURAN_SECOND_NAME_Talid MESP_TURAN_SECOND_NAME_Palanurus MESP_TURAN_SECOND_NAME_Quarn MESP_TURAN_SECOND_NAME_Davaria 
+				MESP_TURAN_SECOND_NAME_Kandros MESP_TURAN_SECOND_NAME_Sahira MESP_TURAN_SECOND_NAME_Emperus MESP_TURAN_SECOND_NAME_Vyrnnus MESP_TURAN_SECOND_NAME_Chellick 
+				MESP_TURAN_SECOND_NAME_Fedorian MESP_TURAN_SECOND_NAME_Corinthus MESP_TURAN_SECOND_NAME_Haron MESP_TURAN_SECOND_NAME_Invectus MESP_TURAN_SECOND_NAME_Jacobus 
+				MESP_TURAN_SECOND_NAME_Vidinos MESP_TURAN_SECOND_NAME_Valterus MESP_TURAN_SECOND_NAME_Raxirian MESP_TURAN_SECOND_NAME_Valen MESP_TURAN_SECOND_NAME_Scartos 
+				MESP_TURAN_SECOND_NAME_Saneraxis MESP_TURAN_SECOND_NAME_Hanus MESP_TURAN_SECOND_NAME_Sylvatus MESP_TURAN_SECOND_NAME_Partinax MESP_TURAN_SECOND_NAME_Relius 
+				MESP_TURAN_SECOND_NAME_Yahirix MESP_TURAN_SECOND_NAME_Tanus MESP_TURAN_SECOND_NAME_Antivus MESP_TURAN_SECOND_NAME_Lilix MESP_TURAN_SECOND_NAME_Tertius 
+				MESP_TURAN_SECOND_NAME_Septimax MESP_TURAN_SECOND_NAME_Machaera MESP_TURAN_SECOND_NAME_Pagasi MESP_TURAN_SECOND_NAME_Dianix MESP_TURAN_SECOND_NAME_Iheras 
+				MESP_TURAN_SECOND_NAME_Partainis MESP_TURAN_SECOND_NAME_Satorim MESP_TURAN_SECOND_NAME_Ravidus MESP_TURAN_SECOND_NAME_Daphnon MESP_TURAN_SECOND_NAME_Gaudium 
+				MESP_TURAN_SECOND_NAME_Nyrek MESP_TURAN_SECOND_NAME_Dellk MESP_TURAN_SECOND_NAME_Korilius MESP_TURAN_SECOND_NAME_Irvinus MESP_TURAN_SECOND_NAME_Siyan 
+				MESP_TURAN_SECOND_NAME_Iherax MESP_TURAN_SECOND_NAME_Sycoram MESP_TURAN_SECOND_NAME_Septimas MESP_TURAN_SECOND_NAME_Squaron MESP_TURAN_SECOND_NAME_Riten 
+				MESP_TURAN_SECOND_NAME_Spartarus MESP_TURAN_SECOND_NAME_Quentiys MESP_TURAN_SECOND_NAME_Ursinus MESP_TURAN_SECOND_NAME_Paramon MESP_TURAN_SECOND_NAME_Borlin 
+				MESP_TURAN_SECOND_NAME_Darikun MESP_TURAN_SECOND_NAME_Latronus MESP_TURAN_SECOND_NAME_Korlick MESP_TURAN_SECOND_NAME_Lux MESP_TURAN_SECOND_NAME_Patathor 
+				MESP_TURAN_SECOND_NAME_Vadus MESP_TURAN_SECOND_NAME_Genchak MESP_TURAN_SECOND_NAME_Ixiri MESP_TURAN_SECOND_NAME_Raedun MESP_TURAN_SECOND_NAME_Rubicum 
+				MESP_TURAN_SECOND_NAME_Arborandum MESP_TURAN_SECOND_NAME_Bartus MESP_TURAN_SECOND_NAME_Egnadus
+			}
+			regnal_first_names_male = {
+				MESP_TURAN_MALE_FIRST_NAME_Adrien MESP_TURAN_MALE_FIRST_NAME_Tarquin MESP_TURAN_MALE_FIRST_NAME_Garrus MESP_TURAN_MALE_FIRST_NAME_Saren 
+				MESP_TURAN_MALE_FIRST_NAME_Desolas MESP_TURAN_MALE_FIRST_NAME_Timus MESP_TURAN_MALE_FIRST_NAME_Septimus MESP_TURAN_MALE_FIRST_NAME_Etarn 
+				MESP_TURAN_MALE_FIRST_NAME_Tonn MESP_TURAN_MALE_FIRST_NAME_Elanos MESP_TURAN_MALE_FIRST_NAME_Lorik MESP_TURAN_MALE_FIRST_NAME_Illo 
+				MESP_TURAN_MALE_FIRST_NAME_Preitior MESP_TURAN_MALE_FIRST_NAME_Nihlus MESP_TURAN_MALE_FIRST_NAME_Lantar MESP_TURAN_MALE_FIRST_NAME_Irix 
+				MESP_TURAN_MALE_FIRST_NAME_Venari MESP_TURAN_MALE_FIRST_NAME_Joram MESP_TURAN_MALE_FIRST_NAME_Chisilix MESP_TURAN_MALE_FIRST_NAME_Rolan 
+				MESP_TURAN_MALE_FIRST_NAME_Sato MESP_TURAN_MALE_FIRST_NAME_Lilihierax MESP_TURAN_MALE_FIRST_NAME_Mehrkuri MESP_TURAN_MALE_FIRST_NAME_Chisilix 
+				MESP_TURAN_MALE_FIRST_NAME_Venari MESP_TURAN_MALE_FIRST_NAME_Garkko MESP_TURAN_MALE_FIRST_NAME_Grizz MESP_TURAN_MALE_FIRST_NAME_Ogrinn 
+				MESP_TURAN_MALE_FIRST_NAME_Tactus MESP_TURAN_MALE_FIRST_NAME_Enterus MESP_TURAN_MALE_FIRST_NAME_Ellis MESP_TURAN_MALE_FIRST_NAME_Neno 
+				MESP_NAMELIST_TURAN_MALE_FIRST_NAME_Idus MESP_TURAN_MALE_FIRST_NAME_Razun MESP_TURAN_MALE_FIRST_NAME_Iustinix MESP_TURAN_MALE_FIRST_NAME_Extan 
+				MESP_NAMELIST_TURAN_MALE_FIRST_NAME_Kihilix MESP_TURAN_MALE_FIRST_NAME_Daherax MESP_TURAN_MALE_FIRST_NAME_Serus MESP_TURAN_MALE_FIRST_NAME_Alsadrus 
+				MESP_TURAN_MALE_FIRST_NAME_Uvalum MESP_TURAN_MALE_FIRST_NAME_Titrinus MESP_TURAN_MALE_FIRST_NAME_Janus MESP_TURAN_MALE_FIRST_NAME_Lahere 
+				MESP_TURAN_MALE_FIRST_NAME_Sanus MESP_TURAN_MALE_FIRST_NAME_Ulrixen MESP_TURAN_MALE_FIRST_NAME_Hanae MESP_TURAN_MALE_FIRST_NAME_Teheris 
+				MESP_TURAN_MALE_FIRST_NAME_Derius MESP_TURAN_MALE_FIRST_NAME_Meln MESP_TURAN_MALE_FIRST_NAME_Vertin MESP_TURAN_MALE_FIRST_NAME_Huck 
+				MESP_TURAN_MALE_FIRST_NAME_Hexnar MESP_TURAN_MALE_FIRST_NAME_Sanex MESP_TURAN_MALE_FIRST_NAME_Gradius MESP_TURAN_MALE_FIRST_NAME_Ternitus 
+				MESP_TURAN_MALE_FIRST_NAME_Vamire MESP_TURAN_MALE_FIRST_NAME_Faros MESP_TURAN_MALE_FIRST_NAME_Elgus MESP_TURAN_MALE_FIRST_NAME_Jaxum 
+				MESP_TURAN_MALE_FIRST_NAME_Salur MESP_TURAN_MALE_FIRST_NAME_Ferrus MESP_TURAN_MALE_FIRST_NAME_Minador MESP_TURAN_MALE_FIRST_NAME_Quart 
+				MESP_TURAN_MALE_FIRST_NAME_Hunner MESP_TURAN_MALE_FIRST_NAME_Astrae MESP_TURAN_MALE_FIRST_NAME_Tobestick MESP_TURAN_MALE_FIRST_NAME_Marnek 
+				MESP_TURAN_MALE_FIRST_NAME_Joppa MESP_TURAN_MALE_FIRST_NAME_Delwian MESP_TURAN_MALE_FIRST_NAME_Ledius MESP_TURAN_MALE_FIRST_NAME_Eratian 
+				MESP_TURAN_MALE_FIRST_NAME_Pratur MESP_TURAN_MALE_FIRST_NAME_Actin MESP_TURAN_MALE_FIRST_NAME_Sareko MESP_TURAN_MALE_FIRST_NAME_Cheros 
+				MESP_TURAN_MALE_FIRST_NAME_Tusi MESP_TURAN_MALE_FIRST_NAME_Lorir MESP_TURAN_MALE_FIRST_NAME_Teras
+			}
+			regnal_first_names_female = {
+				MESP_TURAN_FEMALE_FIRST_NAME_Nyreen MESP_TURAN_FEMALE_FIRST_NAME_Pavan MESP_TURAN_FEMALE_FIRST_NAME_Shastina MESP_TURAN_FEMALE_FIRST_NAME_Abrudas 
+				MESP_TURAN_FEMALE_FIRST_NAME_Vetra MESP_TURAN_FEMALE_FIRST_NAME_Octa MESP_TURAN_FEMALE_FIRST_NAME_Anela MESP_TURAN_FEMALE_FIRST_NAME_Arayna 
+				MESP_TURAN_FEMALE_FIRST_NAME_Dinara MESP_TURAN_FEMALE_FIRST_NAME_Orinia MESP_TURAN_FEMALE_FIRST_NAME_Lilira MESP_TURAN_FEMALE_FIRST_NAME_Naxus 
+				MESP_TURAN_FEMALE_FIRST_NAME_Reta MESP_TURAN_FEMALE_FIRST_NAME_Himar MESP_TURAN_FEMALE_FIRST_NAME_Lana MESP_TURAN_FEMALE_FIRST_NAME_Vitola 
+				MESP_TURAN_FEMALE_FIRST_NAME_Dixali MESP_TURAN_FEMALE_FIRST_NAME_Solana MESP_TURAN_FEMALE_FIRST_NAME_Nyvan MESP_TURAN_FEMALE_FIRST_NAME_Nytina 
+				MESP_TURAN_FEMALE_FIRST_NAME_Nydas MESP_TURAN_FEMALE_FIRST_NAME_Nyra MESP_TURAN_FEMALE_FIRST_NAME_Nyta MESP_TURAN_FEMALE_FIRST_NAME_Pareen 
+				MESP_TURAN_FEMALE_FIRST_NAME_Patina MESP_TURAN_FEMALE_FIRST_NAME_Padas MESP_TURAN_FEMALE_FIRST_NAME_Para MESP_TURAN_FEMALE_FIRST_NAME_Pata 
+				MESP_TURAN_FEMALE_FIRST_NAME_Shasreen MESP_TURAN_FEMALE_FIRST_NAME_Shasvan MESP_TURAN_FEMALE_FIRST_NAME_Shasdas MESP_TURAN_FEMALE_FIRST_NAME_Shasra 
+				MESP_TURAN_FEMALE_FIRST_NAME_Shasta MESP_TURAN_FEMALE_FIRST_NAME_Abrureen MESP_TURAN_FEMALE_FIRST_NAME_Abruvan MESP_TURAN_FEMALE_FIRST_NAME_Abrutina 
+				MESP_TURAN_FEMALE_FIRST_NAME_Abrura MESP_TURAN_FEMALE_FIRST_NAME_Abruta MESP_TURAN_FEMALE_FIRST_NAME_Ocreen MESP_TURAN_FEMALE_FIRST_NAME_Ocvan 
+				MESP_TURAN_FEMALE_FIRST_NAME_Octina MESP_TURAN_FEMALE_FIRST_NAME_Ocdas MESP_TURAN_FEMALE_FIRST_NAME_Ocra MESP_TURAN_FEMALE_FIRST_NAME_Maxivia
+			}
+			regnal_second_names = {
+				MESP_TURAN_SECOND_NAME_Victus MESP_TURAN_SECOND_NAME_Vakarian MESP_TURAN_SECOND_NAME_Arterius MESP_TURAN_SECOND_NAME_Aurelos MESP_TURAN_SECOND_NAME_Oraka 
+				MESP_TURAN_SECOND_NAME_Tiron MESP_TURAN_SECOND_NAME_Actus MESP_TURAN_SECOND_NAME_Haliat MESP_TURAN_SECOND_NAME_Quiin MESP_TURAN_SECOND_NAME_Nazario 
+				MESP_TURAN_SECOND_NAME_Gavorn MESP_TURAN_SECOND_NAME_Kryik MESP_TURAN_SECOND_NAME_Sidonis MESP_TURAN_SECOND_NAME_Kuril MESP_TURAN_SECOND_NAME_Coronati 
+				MESP_TURAN_SECOND_NAME_Pallin MESP_TURAN_SECOND_NAME_Talid MESP_TURAN_SECOND_NAME_Palanurus MESP_TURAN_SECOND_NAME_Quarn MESP_TURAN_SECOND_NAME_Davaria 
+				MESP_TURAN_SECOND_NAME_Kandros MESP_TURAN_SECOND_NAME_Sahira MESP_TURAN_SECOND_NAME_Emperus MESP_TURAN_SECOND_NAME_Vyrnnus MESP_TURAN_SECOND_NAME_Chellick 
+				MESP_TURAN_SECOND_NAME_Fedorian MESP_TURAN_SECOND_NAME_Corinthus MESP_TURAN_SECOND_NAME_Haron MESP_TURAN_SECOND_NAME_Invectus MESP_TURAN_SECOND_NAME_Jacobus 
+				MESP_TURAN_SECOND_NAME_Vidinos MESP_TURAN_SECOND_NAME_Valterus MESP_TURAN_SECOND_NAME_Raxirian MESP_TURAN_SECOND_NAME_Valen MESP_TURAN_SECOND_NAME_Scartos 
+				MESP_TURAN_SECOND_NAME_Saneraxis MESP_TURAN_SECOND_NAME_Hanus MESP_TURAN_SECOND_NAME_Sylvatus MESP_TURAN_SECOND_NAME_Partinax MESP_TURAN_SECOND_NAME_Relius 
+				MESP_TURAN_SECOND_NAME_Yahirix MESP_TURAN_SECOND_NAME_Tanus MESP_TURAN_SECOND_NAME_Antivus MESP_TURAN_SECOND_NAME_Lilix MESP_TURAN_SECOND_NAME_Tertius 
+				MESP_TURAN_SECOND_NAME_Septimax MESP_TURAN_SECOND_NAME_Machaera MESP_TURAN_SECOND_NAME_Pagasi MESP_TURAN_SECOND_NAME_Dianix MESP_TURAN_SECOND_NAME_Iheras 
+				MESP_TURAN_SECOND_NAME_Partainis MESP_TURAN_SECOND_NAME_Satorim MESP_TURAN_SECOND_NAME_Ravidus MESP_TURAN_SECOND_NAME_Daphnon MESP_TURAN_SECOND_NAME_Gaudium 
+				MESP_TURAN_SECOND_NAME_Nyrek MESP_TURAN_SECOND_NAME_Dellk MESP_TURAN_SECOND_NAME_Korilius MESP_TURAN_SECOND_NAME_Irvinus MESP_TURAN_SECOND_NAME_Siyan 
+				MESP_TURAN_SECOND_NAME_Iherax MESP_TURAN_SECOND_NAME_Sycoram MESP_TURAN_SECOND_NAME_Septimas MESP_TURAN_SECOND_NAME_Squaron MESP_TURAN_SECOND_NAME_Riten 
+				MESP_TURAN_SECOND_NAME_Spartarus MESP_TURAN_SECOND_NAME_Quentiys MESP_TURAN_SECOND_NAME_Ursinus MESP_TURAN_SECOND_NAME_Paramon MESP_TURAN_SECOND_NAME_Borlin 
+				MESP_TURAN_SECOND_NAME_Darikun MESP_TURAN_SECOND_NAME_Latronus MESP_TURAN_SECOND_NAME_Korlick MESP_TURAN_SECOND_NAME_Lux MESP_TURAN_SECOND_NAME_Patathor 
+				MESP_TURAN_SECOND_NAME_Vadus MESP_TURAN_SECOND_NAME_Genchak MESP_TURAN_SECOND_NAME_Ixiri MESP_TURAN_SECOND_NAME_Raedun MESP_TURAN_SECOND_NAME_Rubicum 
+				MESP_TURAN_SECOND_NAME_Arborandum MESP_TURAN_SECOND_NAME_Bartus MESP_TURAN_SECOND_NAME_Egnadus
+			}
+		}
+
+	}
+}

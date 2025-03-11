@@ -1,0 +1,836 @@
+### Silean Nebula Systems
+
+@distance = 50
+@planet_min_size = 10
+@planet_max_size = 25
+@base_moon_distance = 10
+@moon_min_size = 6
+@moon_max_size = 10
+
+### Standardized Planetary Size Conversion (ME Codex/Wiki - Stellaris)
+### Terrestrial Planets
+### 1000-3000 = 6-9
+### 3000-5000 = 10-14
+### 5000-7000 = 15-17
+### 7000-10000 = 18-23
+### 10000+ = 23 -25
+
+### Gas Giants
+### 15000 - 25000 = 25 - 30
+### 25000 - 35000 = 31 - 35
+### 35000 - 55000 = 36 - 40
+### 55000+ = 41-45
+
+mesp_silean_nebula_system_initializer = {
+	name = "Phontes"
+	class = "sc_g"
+
+	#usage = origin
+	usage = custom_empire
+	#usage = misc_system_init
+	#usage_odds = {
+	#	base = 0
+	#	modifier = {
+	#		NOT = {
+	#			any_system = {
+	#				or = {
+	#					has_star_flag = mesp_elc_phontes_system
+	#				}
+	#			}
+	#		}
+	#		add = 100
+	#	}	
+	#}
+	#spawn_chance = 100
+	max_instances = 1
+
+	flags = { empire_home_system mesp_elc_phontes_system custom_system }
+
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+
+		if = {
+            limit = {
+                is_inside_nebula = no
+            }
+            create_nebula = {
+                name = "Silean Nebula"
+                radius = 45
+            }
+		}
+	}
+
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 220
+	}
+		
+	planet = {
+		name = "Phontes"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+
+			set_deposit = d_energy_3
+			set_planet_flag = starting_deposit
+
+			create_ambient_object = {
+				type = "nebula_2"
+				entity_offset_height = -5
+				location = this
+			}
+			last_created_ambient_object = {
+				set_location = {
+					target = prev
+					distance = 0
+					angle = random
+				}
+			}
+		}
+	}
+	
+	planet = {
+		name = "Lenuamund"
+		class = "pc_molten"
+		orbit_distance = 45
+		orbit_angle = { min = 90 max = 270 }
+		size = 24
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+			clear_planet_modifiers = yes 
+
+			set_deposit = d_physics_3
+			set_planet_flag = starting_deposit
+		}
+	}
+
+	planet = {
+		name = "Dekuuna"
+		class = "pc_savannah"
+		orbit_distance = 70
+		orbit_angle = { min = 90 max = 270 }
+		size = 23
+		starting_planet = yes
+		has_ring = no
+
+		flags = { mesp_elc_planet_dekuuna_special }
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_planet_modifiers = yes 
+
+			add_modifier = {
+				modifier = high_gravity
+				days = -1
+			}
+
+			if = {
+				limit = {
+					NOT = { exists = event_target:mesp_han_planet_dekuuna }
+				}
+				save_global_event_target_as = mesp_han_planet_dekuuna
+			}
+		}
+
+		moon = {
+			name = "Oltan"
+			count = 1
+			class = "pc_barren"
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 9
+			size = 8
+			
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+				clear_planet_modifiers = yes 
+
+				set_deposit = d_engineering_3
+				set_planet_flag = starting_deposit
+				set_planet_flag = starting_research_target
+			}
+		}
+	}
+
+	planet = {
+		name = "Telluune"
+		class = "pc_toxic"
+		orbit_distance = 65
+		orbit_angle = { min = 90 max = 270 }
+		size = 24
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+			clear_planet_modifiers = yes 
+
+			set_deposit = d_society_3
+			set_planet_flag = starting_deposit
+			set_planet_flag = starting_research_target
+		}
+	}
+
+	change_orbit = 40
+
+	planet = {
+		count = 2
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = { min = 10 max = 190 }
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+
+			set_deposit = d_minerals_3
+			set_planet_flag = starting_deposit
+			set_planet_flag = starting_mining_target
+		}
+	}
+
+	planet = {
+		count = 1
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = { min = 10 max = 190 }
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+
+			set_deposit = d_minerals_2
+			set_planet_flag = starting_deposit
+		}
+	}
+
+	planet = {
+		name = "Sangel"
+		class = "pc_gas_giant"
+		orbit_distance = 50
+		orbit_angle = { min = 90 max = 270 }
+		size = 45
+		has_ring = yes
+		entity = "gas_giant_06_entity"
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+			clear_planet_modifiers = yes
+
+			set_deposit = d_energy_5
+			set_planet_flag = starting_deposit
+			set_planet_flag = starting_mining_target
+		}
+	}
+
+	neighbor_system = {
+		distance = { min = 10 max = @distance }
+		initializer = "mesp_silean_nebula_neighbour_01"
+	}
+}
+
+mesp_silean_nebula_neighbour_01 = {
+	name = "Kypladon"
+	class = "sc_k"
+	
+	flags = { mesp_elc_kypladon_system custom_system abandoned_gateway }
+
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		closest_system = {
+			limit = { has_star_flag = mesp_elc_phontes_system }
+			add_hyperlane = {
+				from = this
+				to = prev
+			}
+		}
+	}
+
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 135
+	}
+
+	planet = {
+		name = "Kypladon"
+		class = "pc_k_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+
+			create_ambient_object = {
+				type = "nebula_4"
+				entity_offset_height = -5
+				location = this
+			}
+			last_created_ambient_object = {
+				set_location = {
+					target = prev
+					distance = 0
+					angle = random
+				}
+			}
+		}
+	}
+
+	planet = {
+		name = "Hanalei"
+		class = "pc_barren"
+		orbit_distance = 40
+		orbit_angle = { min = 90 max = 270 }
+		size = 23
+		has_ring = no
+
+		init_effect = {
+			prevent_anomaly = yes					
+			clear_deposits = yes
+			clear_planet_modifiers = yes 
+
+			set_deposit = d_society_2
+			set_planet_flag = starting_deposit
+		}	
+	}
+	
+	planet = {
+		name = "Cyone"
+		class = "pc_continental"
+		orbit_distance = 50
+		orbit_angle = { min = 90 max = 270 }
+		size = 16
+		has_ring = no
+
+		flags = { mesp_elc_planet_cyone_special }
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_planet_modifiers = yes 
+		}
+	}
+
+	change_orbit = 45
+
+	planet = {
+		count = 2
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = { min = 10 max = 190 }
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+
+			set_deposit = d_minerals_2
+			set_planet_flag = starting_deposit
+		}
+	}
+	
+	planet = {
+		name = "Katebolo"
+		class = "pc_gas_giant"
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = 38
+		has_ring = no
+		entity = "gas_giant_02_entity"
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+			clear_planet_modifiers = yes
+
+			set_deposit = d_energy_3
+			set_planet_flag = starting_deposit
+		}
+	}
+
+	init_effect = {
+		spawn_megastructure = {
+			type = "gateway_ruined"
+			random_pos = yes
+			orbit_angle = 360		
+		}
+	}
+
+	neighbor_system = {
+		distance = { min = 10 max = @distance }
+		initializer = "mesp_silean_nebula_neighbour_02"
+	}
+	neighbor_system = {
+		distance = { min = 10 max = @distance }
+		initializer = "mesp_silean_nebula_neighbour_03"
+	}
+	neighbor_system = {
+		distance = { min = 10 max = @distance }
+		initializer = "mesp_silean_nebula_neighbour_04"
+	}
+}
+
+mesp_silean_nebula_neighbour_02 = {
+	name = "Loropi"
+	class = "sc_a"
+
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		closest_system = {
+			limit = { has_star_flag = mesp_elc_kypladon_system }
+			add_hyperlane = {
+				from = this
+				to = prev
+			}
+		}
+	}
+	
+	flags = { mesp_elc_loropi_system custom_system }
+
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 160
+	}
+		
+	planet = {
+		name = "Loropi"
+		class = "pc_a_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 60
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+
+			set_deposit = d_energy_3
+			set_planet_flag = starting_deposit
+
+			create_ambient_object = {
+				type = "nebula_2"
+				entity_offset_height = -5
+				location = this
+			}
+			last_created_ambient_object = {
+				set_location = {
+					target = prev
+					distance = 0
+					angle = random
+				}
+			}
+		}
+	}
+	
+	planet = {
+		name = "Paphos"
+		class = "pc_gas_giant"
+		orbit_distance = 95
+		orbit_angle = { min = 90 max = 270 }
+		size = 45
+		has_ring = yes
+		entity = "gas_giant_05_entity"
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+			clear_planet_modifiers = yes
+
+			set_deposit = d_energy_2
+			set_planet_flag = starting_deposit
+		}
+	}
+
+	change_orbit = 65
+
+	planet = {
+		count = 2
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = { min = 10 max = 190 }
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+		}
+	}
+
+	planet = {
+		name = "Yasilium"
+		class = "pc_barren"
+		orbit_distance = 0
+		orbit_angle = { min = 90 max = 270 }
+		size = 7
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+			clear_planet_modifiers = yes 
+
+			set_deposit = d_minerals_4
+			set_planet_flag = starting_deposit
+		}
+	}
+}
+
+mesp_silean_nebula_neighbour_03 = {
+	name = "Nahuala"
+	class = "sc_k"
+
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		closest_system = {
+			limit = { has_star_flag = mesp_elc_kypladon_system }
+			add_hyperlane = {
+				from = this
+				to = prev
+			}
+		}
+	}
+
+	flags = { mesp_elc_nahuala_system custom_system }
+
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 150
+	}
+		
+	planet = {
+		name = "Nahuala"
+		class = "pc_k_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 40
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+
+			create_ambient_object = {
+				type = "nebula_2"
+				entity_offset_height = -5
+				location = this
+			}
+			last_created_ambient_object = {
+				set_location = {
+					target = prev
+					distance = 0
+					angle = random
+				}
+			}
+		}
+	}
+	
+	planet = {
+		name = "Agessia"
+		class = "pc_molten"
+		orbit_distance = 45
+		orbit_angle = { min = 90 max = 270 }
+		size = 16
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+			clear_planet_modifiers = yes 
+
+			set_deposit = d_physics_2
+			set_planet_flag = starting_deposit
+		}
+	}
+
+	planet = {
+		name = "Hyetiana"
+		class = "pc_tundra"
+		orbit_distance = 55
+		orbit_angle = { min = 90 max = 270 }
+		size = 24
+		has_ring = no
+
+		flags = { mesp_elc_planet_hyetiana }
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_planet_modifiers = yes 
+		}
+	}
+
+	change_orbit = 50
+
+	planet = {
+		count = 2
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = { min = 10 max = 190 }
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+
+			set_deposit = d_minerals_2
+			set_planet_flag = starting_deposit
+		}
+	}
+
+	planet = {
+		name = "Phoros"
+		class = "pc_gas_giant"
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = 41
+		has_ring = yes
+		entity = "gas_giant_01_entity"
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+			clear_planet_modifiers = yes
+
+			set_deposit = d_energy_3
+			set_planet_flag = starting_deposit
+		}
+
+		moon = {
+			name = "Phoros a"
+			count = 1
+			class = "pc_barren"
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 18
+			size = 9
+			
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+				clear_planet_modifiers = yes 
+			}
+		}
+	
+		moon = {
+			name = "Phoros b"
+			count = 1
+			class = "pc_barren_cold"
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 7
+			size = 7
+			
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+				clear_planet_modifiers = yes 
+	
+				set_deposit = d_minerals_2
+				set_planet_flag = starting_deposit
+			}
+		}
+	}
+}
+
+mesp_silean_nebula_neighbour_04 = {
+	name = "Teyolia"
+	class = "sc_g"
+
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		closest_system = {
+			limit = { has_star_flag = mesp_elc_kypladon_system }
+			add_hyperlane = {
+				from = this
+				to = prev
+			}
+		}
+	}
+	flags = { mesp_elc_teyolia_system custom_system }
+		
+	planet = {
+		name = "Teyolia"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 35
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+
+			set_deposit = d_energy_2
+			set_planet_flag = starting_deposit
+
+			create_ambient_object = {
+				type = "nebula_1"
+				entity_offset_height = -5
+				location = this
+			}
+			last_created_ambient_object = {
+				set_location = {
+					target = prev
+					distance = 0
+					angle = random
+				}
+			}
+		}
+	}
+	
+	planet = {
+		name = "Loxia"
+		class = "pc_barren"
+		orbit_distance = 35
+		orbit_angle = { min = 90 max = 270 }
+		size = 10
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+			clear_planet_modifiers = yes 
+
+			add_modifier = {
+				modifier = tidal_locked
+				days = -1
+			}
+		}
+	}
+
+	planet = {
+		name = "Nevos"
+		class = "pc_continental"
+		orbit_distance = 55
+		orbit_angle = { min = 90 max = 270 }
+		size = 17
+		has_ring = no
+
+		flags = { mesp_elc_planet_nevos }
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_planet_modifiers = yes 
+
+			add_modifier = {
+				modifier = natural_beauty
+				days = -1
+			}
+		}
+	}
+
+	planet = {
+		name = "Quirezia"
+		class = "pc_gas_giant"
+		orbit_distance = 70
+		orbit_angle = { min = 90 max = 270 }
+		size = 43
+		has_ring = yes
+		entity = "gas_giant_06_entity"
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+			clear_planet_modifiers = yes
+
+			set_deposit = d_energy_3
+			set_planet_flag = starting_deposit
+		}
+
+		moon = {
+			name = "Quirezia a"
+			count = 1
+			class = "pc_toxic"
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 15
+			size = 8
+			
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+				clear_planet_modifiers = yes 
+			}
+		}
+	
+		moon = {
+			name = "Quirezia b"
+			count = 1
+			class = "pc_barren"
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 6
+			size = 6
+			
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+				clear_planet_modifiers = yes 
+	
+				set_deposit = d_minerals_2
+				set_planet_flag = starting_deposit
+			}
+		}
+	
+		moon = {
+			name = "Quirezia c"
+			count = 1
+			class = "pc_frozen"
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 4
+			size = 3
+			
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+				clear_planet_modifiers = yes 
+			}
+		}
+	}
+
+	planet = {
+		name = "Atebolos"
+		class = "pc_barren_cold"
+		orbit_distance = 50
+		orbit_angle = { min = 90 max = 270 }
+		size = 19
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+			clear_planet_modifiers = yes 
+
+			set_deposit = d_minerals_2
+			set_planet_flag = starting_deposit
+		}
+	}
+}

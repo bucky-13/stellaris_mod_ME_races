@@ -1,0 +1,308 @@
+﻿### Batarian_NameList
+### Created by LostInACave
+
+#Each line = 20~ Names#
+
+Batarian_Hegemony = {	
+	randomized = no
+	alias = "Batarian"
+	
+	ship_names = {
+	
+		science = {
+			Pakh Dolon Sarim Doloss Rokh Kariss Poffon Hariss Soyob Dakhan Voim Dukh Vassk Esam Cassthar Barkan Lampan Rokba Histan Oloman 
+		}
+		
+		constructor = {
+			Minisk Sumath Ereesim Kreedak Duthur Hialash Vermeb Badram Buvdar Tharat Illith Vikham Thorok Rumber Ikath Tanath Pulok Oncor Rukath Gedfar
+		}
+		
+		colonizer = {
+			Okran Fokin Farass Iomath Mothon Dialom Bodnok Bathnor 
+		}
+		
+		transport = {
+			Zoyom Abnar Reeken Bissna Turom Sior Rossul Bebinna Fethon Polluner Onor Greefad 
+		}
+		
+		corvette = { 
+			"Shes'lek" "Trunfalkh" "Trungu" "Paflorkh" "Pafend" "Pafdath" "Pafabneth" "Kensemma" "Bokanum" "Imkamma" "Progmat" "Tata'lon" "Bak" "Irra'duna" "Korpok" "Hissimia" "Lak" "Pershmat" "Imma'kun" "Dorossa" 
+			"Teerak" "Jal'Pok" "Jal'Muk" "Marathol" "Vorgas" "Iknum" "Porton" "Likum" "Voifun" "Jal'Tuk" "Lorfun" "Perfun" "Ennik" "Tortus" "Turran" "Radan" "Losk" "Uk" "Vakok" "Restok" 
+			"Dramon" "Pimm'iron" "Irdon" "Wadon" "Vudon" "Lurrmon" "Ickma" "Trassom" "Nurmon" "Nigam" "Rok" "Vokja" "Jekon" "Torbak" "Nisk" "Triken" "Vo" "Sikra" "Turus" "Jiklan" 
+			"Sik" "Irken" "Tenki" "Oka" "Tokkom" "Vikrim" "Jidar" "Bonton" "Sotork" "Tesk" "Pintar" "Everk" "Erk" "Bavak" "Itik" "Kolpo" "Vikisk" "Siba" "Nurgil" "Olesk" 
+			"Obassa" "Toroll" "Supon" "Vimon" "Tumon" "Purlon" "Urilon" "Kumpuk" "Valruk" "Imon" "Upon"  "Poinun" "Lak" "Tarmon" "Feidon" "Morra'don" "Irsk'Mul" "Torshka" "Hessint" "Shes'Mong" 
+			"Pollun" "Lodam" "Gungar" "Garan" "Patal" "Bovam" "Shes'Tul" "Irsk'Vul" "Irsk'Bul" "Porskan" "Totollan" "Lorbask" "Hinnat" "Tumala" "Shes'Rul" "Lorram" "Pishkot" "Hanata" "Petro'isal" "Ytall" 
+			"Monn'obak" "Seleng" "Salaas" "Suthmar" "Yllmassa" "Tessma" "Borok" "Khamtha" "Kamkak" "Damg'halla " "Jaffab" "Mitgapp" "Gaffimul" "Ussnak" "Petrobon" "Pagallum" "Peshnab" "Itrambun" "Takjam"
+			"Hoffal" "Bont'osk" "Pella'tor" "Rong" "Cong" "Sorong" "Hattat" "Viam" "Offzul" "Jal'Trok" "Kodram" "Donjab" "Ratalla" "Tula'kin" "Eff'kar" "Lisamont" "Lomatik" "Ralpakin" "Jhulla" "Jhutana" 
+		}
+		
+		destroyer = {
+			"Yu'garr" "Yan'red" "Trudoker" "Trudon" "Trune" "Pafov" "Melum" "Melwal" "Melk'ladu" "Trulakh" "Trutrago" "Khutma" "Rhun" "Kashnak" "Roktar" "Suulnar" "Khebb" "Lasnem" "Mend'rack" "Yndan" 
+			"Pandack" "Ialness" "Anaban" "Gala'tot" "Hempest" "Utak" "Jhana" "Hitaab" "Rhebnar" "Tet'ran" "Elesna" "Berek" "Porsam" "Lur" "Mantar" "Ashnu" "Perek" "Holt" "Jesslur" "Omb'ek" 
+			"Bynth" "Goron" "Hhomev" "Donabb" "Selrak" "Farassa" "Tork" "Tipuk" "Urbek" "Illvagh" "Faju" "Khab'bash" "Appan" "Ketrill" "Lessaja" "Issa" "Letham" "Shes'rotha" "Foss" "Jolkeg" 
+			"Tetregg" "Ghuum" "Rothinka" "Khamba" "Linntyl" "Onakbal" "Hoftaht" "Menesik" "Rothnak" "Lahvon" "Rhass" "Ihlmac" "Johvon" "Pahni" "Esslon" "Untabb" "Nehdaban" "Nothan" "Galathor" "Garal"
+			"Innik" "Avathim" "Jimmab" "Comboc" "Varkhim" "Konsha" "Kadmun" "Khaagul" "Yhlat" "Hahjum" "Falatir" "Fahvim" "Listhim" "Bathun" "Hihmal" "Tatharon" "Dorlan" "Karvulan" "Cyssak" "Veltassa" 
+			"Ossana" "Usal" "Hiss'nak" "Elemano" "Eron" "Othana" "Olymac" "Tiltar" "Timaphon" "Veldik" "Jussannon" "Irevan" "Russu" "Remol" "Petrack" "Thal'oth" "Asmacin" "Taralla" "Eskeman" "Muntat" 
+		}
+		
+		cruiser = {
+			"Takkram" "Fylima" "Petessa" "Elsam" "Cognat" "Carackon" "Nimpac" "Illa'jon" "Gimalbon" "Rommackin" "Polonar" "Campramar" "Limpok" "Ruthjara" "Limathar" "Kajana" "Ruk'imar" "Patana" "Hishma" "Korgi" 
+			"Hensa" "Kas'el" "Donog" "Dassmath" "Dathana" "Darmull" "Ulbanok" "Bathar" "Bemalon" "Hannakon" "Hagh'onon" "Hephanir" "Erkmal" "Suthnar"  "Ren'seth" "Pokish" "Sek'dat" "Dastek" "Kigot" "Voxik"
+			"Tanak" "Timonok" "Dimik" "Derikam"  "Vormat" "Kirmik"  "Tamik" "Tirak" "Komot" "Valam" "Lig'Tunak" "Kolbak" "Tuma'lok" "Tharak" "Falsek" "Lambak" "Loram" "Valdim" "Soram" "Dirim"
+			"Farak" "Tim'vorg" "Lirmak" "Jolsik" "Bamta" "Barra" "Ralsak" "Orom'rim" "Ylgar" "Torga" "Ugana" "Lesmag" "Sorom'parga" "Harik" "Naka" "Sirm'aco" "Targa'moro" "Irfa" "Pollog" "Virbo"
+			"Migor" "Anara" "Aram" "Talok" "Varik" "Orang" "Rila" "Tyrik" "Terell" "Tynnia" "Nerok" "Vojak" "Nir'damma" "Penek" "Tarikon" "Shes'eviko" "Blirak" "Kanor" "Viram" "Kanas" 
+		}
+		
+		battleship = {
+			"Eeluram" "Ensbala" "Ensgor" "Ensgodal" "Ensfalm" "Ensknum" "Ensyim" "Ensyuga" "Sarik" "Panjik" "Klea" "Vardos" "Shes'caram" "Kuru" "Marov" "Sagri" "Bomka" "Saris" "Tarudog" "Vaknis" 
+			"Vyliged" "Hugaderol" "Cerunthon" "Massagreth" "Tuandok" "Nossundem" "Duacedron" "Karob" "Arogo" "Vaylor" "Tirb" "Eskag" "Borog" "Masol" "Targ" "Boron" "Salpossa" "Patora" "Shes'argas" "Holagor" 
+			"Raman" "Kuarregg" "Jablugg" "Taratha" "Tisska" "Purim" "Shuss" "Parathnak" "Gioshum" "Korob" "Hinthab" "Kulom" "Avintok" "Tannek" "Rastram" "Treesk" "Enerpul" "Buskat" "Tirin" "Kassh" 
+			"Vakhna" "Sotra" "Yu'vado" "Uram" "Elagar" "Shes'ennak" "Tarba" "Irios" "Satrak" "Endur" "Ulator" "Spaddok" "Kitnak" "Pokra" "Higran" "Farab" "Yu'storg" "Yu'rusak" "Shes'pekras" "Sikras" 
+			"Trekik" "Korrim" "Calda" "Rivek" "Rattia" "Fortana" "Pollimin" "Firren" "Carimal" "Mehrnana" "Finton" "Rorik" "Kormli" "Droitandir" "Lavelkor" "Uthian" "Vilcot" "Ultan" "Baordo" "Nagrim" 
+			"Furdest" 
+		}
+		
+		titan = {
+			"Torfansha" "Veruta" "Elik'sum" "Lin'ski" "Min'dwac" "Kaggasch" "Suggron" "Kaggassulh"
+		}
+
+		colossus = {
+			"Pillar of Strength" "Vengeance of Khar'shan" "Pride of Khar'shan"
+		}
+		
+		ion_cannon = {
+			Min Ord Ack Rik Dek Lev Xuk Sek Esk Tar Erk Ruth Blik Bom Pet Tor Garr Nak Taru Vak
+		}
+		
+		military_station_small = {
+		
+		}
+		
+		mining_station = {}
+		research_station = {}
+		#terraform_station = {}
+		observation_station = {}
+	}
+	
+	fleet_names = {
+		sequential_name = MESP_BATARIAN_FLEET
+	}
+
+	army_names = {
+		machine_defense = {
+			sequential_name = MESP_BATARIAN_xxPLANETARYGUARD_ORD
+		}
+
+		machine_assault_1 = {
+			sequential_name = MESP_BATARIAN_xxEXPEDITIONARYFORCE_ORD
+		}
+
+		machine_assault_2 = {
+			sequential_name = MESP_BATARIAN_xxEXPEDITIONARYFORCE_ORD
+		}
+
+		machine_assault_3 = {
+			sequential_name = MESP_BATARIAN_xxEXPEDITIONARYFORCE_ORD
+		}
+
+		defense_army = {
+			sequential_name = MESP_BATARIAN_xxPLANETARYGUARD_ORD
+		}
+
+		assault_army = {
+			sequential_name = MESP_BATARIAN_xxEXPEDITIONARYFORCE_ORD
+		}
+
+		slave_army = {
+			sequential_name = MESP_BATARIAN_xxINDENTUREDRIFLES_ORD
+		}
+
+		clone_army = {
+			sequential_name = MESP_BATARIAN_xxCLONEARMY_ORD
+		}
+
+		undead_army = {
+			sequential_name = MESP_BATARIAN_xxDREADCOMMANDO_ORD
+		}
+
+		robotic_army = {
+			sequential_name = MESP_BATARIAN_xxHUNTERKILLERGROUP_ORD
+		}
+
+		robotic_defense_army = {
+			sequential_name = MESP_BATARIAN_xxGROUNDDEFENSEMATRIX_ORD
+		}
+
+		psionic_army = {
+			sequential_name = MESP_BATARIAN_xxPSICOMMANDO_ORD
+		}
+
+		xenomorph_army = {
+			sequential_name = MESP_BATARIAN_xxBIOWARFAREDIVISION_ORD
+		}
+
+		gene_warrior_army = {
+			sequential_name = MESP_BATARIAN_xxBIOENGINEEREDSQUADRON_ORD
+		}
+
+		occupation_army = {
+			sequential_name = MESP_BATARIAN_xxGARRISONFORCE_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = MESP_BATARIAN_xxMECHANIZEDGARRISON_ORD
+		}
+
+		primitive_army = {
+			sequential_name = MESP_BATARIAN_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = MESP_BATARIAN_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = MESP_BATARIAN_POSTATOMICARMYxx_SEQ
+		}
+	}
+	
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				"Adek" "Aratoht" "Camala" "Cholis" "Erszbat" "Logasiri" "Lork" "Ramlat" "Vana" "Verush" "Ezka" "Klos" "Uza" "Bastzuda" "Clogon" "Urmola" "Yunaca" "Cholis" "Hiba" "Maklan" 
+				"Ramlat" "Azimir" "Nearog" "Dorgal" "Korar" 
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+		
+		pc_gaia = {
+			names = {
+				
+			}
+		}
+		
+		pc_nuked = {
+			names = {
+			}
+		}
+		
+		pc_ai = {
+			names = {
+			}
+		}
+		
+		pc_machine = {
+			names = {
+			}
+		}
+	}
+	
+	### CHARACTERS
+	character_names = {
+		default = {
+			first_names_male = {
+			MESP_BATARIAN_MALE_FIRST_NAME_Kahairal MESP_BATARIAN_MALE_FIRST_NAME_Solem MESP_BATARIAN_MALE_FIRST_NAME_Bray MESP_BATARIAN_MALE_FIRST_NAME_Charn MESP_BATARIAN_MALE_FIRST_NAME_Forvan 
+			MESP_BATARIAN_MALE_FIRST_NAME_Ghorek MESP_BATARIAN_MALE_FIRST_NAME_Edan MESP_BATARIAN_MALE_FIRST_NAME_Groto MESP_BATARIAN_MALE_FIRST_NAME_JathAmon MESP_BATARIAN_MALE_FIRST_NAME_Anto 
+			MESP_BATARIAN_MALE_FIRST_NAME_Grothan MESP_BATARIAN_MALE_FIRST_NAME_Eluam MESP_BATARIAN_MALE_FIRST_NAME_Tarak MESP_BATARIAN_MALE_FIRST_NAME_Celem MESP_BATARIAN_MALE_FIRST_NAME_Crepor 
+			MESP_BATARIAN_MALE_FIRST_NAME_Gran MESP_BATARIAN_MALE_FIRST_NAME_Karn MESP_BATARIAN_MALE_FIRST_NAME_Gogan MESP_BATARIAN_MALE_FIRST_NAME_Parek MESP_BATARIAN_MALE_FIRST_NAME_Crethan 
+			MESP_BATARIAN_MALE_FIRST_NAME_DrathUcor MESP_BATARIAN_MALE_FIRST_NAME_Protin MESP_BATARIAN_MALE_FIRST_NAME_Kresk MESP_BATARIAN_MALE_FIRST_NAME_Esegar MESP_BATARIAN_MALE_FIRST_NAME_DharKarom 
+			MESP_BATARIAN_MALE_FIRST_NAME_Ogatek MESP_BATARIAN_MALE_FIRST_NAME_Ferag MESP_BATARIAN_MALE_FIRST_NAME_Falo MESP_BATARIAN_MALE_FIRST_NAME_Geko MESP_BATARIAN_MALE_FIRST_NAME_SaloBrothor 
+			MESP_BATARIAN_MALE_FIRST_NAME_Ugark MESP_BATARIAN_MALE_FIRST_NAME_Ghorn MESP_BATARIAN_MALE_FIRST_NAME_Getor MESP_BATARIAN_MALE_FIRST_NAME_Kethar MESP_BATARIAN_MALE_FIRST_NAME_Aghem 
+			MESP_BATARIAN_MALE_FIRST_NAME_Tanto MESP_BATARIAN_MALE_FIRST_NAME_Dray MESP_BATARIAN_MALE_FIRST_NAME_Kesak MESP_BATARIAN_MALE_FIRST_NAME_Pemak MESP_BATARIAN_MALE_FIRST_NAME_Kroto
+			}
+			first_names_female = {
+			MESP_BATARIAN_FEMALE_FIRST_NAME_Jella MESP_BATARIAN_FEMALE_FIRST_NAME_Epokis MESP_BATARIAN_FEMALE_FIRST_NAME_Asasin MESP_BATARIAN_FEMALE_FIRST_NAME_Ranne MESP_BATARIAN_FEMALE_FIRST_NAME_Prarish 
+			MESP_BATARIAN_FEMALE_FIRST_NAME_Raphi MESP_BATARIAN_FEMALE_FIRST_NAME_Abophe MESP_BATARIAN_FEMALE_FIRST_NAME_Gomisa MESP_BATARIAN_FEMALE_FIRST_NAME_Khalle MESP_BATARIAN_FEMALE_FIRST_NAME_Fokis 
+			MESP_BATARIAN_FEMALE_FIRST_NAME_Bamen MESP_BATARIAN_FEMALE_FIRST_NAME_Kromye MESP_BATARIAN_FEMALE_FIRST_NAME_Gelle MESP_BATARIAN_FEMALE_FIRST_NAME_Fechi MESP_BATARIAN_FEMALE_FIRST_NAME_Akerith 
+			MESP_BATARIAN_FEMALE_FIRST_NAME_Ipalla MESP_BATARIAN_FEMALE_FIRST_NAME_Cramya MESP_BATARIAN_FEMALE_FIRST_NAME_Panna MESP_BATARIAN_FEMALE_FIRST_NAME_Fo MESP_BATARIAN_FEMALE_FIRST_NAME_Croyela 
+			MESP_BATARIAN_FEMALE_FIRST_NAME_Khonith MESP_BATARIAN_FEMALE_FIRST_NAME_Fanis MESP_BATARIAN_FEMALE_FIRST_NAME_Dralla MESP_BATARIAN_FEMALE_FIRST_NAME_Kosina MESP_BATARIAN_FEMALE_FIRST_NAME_Gokira 
+			MESP_BATARIAN_FEMALE_FIRST_NAME_Cechi MESP_BATARIAN_FEMALE_FIRST_NAME_Acatin MESP_BATARIAN_FEMALE_FIRST_NAME_Efosina MESP_BATARIAN_FEMALE_FIRST_NAME_Oprah MESP_BATARIAN_FEMALE_FIRST_NAME_Krasiz 
+			MESP_BATARIAN_FEMALE_FIRST_NAME_Pronne MESP_BATARIAN_FEMALE_FIRST_NAME_Resha MESP_BATARIAN_FEMALE_FIRST_NAME_Damye MESP_BATARIAN_FEMALE_FIRST_NAME_Bochi MESP_BATARIAN_FEMALE_FIRST_NAME_Crosin 
+			MESP_BATARIAN_FEMALE_FIRST_NAME_Gamisa MESP_BATARIAN_FEMALE_FIRST_NAME_Odeya MESP_BATARIAN_FEMALE_FIRST_NAME_Khotin MESP_BATARIAN_FEMALE_FIRST_NAME_Ubevila MESP_BATARIAN_FEMALE_FIRST_NAME_Penina
+			}
+			second_names = {
+			MESP_BATARIAN_SECOND_NAME_Bacfamak MESP_BATARIAN_SECOND_NAME_Dherramak MESP_BATARIAN_SECOND_NAME_Peddator MESP_BATARIAN_SECOND_NAME_Ropcogar MESP_BATARIAN_SECOND_NAME_Segsohan 
+			MESP_BATARIAN_SECOND_NAME_Rascanak MESP_BATARIAN_SECOND_NAME_Pradcodrak MESP_BATARIAN_SECOND_NAME_Dhrapab MESP_BATARIAN_SECOND_NAME_Bagkedrak MESP_BATARIAN_SECOND_NAME_Redraprak 
+			MESP_BATARIAN_SECOND_NAME_Krackewar MESP_BATARIAN_SECOND_NAME_Pafbestar MESP_BATARIAN_SECOND_NAME_Drabrohal MESP_BATARIAN_SECOND_NAME_Khabcomon MESP_BATARIAN_SECOND_NAME_Dregbeba 
+			MESP_BATARIAN_SECOND_NAME_Bregnoral MESP_BATARIAN_SECOND_NAME_Ganberok MESP_BATARIAN_SECOND_NAME_Bracpecan MESP_BATARIAN_SECOND_NAME_Sacfanrek MESP_BATARIAN_SECOND_NAME_Sebfah 
+			MESP_BATARIAN_SECOND_NAME_Balak MESP_BATARIAN_SECOND_NAME_Dalserah MESP_BATARIAN_SECOND_NAME_Haddah MESP_BATARIAN_SECOND_NAME_Ibba MESP_BATARIAN_SECOND_NAME_Korragan MESP_BATARIAN_SECOND_NAME_Pazness 
+			MESP_BATARIAN_SECOND_NAME_Ranperah MESP_BATARIAN_SECOND_NAME_Vorhess MESP_BATARIAN_SECOND_NAME_Casta MESP_BATARIAN_SECOND_NAME_Vorek MESP_BATARIAN_SECOND_NAME_Jadah MESP_BATARIAN_SECOND_NAME_Crassark
+			}
+			
+			regnal_first_names_male = {
+			MESP_BATARIAN_MALE_FIRST_NAME_Kahairal MESP_BATARIAN_MALE_FIRST_NAME_Solem MESP_BATARIAN_MALE_FIRST_NAME_Bray MESP_BATARIAN_MALE_FIRST_NAME_Charn MESP_BATARIAN_MALE_FIRST_NAME_Forvan 
+			MESP_BATARIAN_MALE_FIRST_NAME_Ghorek MESP_BATARIAN_MALE_FIRST_NAME_Edan MESP_BATARIAN_MALE_FIRST_NAME_Groto MESP_BATARIAN_MALE_FIRST_NAME_JathAmon MESP_BATARIAN_MALE_FIRST_NAME_Anto 
+			MESP_BATARIAN_MALE_FIRST_NAME_Grothan MESP_BATARIAN_MALE_FIRST_NAME_Eluam MESP_BATARIAN_MALE_FIRST_NAME_Tarak MESP_BATARIAN_MALE_FIRST_NAME_Celem MESP_BATARIAN_MALE_FIRST_NAME_Crepor 
+			MESP_BATARIAN_MALE_FIRST_NAME_Gran MESP_BATARIAN_MALE_FIRST_NAME_Karn MESP_BATARIAN_MALE_FIRST_NAME_Gogan MESP_BATARIAN_MALE_FIRST_NAME_Parek MESP_BATARIAN_MALE_FIRST_NAME_Crethan 
+			MESP_BATARIAN_MALE_FIRST_NAME_DrathUcor MESP_BATARIAN_MALE_FIRST_NAME_Protin MESP_BATARIAN_MALE_FIRST_NAME_Kresk MESP_BATARIAN_MALE_FIRST_NAME_Esegar MESP_BATARIAN_MALE_FIRST_NAME_DharKarom 
+			MESP_BATARIAN_MALE_FIRST_NAME_Ogatek MESP_BATARIAN_MALE_FIRST_NAME_Ferag MESP_BATARIAN_MALE_FIRST_NAME_Falo MESP_BATARIAN_MALE_FIRST_NAME_Geko MESP_BATARIAN_MALE_FIRST_NAME_SaloBrothor 
+			MESP_BATARIAN_MALE_FIRST_NAME_Ugark MESP_BATARIAN_MALE_FIRST_NAME_Ghorn MESP_BATARIAN_MALE_FIRST_NAME_Getor MESP_BATARIAN_MALE_FIRST_NAME_Kethar MESP_BATARIAN_MALE_FIRST_NAME_Aghem 
+			MESP_BATARIAN_MALE_FIRST_NAME_Tanto MESP_BATARIAN_MALE_FIRST_NAME_Dray MESP_BATARIAN_MALE_FIRST_NAME_Kesak MESP_BATARIAN_MALE_FIRST_NAME_Pemak MESP_BATARIAN_MALE_FIRST_NAME_Kroto
+			}
+			regnal_first_names_female = {
+			MESP_BATARIAN_FEMALE_FIRST_NAME_Jella MESP_BATARIAN_FEMALE_FIRST_NAME_Epokis MESP_BATARIAN_FEMALE_FIRST_NAME_Asasin MESP_BATARIAN_FEMALE_FIRST_NAME_Ranne MESP_BATARIAN_FEMALE_FIRST_NAME_Prarish 
+			MESP_BATARIAN_FEMALE_FIRST_NAME_Raphi MESP_BATARIAN_FEMALE_FIRST_NAME_Abophe MESP_BATARIAN_FEMALE_FIRST_NAME_Gomisa MESP_BATARIAN_FEMALE_FIRST_NAME_Khalle MESP_BATARIAN_FEMALE_FIRST_NAME_Fokis 
+			MESP_BATARIAN_FEMALE_FIRST_NAME_Bamen MESP_BATARIAN_FEMALE_FIRST_NAME_Kromye MESP_BATARIAN_FEMALE_FIRST_NAME_Gelle MESP_BATARIAN_FEMALE_FIRST_NAME_Fechi MESP_BATARIAN_FEMALE_FIRST_NAME_Akerith 
+			MESP_BATARIAN_FEMALE_FIRST_NAME_Ipalla MESP_BATARIAN_FEMALE_FIRST_NAME_Cramya MESP_BATARIAN_FEMALE_FIRST_NAME_Panna MESP_BATARIAN_FEMALE_FIRST_NAME_Fo MESP_BATARIAN_FEMALE_FIRST_NAME_Croyela 
+			MESP_BATARIAN_FEMALE_FIRST_NAME_Khonith MESP_BATARIAN_FEMALE_FIRST_NAME_Fanis MESP_BATARIAN_FEMALE_FIRST_NAME_Dralla MESP_BATARIAN_FEMALE_FIRST_NAME_Kosina MESP_BATARIAN_FEMALE_FIRST_NAME_Gokira 
+			MESP_BATARIAN_FEMALE_FIRST_NAME_Cechi MESP_BATARIAN_FEMALE_FIRST_NAME_Acatin MESP_BATARIAN_FEMALE_FIRST_NAME_Efosina MESP_BATARIAN_FEMALE_FIRST_NAME_Oprah MESP_BATARIAN_FEMALE_FIRST_NAME_Krasiz 
+			MESP_BATARIAN_FEMALE_FIRST_NAME_Pronne MESP_BATARIAN_FEMALE_FIRST_NAME_Resha MESP_BATARIAN_FEMALE_FIRST_NAME_Damye MESP_BATARIAN_FEMALE_FIRST_NAME_Bochi MESP_BATARIAN_FEMALE_FIRST_NAME_Crosin 
+			MESP_BATARIAN_FEMALE_FIRST_NAME_Gamisa MESP_BATARIAN_FEMALE_FIRST_NAME_Odeya MESP_BATARIAN_FEMALE_FIRST_NAME_Khotin MESP_BATARIAN_FEMALE_FIRST_NAME_Ubevila MESP_BATARIAN_FEMALE_FIRST_NAME_Penina
+			}
+			regnal_second_names = {
+			MESP_BATARIAN_SECOND_NAME_Bacfamak MESP_BATARIAN_SECOND_NAME_Dherramak MESP_BATARIAN_SECOND_NAME_Peddator MESP_BATARIAN_SECOND_NAME_Ropcogar MESP_BATARIAN_SECOND_NAME_Segsohan 
+			MESP_BATARIAN_SECOND_NAME_Rascanak MESP_BATARIAN_SECOND_NAME_Pradcodrak MESP_BATARIAN_SECOND_NAME_Dhrapab MESP_BATARIAN_SECOND_NAME_Bagkedrak MESP_BATARIAN_SECOND_NAME_Redraprak 
+			MESP_BATARIAN_SECOND_NAME_Krackewar MESP_BATARIAN_SECOND_NAME_Pafbestar MESP_BATARIAN_SECOND_NAME_Drabrohal MESP_BATARIAN_SECOND_NAME_Khabcomon MESP_BATARIAN_SECOND_NAME_Dregbeba 
+			MESP_BATARIAN_SECOND_NAME_Bregnoral MESP_BATARIAN_SECOND_NAME_Ganberok MESP_BATARIAN_SECOND_NAME_Bracpecan MESP_BATARIAN_SECOND_NAME_Sacfanrek MESP_BATARIAN_SECOND_NAME_Sebfah 
+			MESP_BATARIAN_SECOND_NAME_Balak MESP_BATARIAN_SECOND_NAME_Dalserah MESP_BATARIAN_SECOND_NAME_Haddah MESP_BATARIAN_SECOND_NAME_Ibba MESP_BATARIAN_SECOND_NAME_Korragan MESP_BATARIAN_SECOND_NAME_Pazness 
+			MESP_BATARIAN_SECOND_NAME_Ranperah MESP_BATARIAN_SECOND_NAME_Vorhess MESP_BATARIAN_SECOND_NAME_Casta MESP_BATARIAN_SECOND_NAME_Vorek MESP_BATARIAN_SECOND_NAME_Jadah MESP_BATARIAN_SECOND_NAME_Crassark
+			}
+		}
+	}
+}

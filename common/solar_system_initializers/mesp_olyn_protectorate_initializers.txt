@@ -1,0 +1,949 @@
+### Olyn Protectorate Systems
+
+@distance = 50
+@planet_min_size = 10
+@planet_max_size = 25
+@base_moon_distance = 10
+@moon_min_size = 6
+@moon_max_size = 10
+
+### Standardized Planetary Size Conversion (ME Codex/Wiki - Stellaris)
+### Terrestrial Planets
+### 1000-3000 = 6-9
+### 3000-5000 = 10-14
+### 5000-7000 = 15-17
+### 7000-10000 = 18-23
+### 10000+ = 23 -25
+
+### Gas Giants
+### 15000 - 25000 = 25 - 30
+### 25000 - 35000 = 31 - 35
+### 35000 - 55000 = 36 - 40
+### 55000+ = 41-45
+
+mesp_olyn_protectorate_system_initializer = {
+	name = "Kanala"
+	class = "sc_g"
+
+	#usage = origin
+	usage = custom_empire
+	#usage = misc_system_init
+	#usage_odds = {
+	#	base = 0
+	#	modifier = {
+	#		NOT = {
+	#			any_system = {
+	#				or = {
+	#					has_star_flag = mesp_han_kanala_system
+	#				}
+	#			}
+	#		}
+	#		add = 100
+	#	}	
+	#}
+	#spawn_chance = 100
+	max_instances = 1
+	
+	flags = { empire_home_system mesp_han_kanala_system custom_system }
+
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+	}
+
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 150
+	}
+
+	planet = {
+		name = "Kanala"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+
+			set_deposit = d_energy_3
+			set_planet_flag = starting_deposit
+		}
+	}
+
+	planet = {
+		name = "Jenakala"
+		class = "pc_barren"
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = 14
+		has_ring = no
+
+		init_effect = {
+			prevent_anomaly = yes					
+			clear_deposits = yes
+			clear_planet_modifiers = yes 
+
+			set_deposit = d_minerals_4
+			set_planet_flag = starting_deposit
+			set_planet_flag = starting_mining_target
+		}	
+	}
+	
+	planet = {
+		name = "Kahje"
+		class = "pc_ocean"
+		orbit_distance = 40
+		orbit_angle = { min = 90 max = 270 }
+		size = 20
+		starting_planet = yes
+		has_ring = no
+
+		flags = { mesp_han_planet_kahje_special }
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_planet_modifiers = yes 
+
+			if = {
+				limit = {
+					NOT = { exists = event_target:mesp_han_planet_kahje }
+				}
+				save_global_event_target_as = mesp_han_planet_kahje
+			}
+		}
+
+		moon = {
+			name = "Nalynder"
+			count = 1
+			class = "pc_barren"
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 10
+			size = 8
+			
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+				clear_planet_modifiers = yes 
+
+				set_deposit = d_society_3
+				set_planet_flag = starting_deposit
+				set_planet_flag = starting_research_target
+			}
+		}
+
+		moon = {
+			name = "Hydazole"
+			count = 1
+			class = "pc_barren"
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 4
+			size = 6
+			
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+				clear_planet_modifiers = yes 
+
+				set_deposit = d_minerals_2
+				set_planet_flag = starting_deposit
+				set_planet_flag = starting_mining_target
+			}
+		}
+
+		moon = {
+			name = "Staurya"
+			count = 1
+			class = "pc_barren_cold"
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 2
+			size = 3
+			
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+				clear_planet_modifiers = yes 
+			}
+		}
+	}
+
+	change_orbit = 55
+
+	planet = {
+		count = 2
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = { min = 10 max = 190 }
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+		}
+	}
+	
+	planet = {
+		name = "Hohnle"
+		class = "pc_barren_cold"
+		orbit_distance = 65
+		orbit_angle = { min = 90 max = 270 }
+		size = 19
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+			clear_planet_modifiers = yes 
+
+			set_deposit = d_physics_3
+			set_planet_flag = starting_deposit
+			set_planet_flag = starting_research_target
+		}
+	}
+
+	planet = {
+		name = "Pohdenar"
+		class = "pc_gas_giant"
+		orbit_distance = 70
+		orbit_angle = { min = 90 max = 270 }
+		size = 39
+		has_ring = yes
+		entity = "gas_giant_06_entity"
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+			clear_planet_modifiers = yes
+
+			set_deposit = d_energy_5
+			set_planet_flag = starting_deposit
+			set_planet_flag = starting_mining_target
+		}
+
+		moon = {
+			name = "Discona"
+			count = 1
+			class = "pc_molten"
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 17
+			size = 6
+			
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+				clear_planet_modifiers = yes 
+			}
+		}
+
+		moon = {
+			name = "Scyphole"
+			count = 1
+			class = "pc_barren"
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 7
+			size = 8
+			
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+				clear_planet_modifiers = yes 
+
+				set_deposit = d_minerals_2
+				set_planet_flag = starting_deposit
+			}
+		}
+
+		moon = {
+			name = "Acrasa"
+			count = 1
+			class = "pc_toxic"
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 0
+			size = 7
+			
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+				clear_planet_modifiers = yes 
+			}
+		}
+
+		moon = {
+			name = "Tunicas"
+			count = 1
+			class = "pc_barren_cold"
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 4
+			size = 5
+			
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+				clear_planet_modifiers = yes 
+			}
+		}
+
+		moon = {
+			name = "Filyf"
+			count = 1
+			class = "pc_frozen"
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 2
+			size = 3
+			
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+				clear_planet_modifiers = yes 
+
+				set_deposit = d_engineering_3
+				set_planet_flag = starting_deposit
+			}
+		}
+	}
+
+	neighbor_system = {
+		distance = { min = 10 max = @distance }
+		initializer = "mesp_olyn_protectorate_neighbour_01"
+	}
+}
+
+mesp_olyn_protectorate_neighbour_01 = {
+	name = "Obek"
+	class = "sc_m"
+
+	flags = { mesp_han_obek_system custom_system abandoned_gateway }
+
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		closest_system = {
+			limit = { has_star_flag = mesp_han_kanala_system }
+			add_hyperlane = {
+				from = this
+				to = prev
+			}
+		}
+	}
+
+	planet = {
+		name = "Obek"
+		class = "pc_m_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 20
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+		}
+	}
+
+	planet = {
+		name = "Acodu"
+		class = "pc_barren"
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = 14
+		has_ring = no
+
+		init_effect = {
+			prevent_anomaly = yes					
+			clear_deposits = yes
+			clear_planet_modifiers = yes 
+
+			set_deposit = d_minerals_2
+			set_planet_flag = starting_deposit
+		}	
+	}
+	
+	planet = {
+		name = "Volar"
+		class = "pc_barren_cold"
+		orbit_distance = 65
+		orbit_angle = { min = 90 max = 270 }
+		size = 19
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+			clear_planet_modifiers = yes 
+		}
+	}
+
+	planet = {
+		name = "Mdu"
+		class = "pc_gas_giant"
+		orbit_distance = 70
+		orbit_angle = { min = 90 max = 270 }
+		size = 39
+		has_ring = no
+		entity = "gas_giant_06_entity"
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+			clear_planet_modifiers = yes
+
+			set_deposit = d_energy_3
+			set_planet_flag = starting_deposit
+
+			add_modifier = {
+				modifier = extensive_moon_system
+				days = -1
+			}
+		}
+
+		moon = {
+			name = "Mdu a"
+			count = 1
+			class = "pc_molten"
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 17
+			size = 6
+			
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+				clear_planet_modifiers = yes 
+			}
+		}
+
+		moon = {
+			name = "Mdu b"
+			count = 1
+			class = "pc_barren"
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 7
+			size = 8
+			
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+				clear_planet_modifiers = yes 
+
+				set_deposit = d_minerals_2
+				set_planet_flag = starting_deposit
+			}
+		}
+
+		moon = {
+			name = "Mdu c"
+			count = 1
+			class = "pc_toxic"
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 0
+			size = 7
+			
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+				clear_planet_modifiers = yes 
+
+				set_deposit = d_society_2
+				set_planet_flag = starting_deposit
+			}
+		}
+
+		moon = {
+			name = "Mdu d"
+			count = 1
+			class = "pc_barren_cold"
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 4
+			size = 5
+			
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+				clear_planet_modifiers = yes 
+			}
+		}
+
+		moon = {
+			name = "Mdu e"
+			count = 1
+			class = "pc_frozen"
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 2
+			size = 3
+			
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+				clear_planet_modifiers = yes 
+			}
+		}
+
+		moon = {
+			name = "Mdu f"
+			count = 1
+			class = "pc_molten"
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 4
+			size = 6
+			
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+				clear_planet_modifiers = yes 
+
+				set_deposit = d_physics_2
+				set_planet_flag = starting_deposit
+			}
+		}
+
+		moon = {
+			name = "Mdu g"
+			count = 1
+			class = "pc_frozen"
+			orbit_angle = { min = 90 max = 270 }
+			orbit_distance = 0
+			size = 4
+			
+			init_effect = {
+				prevent_anomaly = yes
+				clear_deposits = yes
+				clear_planet_modifiers = yes 
+			}
+		}
+	}
+
+	init_effect = {
+		spawn_megastructure = {
+			type = "gateway_ruined"
+			random_pos = yes
+			orbit_angle = 360		
+		}
+	}
+
+	neighbor_system = {
+		distance = { min = 10 max = @distance }
+		initializer = "mesp_olyn_protectorate_neighbour_02"
+	}
+	neighbor_system = {
+		distance = { min = 10 max = @distance }
+		initializer = "mesp_olyn_protectorate_neighbour_03"
+	}
+	neighbor_system = {
+		distance = { min = 10 max = @distance }
+		initializer = "mesp_olyn_protectorate_neighbour_04"
+	}
+	neighbor_system = {
+		distance = { min = 10 max = @distance }
+		initializer = "mesp_olyn_protectorate_neighbour_05"
+	}
+}
+
+mesp_olyn_protectorate_neighbour_02 = {
+	name = "Bedi"
+	class = "sc_m"
+
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		closest_system = {
+			limit = { has_star_flag = mesp_han_obek_system }
+			add_hyperlane = {
+				from = this
+				to = prev
+			}
+		}
+	}
+
+	flags = { mesp_han_bedi_system custom_system }
+		
+	planet = {
+		name = "Bedia"
+		class = "pc_m_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 25
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+
+			set_deposit = d_energy_2
+			set_planet_flag = starting_deposit
+		}
+	}
+	
+	planet = {
+		name = "Olor"
+		class = "pc_tundra"
+		orbit_distance = 45
+		orbit_angle = { min = 90 max = 270 }
+		size = 14
+		has_ring = no
+
+		flags = { mesp_han_planet_olor }
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_planet_modifiers = yes 
+		}
+	}
+}
+
+mesp_olyn_protectorate_neighbour_03 = {
+	name = "Dark Current"
+	class = "sc_t"
+
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		closest_system = {
+			limit = { has_star_flag = mesp_han_obek_system }
+			add_hyperlane = {
+				from = this
+				to = prev
+			}
+		}
+	}
+	flags = { mesp_han_dark_current_system custom_system }
+		
+	planet = {
+		name = "Dark Current"
+		class = "pc_t_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 20
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+
+			set_deposit = d_physics_5
+			set_planet_flag = starting_deposit
+		}
+	}
+	
+	planet = {
+		name = "Scalding Boulder"
+		class = "pc_molten"
+		orbit_distance = 30
+		orbit_angle = { min = 90 max = 270 }
+		size = 9
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+			clear_planet_modifiers = yes 
+		}
+	}
+
+	planet = {
+		name = "Twirling Pebble"
+		class = "pc_toxic"
+		orbit_distance = 20
+		orbit_angle = { min = 90 max = 270 }
+		size = 7
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+			clear_planet_modifiers = yes 
+		}
+	}
+}
+
+mesp_olyn_protectorate_neighbour_04 = {
+	name = "Warmest Shoal"
+	class = "sc_g"
+
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		closest_system = {
+			limit = { has_star_flag = mesp_han_obek_system }
+			add_hyperlane = {
+				from = this
+				to = prev
+			}
+		}
+	}
+
+	flags = { mesp_han_warmest_shoal_system custom_system }
+
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 190
+	}
+		
+	planet = {
+		name = "Warmest Shoal"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 35
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+		}
+	}
+
+	planet = {
+		name = "Bounty"
+		class = "pc_barren"
+		orbit_distance = 40
+		orbit_angle = { min = 90 max = 270 }
+		size = 12
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_planet_modifiers = yes 
+
+			add_modifier = {
+				modifier = mineral_rich
+				days = -1
+			}
+	
+			set_deposit = d_minerals_4
+			set_planet_flag = starting_deposit
+		}
+	}
+
+	
+	planet = {
+		name = "Harmonious Reef"
+		class = "pc_ocean"
+		orbit_distance = 40
+		orbit_angle = { min = 90 max = 270 }
+		size = 23
+		has_ring = no
+
+		flags = { mesp_han_planet_???? }
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_planet_modifiers = yes 
+
+			add_modifier = {
+				modifier = natural_beauty
+				days = -1
+			}
+		}
+	}
+
+	planet = {
+		name = "Gentle Breeze"
+		class = "pc_gas_giant"
+		orbit_distance = 70
+		orbit_angle = { min = 90 max = 270 }
+		size = 36
+		has_ring = no
+		entity = "gas_giant_01_entity"
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+			clear_planet_modifiers = yes
+
+			set_deposit = d_energy_3
+			set_planet_flag = starting_deposit
+		}
+	}
+
+	change_orbit = 40
+
+	planet = {
+		count = 2
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = { min = 10 max = 190 }
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+
+			set_deposit = d_minerals_2
+			set_planet_flag = starting_deposit
+		}
+	}
+
+	planet = {
+		name = "Lost Coral"
+		class = "pc_barren_cold"
+		orbit_distance = 65
+		orbit_angle = { min = 90 max = 270 }
+		size = 8
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_planet_modifiers = yes 
+		}
+	}
+}
+
+mesp_olyn_protectorate_neighbour_05 = {
+	name = "Thundering Trench"
+	class = "sc_a"
+
+	init_effect = {
+		every_neighbor_system = {
+			set_star_flag = empire_cluster
+			every_neighbor_system = {
+				set_star_flag = empire_cluster
+			}
+		}
+		closest_system = {
+			limit = { has_star_flag = mesp_han_obek_system }
+			add_hyperlane = {
+				from = this
+				to = prev
+			}
+		}
+	}
+
+	flags = { mesp_han_thundering_trench_system custom_system }
+
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 145
+	}
+	
+	asteroid_belt = {
+		type = icy_asteroid_belt
+		radius = 280
+	}
+		
+	planet = {
+		name = "Thundering Trench"
+		class = "pc_a_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 70
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+
+			set_deposit = d_physics_3
+			set_planet_flag = starting_deposit
+
+			create_ambient_object = {
+				type = "nebula_4"
+				entity_offset_height = -5
+				location = this
+			}
+			last_created_ambient_object = {
+				set_location = {
+					target = prev
+					distance = 0
+					angle = random
+				}
+			}
+		}
+	}
+
+	planet = {
+		name = "Aleuma"
+		class = "pc_molten"
+		orbit_distance = 60
+		orbit_angle = { min = 90 max = 270 }
+		size = 8
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_planet_modifiers = yes 
+		}
+	}
+
+	planet = {
+		name = "Mafusho"
+		class = "pc_toxic"
+		orbit_distance = 45
+		orbit_angle = { min = 90 max = 270 }
+		size = 15
+		has_ring = no
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_planet_modifiers = yes 
+		}
+	}
+
+	change_orbit = 40
+
+	planet = {
+		count = 2
+		class = "pc_asteroid"
+		orbit_distance = 0
+		orbit_angle = { min = 10 max = 190 }
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+
+			set_deposit = d_minerals_2
+			set_planet_flag = starting_deposit
+		}
+	}
+
+	planet = {
+		name = "Umeme"
+		class = "pc_gas_giant"
+		orbit_distance = 75
+		orbit_angle = { min = 90 max = 270 }
+		size = 45
+		has_ring = yes
+		entity = "gas_giant_01_entity"
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+			clear_planet_modifiers = yes
+
+			set_deposit = d_energy_4
+			set_planet_flag = starting_deposit
+		}
+	}
+
+	change_orbit = 60
+
+	planet = {
+		count = 4
+		class = "pc_ice_asteroid"
+		orbit_distance = 0
+		orbit_angle = { min = 10 max = 190 }
+		
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+		}
+	}
+}

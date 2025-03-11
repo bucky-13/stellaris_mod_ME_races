@@ -1,0 +1,310 @@
+﻿### Krogan_NameList
+### Created by LostInACave
+
+#Each line = 20~ Names#
+
+Krogan_Clans = {	
+	randomized = no
+	alias = "Krogan"
+ 
+	ship_names = {
+	
+		science = {
+			Fanaxt Taxaz Zinix Fixash Goxesh Tixash Tishac Roich Xarti Xortesh Fircish Daxush Frishac Cartox Cirtish Choirtiz Nichash Pirash Baphish Reilash 
+		}
+		
+		constructor = {
+			Grocht Hisch Chlacht Shix Xurt Xansh Xirsh Hishix Ficash Rixish Jisht Jazix Jix Erxis Rexas Fixis Xirgliss Cathiox Zir Zarax 
+		}
+		
+		colonizer = {
+			Taraki Mukosa Vako Bothar Emun Suma Denek Kabur
+		}
+		
+		transport = {
+			Wichix Frichaz Zrichi Zoirch Zichash Grraw Groro Goz Scha Raztl Rafzt Graftch 
+		}
+		
+		corvette = { 
+			"Inrab" "Keldi" "Varass" "Namta" "Gandar" "Daggasch" "Finnrak" "Hassadra" "Malas" "Patar" "Murok" "Vilin" "Magon" "Kari" "Jirg" "Inak" "Vasku" "Tulus" "Inarim" 
+			"Tagga" "Vuk'ka" "Valgam" "Zumon" "Teragg" "Sornas" "Pagram" "Jonnot" "Gentar" "Birim" "Endek" "Kalass" "Schumak" "Virik" "Timak" "Guron" "Tibak" "Jugir" "Emik" "Porok" 
+			"Zamik" "Vugir" "Ekalim" "Kurnir" "Tirgir" "Dall" "Jossk" "Rissim" "Virisch" "Podossa" "Dassak" "Kischa" "Taram" "Kaboss" "Susska" "Feldrak" "Targass" "Bothnor" "Suposk" "Karaska" 
+			"Tanask" "Poltan" "Doman" "Eseek" "Tanab" "Salosch" "Monosk" "Obass" "Garu" "Simir" "Valus" "Schukon" "Mirox" "Raxor" "Torbak" "Nisk" "Triken" "Borok" "Khamtha" "Kamkak"
+			"Kundex" "Cladet" "Klonol" "Rekad" "Gexad" "Falder" "Gaclen" "Celdaren" "Deklor" "Droxag" "Nergal" "Fikren" "Nadlig" "Enas" "Gumgal" "Cibad" "Korbok" "Sulam" "Kirax" "Emgus"
+			"Helkiran" "Enthras" "Ephiri" "Pharus" "Posranu" "Seifeth" "Gorlife" "Codrales" "Suclien" "Ganarth" "Thoraul" "Merould" "Galedur" "Sassodem" "Cluthar" "Guldorn" "Yodegud" "Sassomun" "Colaut" "Derom"
+		}
+		
+		destroyer = {
+			"Rekaxir" "Cax" "Zidlaxi" "Cabroxi" "Xidlor" "Zeraxim" "Moz" "Zoz" "Xaz" "Zax" "Zacadliss" "Cothaxir" "Xoblagiss" "Rezicax" "Morezac" "Midloxec" "Vax" "Zumax" "Raxir" "Xiraxor" 
+			"Vox" "Zurix" "Xirax" "Caberox" "Cimax" "Morax" "Zetioz" "Verizac" "Medizac" "Carizac" "Mozac" "Vitarax" "Cobanox" "Xaboc" "Vaxoma" "Zetix" "Carax" "Cablox" "Zinix" "Cadux" 
+			"Parathnak" "Gioshum" "Korob" "Hinthab" "Kulom" "Avintok" "Tannek" "Rastram" "Treesk" "Enerpul" "Kalen" "Kluven" "Drexom" "Kuxel" "Durgal" "Cadrom" "Kendril" "Ferad" "Defer" "Doxerga"
+			"Tredagik" "Rukagikex" "Trokaxeg" "Tolodem" "Loxodal" "Ropadef" "Frelaxod" "Axemekat" "Frolaxen" "Dakalenex" "Dronafeg" "Mixrodem" "Tidarulek" "Raxuked" "Koxurem" "Guferal" "Samux" "Terinex" "Koldrax" "Moregaf" 
+			"Ludramok" "Ropodom" "Farglek" "Duxanek" "Dorbax" "Tolaxir" "Kirax" "Mikirax" "Toldox" "Forulek" "Toxodal" "Rimarik" "Kaxurin" "Gasmarux" "Trolix" "Vobodem" "Imixidal" "Durbaxa" "Kiriox" "Vamax"
+		}
+		
+		cruiser = {
+			"Lurrmon" "Ickma" "Trassom" "Nurmon" "Nigam" "Rok" "Vokja" "Jekon" "Torbak" "Nisk" "Triken" "Vo" "Sikra" "Turus" "Jiklan" "Obassa" "Toroll" "Supon" "Vimon" "Tumon" 
+			"Sik" "Irken" "Tenki" "Oka" "Tokkom" "Vikrim" "Jidar" "Bonton" "Sotork" "Tesk" "Pintar" "Everk" "Erk" "Bavak" "Itik" "Kolpo" "Vikisk" "Siba" "Nurgil" "Olesk" 
+			"Mitakul" "Vagec" "Farix" "Sumlec" "Forex" "Gikal" "Kurec" "Magan" "Darkic" "Seradul" "Dukorex" "Cekonex" "Garbex" "Torix" "Dablox" "Faragulek" "Klandrax" "Kulegaf" "Ludremex" "Maxerdok"
+			"Vatnik" "Srakir" "Bossnikar" "Elbekann" "Pugrannon" "Delnik" "Tyrkab" "Uranna" "Etris" "Kelnik" "Kurbidanna" "Falnik" "Suprag" "Selestaris" "Ovkir" "Turbak" "Palob" "Rioradin" "Bhertag" "Siskvi" 
+			"Gandara" "Yaldira" "Mirida" "Bekonda" "Pildara" "Eldetha" "Arganira" "Athisa" "Bondoga" "Oldara" "Birga" "Jallida" "Terdaga" "Tirimba" "Dantariga" "Umara" "Ferdera" "Nagrama" "Nidira" "Molgarima" 
+		}
+		
+		battleship = {
+			"Derikam" "Vormat" "Kirmik" "Tamik" "Tirak" "Komot" "Valam" "Lig'Tunak" "Kolbak" "Tuma'lok" "Tharak" "Falsek" "Lambak" "Loram" "Valdim" "Soram" "Dirim" "Migor" "Anara" "Aram"
+			"Farak" "Tim'vorg" "Lirmak" "Jolsik" "Bamta" "Barra" "Ralsak" "Orom'rim" "Ylgar" "Torga" "Ugana" "Lesmag" "Sorom'parga" "Harik" "Naka" "Sirm'aco" "Targa'moro" "Irfa" "Pollog" "Virbo"
+			"Galan" "Nadex" "Gefarak" "Kutel" "Gulec" "Faradex" "Ralefek" "Gelard" "Derokem" "Dexalon" "Kitadul" "Dukalex" "Kluxared" "Dolok" "Gekoler" "Forexod" "Futexom" "Darakun" "Traglec" "Kregux" 
+			"Buskat" "Tirin" "Kassh" "Vakhna" "Trulakh" "Trutrago" "Khutma" "Rhun" "Kashnak" "Urbek" "Varba" "Lappra" "Ligira" "Tentramoda" "Tavkaleba" "Paragima" "Firintarogga" "Kampira" "Vabrig" "Goridrig"
+			"Noilan" "Yrdur" "Taminth" "Gordan" "Grongari" 
+		}
+		
+		titan = {
+			Urdnot Nakmor Thax Weyrloc Jorgal Hailot Gatatog Forsan Raik Talyth Korbal
+		}
+
+		colossus = {
+			"Aralakh's Gaze" "Wrath of Tuchunka" "Herald of the Void" "Vaul's Vengeance"
+		}
+		
+		ion_cannon = {
+			Gaz Buk Dox Vax Sur Kol Nad Gex Vuk Kar Ril Der Kol Gra Gur Xor Kuv Rok Fer Fik Ruv Sak Gul Nas Ber Bir Kux Efi Dat Van Has
+		}
+		
+		military_station_small = {
+			
+		}
+		
+		mining_station = {}
+		research_station = {}
+		#terraform_station = {}
+		observation_station = {}
+	}
+
+	fleet_names = {
+		sequential_name = MESP_KROGAN_FLEET
+	}
+
+	army_names = {
+		machine_defense = {
+			sequential_name = MESP_KROGAN_xxPLANETARYGUARD_ORD
+		}
+
+		machine_assault_1 = {
+			sequential_name = MESP_KROGAN_xxEXPEDITIONARYFORCE_ORD
+		}
+
+		machine_assault_2 = {
+			sequential_name = MESP_KROGAN_xxEXPEDITIONARYFORCE_ORD
+		}
+
+		machine_assault_3 = {
+			sequential_name = MESP_KROGAN_xxEXPEDITIONARYFORCE_ORD
+		}
+
+		defense_army = {
+			sequential_name = MESP_KROGAN_xxPLANETARYGUARD_ORD
+		}
+
+		assault_army = {
+			sequential_name = MESP_KROGAN_xxEXPEDITIONARYFORCE_ORD
+		}
+
+		slave_army = {
+			sequential_name = MESP_KROGAN_xxINDENTUREDRIFLES_ORD
+		}
+
+		clone_army = {
+			sequential_name = MESP_KROGAN_xxCLONEARMY_ORD
+		}
+
+		undead_army = {
+			sequential_name = MESP_KROGAN_xxDREADCOMMANDO_ORD
+		}
+
+		robotic_army = {
+			sequential_name = MESP_KROGAN_xxHUNTERKILLERGROUP_ORD
+		}
+
+		robotic_defense_army = {
+			sequential_name = MESP_KROGAN_xxGROUNDDEFENSEMATRIX_ORD
+		}
+
+		psionic_army = {
+			sequential_name = MESP_KROGAN_xxPSICOMMANDO_ORD
+		}
+
+		xenomorph_army = {
+			sequential_name = MESP_KROGAN_xxBIOWARFAREDIVISION_ORD
+		}
+
+		gene_warrior_army = {
+			sequential_name = MESP_KROGAN_xxBIOENGINEEREDSQUADRON_ORD
+		}
+
+		occupation_army = {
+			sequential_name = MESP_KROGAN_xxGARRISONFORCE_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = MESP_KROGAN_xxMECHANIZEDGARRISON_ORD
+		}
+
+		primitive_army = {
+			sequential_name = MESP_KROGAN_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = MESP_KROGAN_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = MESP_KROGAN_POSTATOMICARMYxx_SEQ
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				"Garvug" "Gellix" "Gembat" "Wrill" "Flett" "Uzin" "Kelim" "Dor" "Dranek" "Sazgoth" "Rothla" "Nith" "Mantum" "Tula" "Vard" 
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+		
+		pc_gaia = {
+			names = {
+				
+			}
+		}
+		
+		pc_nuked = {
+			names = {
+			}
+		}
+		
+		pc_ai = {
+			names = {
+			}
+		}
+		
+		pc_machine = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		default = {
+			first_names_male = {
+			MESP_KROGAN_MALE_FIRST_NAME_Charr MESP_KROGAN_MALE_FIRST_NAME_Uvenk MESP_KROGAN_MALE_FIRST_NAME_Wrex MESP_KROGAN_MALE_FIRST_NAME_Wreav MESP_KROGAN_MALE_FIRST_NAME_Drack MESP_KROGAN_MALE_FIRST_NAME_Skarr 
+			MESP_KROGAN_MALE_FIRST_NAME_Droyas MESP_KROGAN_MALE_FIRST_NAME_Fortack MESP_KROGAN_MALE_FIRST_NAME_Nax MESP_KROGAN_MALE_FIRST_NAME_Okeer MESP_KROGAN_MALE_FIRST_NAME_Guld MESP_KROGAN_MALE_FIRST_NAME_Brood 
+			MESP_KROGAN_MALE_FIRST_NAME_Drix MESP_KROGAN_MALE_FIRST_NAME_Virm MESP_KROGAN_MALE_FIRST_NAME_Gaxx MESP_KROGAN_MALE_FIRST_NAME_Jern MESP_KROGAN_MALE_FIRST_NAME_Garr MESP_KROGAN_MALE_FIRST_NAME_Jenak 
+			MESP_KROGAN_MALE_FIRST_NAME_Sakor MESP_KROGAN_MALE_FIRST_NAME_Prag MESP_KROGAN_MALE_FIRST_NAME_Pax MESP_KROGAN_MALE_FIRST_NAME_Jagar MESP_KROGAN_MALE_FIRST_NAME_Cherk MESP_KROGAN_MALE_FIRST_NAME_Turr 
+			MESP_KROGAN_MALE_FIRST_NAME_Kag MESP_KROGAN_MALE_FIRST_NAME_Sig MESP_KROGAN_MALE_FIRST_NAME_Pux MESP_KROGAN_MALE_FIRST_NAME_Rarak MESP_KROGAN_MALE_FIRST_NAME_Brom MESP_KROGAN_MALE_FIRST_NAME_Kher 
+			MESP_KROGAN_MALE_FIRST_NAME_Golak MESP_KROGAN_MALE_FIRST_NAME_Suxx MESP_KROGAN_MALE_FIRST_NAME_Kragar MESP_KROGAN_MALE_FIRST_NAME_Wrund MESP_KROGAN_MALE_FIRST_NAME_Huxx MESP_KROGAN_MALE_FIRST_NAME_Strarg 
+			MESP_KROGAN_MALE_FIRST_NAME_Nulak MESP_KROGAN_MALE_FIRST_NAME_Drikar MESP_KROGAN_MALE_FIRST_NAME_Gad MESP_KROGAN_MALE_FIRST_NAME_Jaxx
+			}
+			first_names_female = {
+			MESP_KROGAN_FEMALE_FIRST_NAME_Kesh MESP_KROGAN_FEMALE_FIRST_NAME_Morda MESP_KROGAN_FEMALE_FIRST_NAME_Bakara MESP_KROGAN_FEMALE_FIRST_NAME_Chuxa MESP_KROGAN_FEMALE_FIRST_NAME_Tegi 
+			MESP_KROGAN_FEMALE_FIRST_NAME_Kruske MESP_KROGAN_FEMALE_FIRST_NAME_Tunde MESP_KROGAN_FEMALE_FIRST_NAME_Fugori MESP_KROGAN_FEMALE_FIRST_NAME_Grakzu MESP_KROGAN_FEMALE_FIRST_NAME_Pronda 
+			MESP_KROGAN_FEMALE_FIRST_NAME_Wegara MESP_KROGAN_FEMALE_FIRST_NAME_Dagara MESP_KROGAN_FEMALE_FIRST_NAME_Wokara MESP_KROGAN_FEMALE_FIRST_NAME_Maka MESP_KROGAN_FEMALE_FIRST_NAME_Leshda 
+			MESP_KROGAN_FEMALE_FIRST_NAME_Vugda MESP_KROGAN_FEMALE_FIRST_NAME_Tuska MESP_KROGAN_FEMALE_FIRST_NAME_Sesha MESP_KROGAN_FEMALE_FIRST_NAME_Branesh MESP_KROGAN_FEMALE_FIRST_NAME_Derdu 
+			MESP_KROGAN_FEMALE_FIRST_NAME_Srarma MESP_KROGAN_FEMALE_FIRST_NAME_Roxu MESP_KROGAN_FEMALE_FIRST_NAME_Mendu MESP_KROGAN_FEMALE_FIRST_NAME_Varaxa MESP_KROGAN_FEMALE_FIRST_NAME_Colesh 
+			MESP_KROGAN_FEMALE_FIRST_NAME_Harda MESP_KROGAN_FEMALE_FIRST_NAME_Nomar MESP_KROGAN_FEMALE_FIRST_NAME_Jayak MESP_KROGAN_FEMALE_FIRST_NAME_Graki MESP_KROGAN_FEMALE_FIRST_NAME_Heyaxa 
+			MESP_KROGAN_FEMALE_FIRST_NAME_Jirga MESP_KROGAN_FEMALE_FIRST_NAME_Khunko MESP_KROGAN_FEMALE_FIRST_NAME_Carma MESP_KROGAN_FEMALE_FIRST_NAME_Tukora MESP_KROGAN_FEMALE_FIRST_NAME_Wara 
+			MESP_KROGAN_FEMALE_FIRST_NAME_Varka MESP_KROGAN_FEMALE_FIRST_NAME_Duxa MESP_KROGAN_FEMALE_FIRST_NAME_Noxush MESP_KROGAN_FEMALE_FIRST_NAME_Progesh MESP_KROGAN_FEMALE_FIRST_NAME_Vigxa 
+			MESP_KROGAN_FEMALE_FIRST_NAME_Shiagur
+			}
+			second_names = {
+			MESP_KROGAN_SECOND_NAME_Urdnot MESP_KROGAN_SECOND_NAME_Gatatog MESP_KROGAN_SECOND_NAME_Weyrloc MESP_KROGAN_SECOND_NAME_Nakmor MESP_KROGAN_SECOND_NAME_Jorgal MESP_KROGAN_SECOND_NAME_Kurdak 
+			MESP_KROGAN_SECOND_NAME_Novrak MESP_KROGAN_SECOND_NAME_Ratatog MESP_KROGAN_SECOND_NAME_Grakson MESP_KROGAN_SECOND_NAME_Dirdak MESP_KROGAN_SECOND_NAME_Butron MESP_KROGAN_SECOND_NAME_Cravenor
+			MESP_KROGAN_SECOND_NAME_Krax MESP_KROGAN_SECOND_NAME_Wraash MESP_KROGAN_SECOND_NAME_Ferlok MESP_KROGAN_SECOND_NAME_Furtak MESP_KROGAN_SECOND_NAME_Tantor MESP_KROGAN_SECOND_NAME_Dakson 
+			MESP_KROGAN_SECOND_NAME_Pakmor MESP_KROGAN_SECOND_NAME_Srodtar MESP_KROGAN_SECOND_NAME_Duksar MESP_KROGAN_SECOND_NAME_Crak MESP_KROGAN_SECOND_NAME_Mumar MESP_KROGAN_SECOND_NAME_Grudak 
+			MESP_KROGAN_SECOND_NAME_Zrox MESP_KROGAN_SECOND_NAME_Rirkan MESP_KROGAN_SECOND_NAME_Sibkar MESP_KROGAN_SECOND_NAME_Tradak MESP_KROGAN_SECOND_NAME_Corsak MESP_KROGAN_SECOND_NAME_Cruksa 
+			MESP_KROGAN_SECOND_NAME_Putnot MESP_KROGAN_SECOND_NAME_Graash MESP_KROGAN_SECOND_NAME_Veyrlok MESP_KROGAN_SECOND_NAME_Forgal MESP_KROGAN_SECOND_NAME_Cargel MESP_KROGAN_SECOND_NAME_Neknor 
+			MESP_KROGAN_SECOND_NAME_Lugal MESP_KROGAN_SECOND_NAME_Zagnot MESP_KROGAN_SECOND_NAME_Kirka MESP_KROGAN_SECOND_NAME_Kirak MESP_KROGAN_SECOND_NAME_Vaxar MESP_KROGAN_SECOND_NAME_Bragus 
+			MESP_KROGAN_SECOND_NAME_Daru MESP_KROGAN_SECOND_NAME_Forsan MESP_KROGAN_SECOND_NAME_Ganar MESP_KROGAN_SECOND_NAME_Graken MESP_KROGAN_SECOND_NAME_Hailot MESP_KROGAN_SECOND_NAME_Jurdon 
+			MESP_KROGAN_SECOND_NAME_Khel MESP_KROGAN_SECOND_NAME_Quash MESP_KROGAN_SECOND_NAME_Raik MESP_KROGAN_SECOND_NAME_Ravanor MESP_KROGAN_SECOND_NAME_Talyth MESP_KROGAN_SECOND_NAME_Thax
+			}
+			
+			regnal_first_names_male = {
+			MESP_KROGAN_MALE_FIRST_NAME_Charr MESP_KROGAN_MALE_FIRST_NAME_Uvenk MESP_KROGAN_MALE_FIRST_NAME_Wrex MESP_KROGAN_MALE_FIRST_NAME_Wreav MESP_KROGAN_MALE_FIRST_NAME_Drack MESP_KROGAN_MALE_FIRST_NAME_Skarr 
+			MESP_KROGAN_MALE_FIRST_NAME_Droyas MESP_KROGAN_MALE_FIRST_NAME_Fortack MESP_KROGAN_MALE_FIRST_NAME_Nax MESP_KROGAN_MALE_FIRST_NAME_Okeer MESP_KROGAN_MALE_FIRST_NAME_Guld MESP_KROGAN_MALE_FIRST_NAME_Brood 
+			MESP_KROGAN_MALE_FIRST_NAME_Drix MESP_KROGAN_MALE_FIRST_NAME_Virm MESP_KROGAN_MALE_FIRST_NAME_Gaxx MESP_KROGAN_MALE_FIRST_NAME_Jern MESP_KROGAN_MALE_FIRST_NAME_Garr MESP_KROGAN_MALE_FIRST_NAME_Jenak 
+			MESP_KROGAN_MALE_FIRST_NAME_Sakor MESP_KROGAN_MALE_FIRST_NAME_Prag MESP_KROGAN_MALE_FIRST_NAME_Pax MESP_KROGAN_MALE_FIRST_NAME_Jagar MESP_KROGAN_MALE_FIRST_NAME_Cherk MESP_KROGAN_MALE_FIRST_NAME_Turr 
+			MESP_KROGAN_MALE_FIRST_NAME_Kag MESP_KROGAN_MALE_FIRST_NAME_Sig MESP_KROGAN_MALE_FIRST_NAME_Pux MESP_KROGAN_MALE_FIRST_NAME_Rarak MESP_KROGAN_MALE_FIRST_NAME_Brom MESP_KROGAN_MALE_FIRST_NAME_Kher 
+			MESP_KROGAN_MALE_FIRST_NAME_Golak MESP_KROGAN_MALE_FIRST_NAME_Suxx MESP_KROGAN_MALE_FIRST_NAME_Kragar MESP_KROGAN_MALE_FIRST_NAME_Wrund MESP_KROGAN_MALE_FIRST_NAME_Huxx MESP_KROGAN_MALE_FIRST_NAME_Strarg 
+			MESP_KROGAN_MALE_FIRST_NAME_Nulak MESP_KROGAN_MALE_FIRST_NAME_Drikar MESP_KROGAN_MALE_FIRST_NAME_Gad MESP_KROGAN_MALE_FIRST_NAME_Jaxx
+			}
+			regnal_first_names_female = {
+			MESP_KROGAN_FEMALE_FIRST_NAME_Kesh MESP_KROGAN_FEMALE_FIRST_NAME_Morda MESP_KROGAN_FEMALE_FIRST_NAME_Bakara MESP_KROGAN_FEMALE_FIRST_NAME_Chuxa MESP_KROGAN_FEMALE_FIRST_NAME_Tegi 
+			MESP_KROGAN_FEMALE_FIRST_NAME_Kruske MESP_KROGAN_FEMALE_FIRST_NAME_Tunde MESP_KROGAN_FEMALE_FIRST_NAME_Fugori MESP_KROGAN_FEMALE_FIRST_NAME_Grakzu MESP_KROGAN_FEMALE_FIRST_NAME_Pronda 
+			MESP_KROGAN_FEMALE_FIRST_NAME_Wegara MESP_KROGAN_FEMALE_FIRST_NAME_Dagara MESP_KROGAN_FEMALE_FIRST_NAME_Wokara MESP_KROGAN_FEMALE_FIRST_NAME_Maka MESP_KROGAN_FEMALE_FIRST_NAME_Leshda 
+			MESP_KROGAN_FEMALE_FIRST_NAME_Vugda MESP_KROGAN_FEMALE_FIRST_NAME_Tuska MESP_KROGAN_FEMALE_FIRST_NAME_Sesha MESP_KROGAN_FEMALE_FIRST_NAME_Branesh MESP_KROGAN_FEMALE_FIRST_NAME_Derdu 
+			MESP_KROGAN_FEMALE_FIRST_NAME_Srarma MESP_KROGAN_FEMALE_FIRST_NAME_Roxu MESP_KROGAN_FEMALE_FIRST_NAME_Mendu MESP_KROGAN_FEMALE_FIRST_NAME_Varaxa MESP_KROGAN_FEMALE_FIRST_NAME_Colesh 
+			MESP_KROGAN_FEMALE_FIRST_NAME_Harda MESP_KROGAN_FEMALE_FIRST_NAME_Nomar MESP_KROGAN_FEMALE_FIRST_NAME_Jayak MESP_KROGAN_FEMALE_FIRST_NAME_Graki MESP_KROGAN_FEMALE_FIRST_NAME_Heyaxa 
+			MESP_KROGAN_FEMALE_FIRST_NAME_Jirga MESP_KROGAN_FEMALE_FIRST_NAME_Khunko MESP_KROGAN_FEMALE_FIRST_NAME_Carma MESP_KROGAN_FEMALE_FIRST_NAME_Tukora MESP_KROGAN_FEMALE_FIRST_NAME_Wara 
+			MESP_KROGAN_FEMALE_FIRST_NAME_Varka MESP_KROGAN_FEMALE_FIRST_NAME_Duxa MESP_KROGAN_FEMALE_FIRST_NAME_Noxush MESP_KROGAN_FEMALE_FIRST_NAME_Progesh MESP_KROGAN_FEMALE_FIRST_NAME_Vigxa 
+			MESP_KROGAN_FEMALE_FIRST_NAME_Shiagur
+			}
+			regnal_second_names = {
+			MESP_KROGAN_SECOND_NAME_Urdnot MESP_KROGAN_SECOND_NAME_Gatatog MESP_KROGAN_SECOND_NAME_Weyrloc MESP_KROGAN_SECOND_NAME_Nakmor MESP_KROGAN_SECOND_NAME_Jorgal MESP_KROGAN_SECOND_NAME_Kurdak 
+			MESP_KROGAN_SECOND_NAME_Novrak MESP_KROGAN_SECOND_NAME_Ratatog MESP_KROGAN_SECOND_NAME_Grakson MESP_KROGAN_SECOND_NAME_Dirdak MESP_KROGAN_SECOND_NAME_Butron MESP_KROGAN_SECOND_NAME_Cravenor
+			MESP_KROGAN_SECOND_NAME_Krax MESP_KROGAN_SECOND_NAME_Wraash MESP_KROGAN_SECOND_NAME_Ferlok MESP_KROGAN_SECOND_NAME_Furtak MESP_KROGAN_SECOND_NAME_Tantor MESP_KROGAN_SECOND_NAME_Dakson 
+			MESP_KROGAN_SECOND_NAME_Pakmor MESP_KROGAN_SECOND_NAME_Srodtar MESP_KROGAN_SECOND_NAME_Duksar MESP_KROGAN_SECOND_NAME_Crak MESP_KROGAN_SECOND_NAME_Mumar MESP_KROGAN_SECOND_NAME_Grudak 
+			MESP_KROGAN_SECOND_NAME_Zrox MESP_KROGAN_SECOND_NAME_Rirkan MESP_KROGAN_SECOND_NAME_Sibkar MESP_KROGAN_SECOND_NAME_Tradak MESP_KROGAN_SECOND_NAME_Corsak MESP_KROGAN_SECOND_NAME_Cruksa 
+			MESP_KROGAN_SECOND_NAME_Putnot MESP_KROGAN_SECOND_NAME_Graash MESP_KROGAN_SECOND_NAME_Veyrlok MESP_KROGAN_SECOND_NAME_Forgal MESP_KROGAN_SECOND_NAME_Cargel MESP_KROGAN_SECOND_NAME_Neknor 
+			MESP_KROGAN_SECOND_NAME_Lugal MESP_KROGAN_SECOND_NAME_Zagnot MESP_KROGAN_SECOND_NAME_Kirka MESP_KROGAN_SECOND_NAME_Kirak MESP_KROGAN_SECOND_NAME_Vaxar MESP_KROGAN_SECOND_NAME_Bragus 
+			MESP_KROGAN_SECOND_NAME_Daru MESP_KROGAN_SECOND_NAME_Forsan MESP_KROGAN_SECOND_NAME_Ganar MESP_KROGAN_SECOND_NAME_Graken MESP_KROGAN_SECOND_NAME_Hailot MESP_KROGAN_SECOND_NAME_Jurdon 
+			MESP_KROGAN_SECOND_NAME_Khel MESP_KROGAN_SECOND_NAME_Quash MESP_KROGAN_SECOND_NAME_Raik MESP_KROGAN_SECOND_NAME_Ravanor MESP_KROGAN_SECOND_NAME_Talyth MESP_KROGAN_SECOND_NAME_Thax
+			}
+		}
+	}
+}

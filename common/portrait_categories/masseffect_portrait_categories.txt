@@ -1,0 +1,38 @@
+# Categories of portrait sets used in empire design view.
+# Portrait sets are listed in portrait_sets database.
+
+humanoids = {
+	name = HUM
+
+	sets = {
+		alliance
+		cerberus
+		asari
+		quarian
+		yalari
+	}
+}
+
+avians = {
+	name = AVI
+
+	sets = {
+		turian
+	}
+}
+
+reptilians = {
+	name = REP
+
+	sets = {
+		salarian
+		krogan
+	}
+}
+machines = {
+	name = MACHINE
+
+	sets = {
+		geth
+	}
+}

@@ -1,0 +1,55 @@
+# This is a template which multiple species can use. 
+
+krogan_female_01_outfit = {
+	default = "gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_grey.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_grey.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_grey.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+		default = "gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_grey.dds"
+		random = {
+			list = {
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_pink.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_red.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_blue.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_green.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_grey.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_black.dds"
+			}
+		}		
+	}
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_pink.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_red.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_blue.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_green.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_grey.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_black.dds"
+	}
+
+	#leader scope 
+	ruler = { #for rulers
+		default = "gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_red.dds"
+		
+		# All Governments type
+		random = {
+			list = {
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_pink.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_red.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_blue.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_green.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_grey.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_black.dds"
+			}
+		}
+	}
+}

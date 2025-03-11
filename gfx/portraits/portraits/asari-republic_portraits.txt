@@ -1,0 +1,231 @@
+portraits = {
+
+	# Asari
+	asari-republic_1 = { 
+		entity = "portrait_human_female_05_entity" 
+		clothes_selector = "asari-republic_outfit" 
+		attachment_selector = "asari-republic_hair_1" 
+		greeting_sound = "asari_greetings_A"
+		
+		character_textures = {
+			"gfx/models/portraits/asari-republic/asari_body_1.dds"
+			"gfx/models/portraits/asari-republic/asari_body_1a.dds"
+			"gfx/models/portraits/asari-republic/asari_body_1b.dds"
+			"gfx/models/portraits/asari-republic/asari_body_1M.dds"
+			"gfx/models/portraits/asari-republic/asari_body_1Ma.dds"
+			"gfx/models/portraits/asari-republic/asari_body_1Mb.dds"
+			"gfx/models/portraits/asari-republic/asari_body_1R.dds"
+		}
+		custom_attachment_label = "HAIR_STYLE"
+	}
+	asari-republic_2 = { 
+		entity = "portrait_human_female_05_entity" 
+		clothes_selector = "asari-republic_outfit" 
+		attachment_selector = "asari-republic_hair_2" 
+		greeting_sound = "asari_greetings_B"
+		
+		character_textures = {
+			"gfx/models/portraits/asari-republic/asari_body_2.dds"
+			"gfx/models/portraits/asari-republic/asari_body_2a.dds"
+			"gfx/models/portraits/asari-republic/asari_body_2b.dds"
+			"gfx/models/portraits/asari-republic/asari_body_2M.dds"
+			"gfx/models/portraits/asari-republic/asari_body_2Ma.dds"
+			"gfx/models/portraits/asari-republic/asari_body_2Mb.dds"
+			"gfx/models/portraits/asari-republic/asari_body_2R.dds"
+		}
+		custom_attachment_label = "HAIR_STYLE"
+	}
+	asari-republic_3 = { 
+		entity = "portrait_human_female_05_entity" 
+		clothes_selector = "asari-republic_outfit" 
+		attachment_selector = "asari-republic_hair_3" 
+		greeting_sound = "asari_greetings_A"
+		
+		character_textures = {
+			"gfx/models/portraits/asari-republic/asari_body_3.dds"
+			"gfx/models/portraits/asari-republic/asari_body_3a.dds"
+			"gfx/models/portraits/asari-republic/asari_body_3b.dds"
+			"gfx/models/portraits/asari-republic/asari_body_3M.dds"
+			"gfx/models/portraits/asari-republic/asari_body_3Ma.dds"
+			"gfx/models/portraits/asari-republic/asari_body_3Mb.dds"
+			"gfx/models/portraits/asari-republic/asari_body_3R.dds"
+		}
+		custom_attachment_label = "HAIR_STYLE"
+	}
+	asari-republic_4 = { 
+		entity = "portrait_human_female_05_entity" 
+		clothes_selector = "asari-republic_outfit" 
+		attachment_selector = "asari-republic_hair_4" 
+		greeting_sound = "asari_greetings_B"
+		
+		character_textures = {
+			"gfx/models/portraits/asari-republic/asari_body_4.dds"
+			"gfx/models/portraits/asari-republic/asari_body_4a.dds"
+			"gfx/models/portraits/asari-republic/asari_body_4b.dds"
+			"gfx/models/portraits/asari-republic/asari_body_4M.dds"
+			"gfx/models/portraits/asari-republic/asari_body_4Ma.dds"
+			"gfx/models/portraits/asari-republic/asari_body_4Mb.dds"
+			"gfx/models/portraits/asari-republic/asari_body_4R.dds"
+		}
+		custom_attachment_label = "HAIR_STYLE"
+	}
+	asari-republic_5 = { 
+		entity = "portrait_human_female_05_entity" 
+		clothes_selector = "asari-republic_outfit" 
+		attachment_selector = "asari-republic_hair_5" 
+		greeting_sound = "asari_greetings_C"
+		
+		character_textures = {
+			"gfx/models/portraits/asari-republic/asari_body_5.dds"
+			"gfx/models/portraits/asari-republic/asari_body_5a.dds"
+			"gfx/models/portraits/asari-republic/asari_body_5b.dds"
+			"gfx/models/portraits/asari-republic/asari_body_5M.dds"
+			"gfx/models/portraits/asari-republic/asari_body_5Ma.dds"
+			"gfx/models/portraits/asari-republic/asari_body_5Mb.dds"
+			"gfx/models/portraits/asari-republic/asari_body_5R.dds"
+		}
+		custom_attachment_label = "HAIR_STYLE"
+	}
+	asari-republic_6 = { 
+		entity = "portrait_human_female_05_entity" 
+		clothes_selector = "asari-republic_outfit" 
+		attachment_selector = "asari-republic_hair_6" 
+		greeting_sound = "asari_greetings_C"
+		
+		character_textures = {
+			"gfx/models/portraits/asari-republic/asari_body_6.dds"
+			"gfx/models/portraits/asari-republic/asari_body_6a.dds"
+			"gfx/models/portraits/asari-republic/asari_body_6b.dds"
+			"gfx/models/portraits/asari-republic/asari_body_6M.dds"
+			"gfx/models/portraits/asari-republic/asari_body_6Ma.dds"
+			"gfx/models/portraits/asari-republic/asari_body_6Mb.dds"
+			"gfx/models/portraits/asari-republic/asari_body_6R.dds"
+		}
+		custom_attachment_label = "HAIR_STYLE"
+	}
+	asari-republic_7 = { 
+		entity = "portrait_human_female_05_entity" 
+		clothes_selector = "asari-republic_outfit" 
+		attachment_selector = "asari-republic_hair_7" 
+		greeting_sound = "asari_greetings_C"
+		
+		character_textures = {
+			"gfx/models/portraits/asari-republic/asari_body_7.dds"
+			"gfx/models/portraits/asari-republic/asari_body_7a.dds"
+			"gfx/models/portraits/asari-republic/asari_body_7b.dds"
+			"gfx/models/portraits/asari-republic/asari_body_7M.dds"
+			"gfx/models/portraits/asari-republic/asari_body_7Ma.dds"
+			"gfx/models/portraits/asari-republic/asari_body_7Mb.dds"
+			"gfx/models/portraits/asari-republic/asari_body_7R.dds"
+		}
+		custom_attachment_label = "HAIR_STYLE"
+	}
+	asari-republic_8 = { 
+		entity = "portrait_human_female_05_entity" 
+		clothes_selector = "asari-republic_outfit"
+		attachment_selector = "asari-republic_hair_8" 
+		greeting_sound = "asari_greetings_B"
+		
+		character_textures = {
+			"gfx/models/portraits/asari-republic/asari_body_8.dds"
+			"gfx/models/portraits/asari-republic/asari_body_8a.dds"
+			"gfx/models/portraits/asari-republic/asari_body_8b.dds"
+			"gfx/models/portraits/asari-republic/asari_body_8M.dds"
+			"gfx/models/portraits/asari-republic/asari_body_8Ma.dds"
+			"gfx/models/portraits/asari-republic/asari_body_8Mb.dds"
+			"gfx/models/portraits/asari-republic/asari_body_8R.dds"
+		}
+		custom_attachment_label = "HAIR_STYLE"
+	}
+}
+
+portrait_groups = {
+	asari-republic = {
+		default = asari-republic_1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					asari-republic_1	#blue
+					asari-republic_2	#purple
+					asari-republic_3	#dark blue
+					asari-republic_4	#dark purple
+					asari-republic_5	#teal
+					asari-republic_6	#pale blue
+					asari-republic_7	#pale mauve
+					asari-republic_8	#green
+				}
+			}
+		
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					asari-republic_1
+					asari-republic_2
+					asari-republic_3
+					asari-republic_4
+					asari-republic_5
+					asari-republic_6
+					asari-republic_7
+					asari-republic_8
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					asari-republic_1
+					asari-republic_2
+					asari-republic_3
+					asari-republic_4
+					asari-republic_5
+					asari-republic_6
+					asari-republic_7
+					asari-republic_8
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				portraits = {
+					asari-republic_1
+					asari-republic_2
+					asari-republic_3
+					asari-republic_4
+					asari-republic_5
+					asari-republic_6
+					asari-republic_7
+					asari-republic_8
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				portraits = {
+					asari-republic_1
+					asari-republic_2
+					asari-republic_3
+					asari-republic_4
+					asari-republic_5
+					asari-republic_6
+					asari-republic_7
+					asari-republic_8
+				}
+			}
+		}		
+	}		
+}

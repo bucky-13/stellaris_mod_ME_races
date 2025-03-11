@@ -1,0 +1,369 @@
+portraits = {
+	krogan_male_01 = {	
+		entity = "portrait_reptilian_14_dontmove_entity"	
+		clothes_selector = "krogan_male_body" 
+		attachment_selector = "no_texture"	
+		greeting_sound = "humanoid_portrait_i_male"	
+		character_textures = {
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_red.dds"
+		}
+	}
+	krogan_male_02 = {	
+		entity = "portrait_reptilian_14_dontmove_entity"	
+		clothes_selector = "krogan_male_body" 
+		attachment_selector = "no_texture"	
+		greeting_sound = "humanoid_portrait_i_male"	
+		character_textures = {
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_black.dds"
+		}
+	}
+	krogan_male_03 = {	
+		entity = "portrait_reptilian_14_dontmove_entity"	
+		clothes_selector = "krogan_male_body" 
+		attachment_selector = "no_texture"	
+		greeting_sound = "humanoid_portrait_i_male"	
+		character_textures = {
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_blue.dds"
+		}
+	}
+	krogan_male_04 = {	
+		entity = "portrait_reptilian_14_dontmove_entity"	
+		clothes_selector = "krogan_male_body" 
+		attachment_selector = "no_texture"	
+		greeting_sound = "humanoid_portrait_i_male"	
+		character_textures = {
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_new_2.dds"
+		}
+	}
+	krogan_male_05 = {	
+		entity = "portrait_reptilian_14_dontmove_entity"	
+		clothes_selector = "krogan_male_body" 
+		attachment_selector = "no_texture"	
+		greeting_sound = "humanoid_portrait_i_male"	
+		character_textures = {
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_new_3.dds"
+		}
+	}
+	krogan_male_06 = {	
+		entity = "portrait_reptilian_14_dontmove_entity"	
+		clothes_selector = "krogan_male_body" 
+		attachment_selector = "no_texture"	
+		greeting_sound = "humanoid_portrait_i_male"	
+		character_textures = {
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_new_4.dds"
+		}
+	}
+	krogan_male_07 = {	
+		entity = "portrait_reptilian_14_dontmove_entity"	
+		clothes_selector = "krogan_male_body" 
+		attachment_selector = "no_texture"	
+		greeting_sound = "humanoid_portrait_i_male"	
+		character_textures = {
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_new_5.dds"
+		}
+	}
+	krogan_male_08 = {	
+		entity = "portrait_reptilian_14_dontmove_entity"	
+		clothes_selector = "krogan_male_body" 
+		attachment_selector = "no_texture"	
+		greeting_sound = "humanoid_portrait_i_male"	
+		character_textures = {
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_new_6.dds"
+		}
+	}
+	krogan_male_09 = {	
+		entity = "portrait_reptilian_14_dontmove_entity"	
+		clothes_selector = "krogan_male_body" 
+		attachment_selector = "no_texture"	
+		greeting_sound = "humanoid_portrait_i_male"	
+		character_textures = {
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_new_7.dds"
+		}
+	}
+	krogan_male_10 = {	
+		entity = "portrait_reptilian_14_dontmove_entity"	
+		clothes_selector = "krogan_male_body" 
+		attachment_selector = "no_texture"	
+		greeting_sound = "humanoid_portrait_i_male"	
+		character_textures = {
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_grunt_black.dds"
+		}
+	}
+	krogan_male_11 = {	
+		entity = "portrait_reptilian_14_dontmove_entity"	
+		clothes_selector = "krogan_male_body" 
+		attachment_selector = "no_texture"	
+		greeting_sound = "humanoid_portrait_i_male"	
+		character_textures = {
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_grunt_blue.dds"
+		}
+	}
+	krogan_male_12 = {	
+		entity = "portrait_reptilian_14_dontmove_entity"	
+		clothes_selector = "krogan_male_body" 
+		attachment_selector = "no_texture"	
+		greeting_sound = "humanoid_portrait_i_male"	
+		character_textures = {
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_grunt_red.dds"
+		}
+	}
+	
+	krogan_female_01 = {	entity = "portrait_reptilian_14_dontmove_entity"	
+	clothes_selector = "krogan_female_body" 
+	attachment_selector = "no_texture"	
+	greeting_sound = "humanoid_portrait_i_female"	
+		character_textures = {
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_grey.dds"
+		}
+	}
+	krogan_female_02 = {	entity = "portrait_reptilian_14_dontmove_entity"	
+	clothes_selector = "krogan_female_body" 
+	attachment_selector = "no_texture"	
+	greeting_sound = "humanoid_portrait_i_female"	
+		character_textures = {
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_black.dds"
+		}
+	}
+	krogan_female_03 = {	entity = "portrait_reptilian_14_dontmove_entity"	
+	clothes_selector = "krogan_female_body" 
+	attachment_selector = "no_texture"	
+	greeting_sound = "humanoid_portrait_i_female"	
+		character_textures = {
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_blue.dds"
+		}
+	}
+	krogan_female_04 = {	entity = "portrait_reptilian_14_dontmove_entity"	
+	clothes_selector = "krogan_female_body" 
+	attachment_selector = "no_texture"	
+	greeting_sound = "humanoid_portrait_i_female"	
+		character_textures = {
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_green.dds"
+		}
+	}
+	krogan_female_05 = {	entity = "portrait_reptilian_14_dontmove_entity"	
+	clothes_selector = "krogan_female_body" 
+	attachment_selector = "no_texture"	
+	greeting_sound = "humanoid_portrait_i_female"	
+		character_textures = {
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_pink.dds"
+		}
+	}
+	krogan_female_06 = {	entity = "portrait_reptilian_14_dontmove_entity"	
+	clothes_selector = "krogan_female_body" 
+	attachment_selector = "no_texture"	
+	greeting_sound = "humanoid_portrait_i_female"	
+		character_textures = {
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_female_red.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	krogan =  {
+
+		default = krogan_male_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { 
+						OR = {
+							gender = male 
+							gender = indeterminable 
+						}
+					}
+				}
+				portraits = {
+					krogan_male_01
+					krogan_male_02
+					krogan_male_03
+					krogan_male_04
+					krogan_male_05
+					krogan_male_06
+					krogan_male_07
+					krogan_male_08
+					krogan_male_09
+					krogan_male_10
+					krogan_male_11
+					krogan_male_12
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { 
+						OR = {
+							gender = female 
+							gender = indeterminable 
+						}
+					}
+				}
+				portraits = {
+					krogan_female_01
+					krogan_female_02
+					krogan_female_03
+					krogan_female_04
+					krogan_female_05
+					krogan_female_06
+				}
+			}
+
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					krogan_female_01
+					krogan_female_02
+					krogan_female_03
+					krogan_female_04
+					krogan_female_05
+					krogan_female_06
+				}
+			}
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					krogan_male_01
+					krogan_male_02
+					krogan_male_03
+					krogan_male_04
+					krogan_male_05
+					krogan_male_06
+					krogan_male_07
+					krogan_male_08
+					krogan_male_09
+					krogan_male_10
+					krogan_male_11
+					krogan_male_12
+				}
+			}	
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					krogan_female_01
+					krogan_female_02
+					krogan_female_03
+					krogan_female_04
+					krogan_female_05
+					krogan_female_06
+				}
+			}
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					krogan_male_01
+					krogan_male_02
+					krogan_male_03
+					krogan_male_04
+					krogan_male_05
+					krogan_male_06
+					krogan_male_07
+					krogan_male_08
+					krogan_male_09
+					krogan_male_10
+					krogan_male_11
+					krogan_male_12
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					krogan_female_01
+					krogan_female_02
+					krogan_female_03
+					krogan_female_04
+					krogan_female_05
+					krogan_female_06
+				}
+			}
+			add = {
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					krogan_male_01
+					krogan_male_02
+					krogan_male_03
+					krogan_male_04
+					krogan_male_05
+					krogan_male_06
+					krogan_male_07
+					krogan_male_08
+					krogan_male_09
+					krogan_male_10
+					krogan_male_11
+					krogan_male_12
+				}
+			}		
+		}
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					krogan_female_01
+					krogan_female_02
+					krogan_female_03
+					krogan_female_04
+					krogan_female_05
+					krogan_female_06
+				}
+			}
+			add = {
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					krogan_male_01
+					krogan_male_02
+					krogan_male_03
+					krogan_male_04
+					krogan_male_05
+					krogan_male_06
+					krogan_male_07
+					krogan_male_08
+					krogan_male_09
+					krogan_male_10
+					krogan_male_11
+					krogan_male_12
+				}
+			}
+		}
+	}
+}

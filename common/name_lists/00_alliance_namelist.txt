@@ -1,0 +1,670 @@
+﻿### MESP_ALLIANCE_NameList
+### Created by LostInACave
+
+#Each line = 20~ Names#
+
+Systems_Alliance = {
+	randomized = no
+	alias = "Human (SA)"
+
+	ship_names = {
+		science = {
+		###Shuttles	
+			Enterprise Voyager Challenger Intrepid Odyssey Prometheus Explorer Icarus Serenity Endurance Columbia Discovery Atlantis Endeavour
+		}
+		
+		constructor = {
+		###Rivers
+			Amazon Danube Volga Colorado Ganges Jordan Mekong "Rio Grande" Rubicon Yangtze Mississippi Yukon Indus Rhine Tigris Merrimack Potomac Susquehanna Orinoco Shenandoah
+			Nile Congo Niger Purus Zambezi Ural Japura Araguaia Vilyuy Dnieper 
+		}
+		
+		colonizer = {
+		###Heavens	
+			Opportunity Unity Destiny "El Dorado" Valhalla Elysium Nirvana Eden Utopia Promise
+		}
+		
+		transport = {
+		###Oceans and Seas	
+			Olympic Atlantic Pacific Indian Arctic Antarctic Caspian Baltic Celtic Adriatic Aegean Ionian Levantine Java Tyrrhenian Azov Aden Oman Laccadive Bering
+			Timor Savu Tasman Sulu Solomon Visayan	
+		}
+		
+		corvette = {
+		###Mixed
+			"Adder" "Black Eagle" "Black Swan" "Bloodhound" "Condor" "Firefly" "Falcon" "Fox" "Hawk" "Hornet" "Leopard" "Locust" "Lynx" "Jaguar" "Kestrel" "Kite" "Mosquito" "Otter" "Osprey" "Panther" "Pelican" 
+			"Penguin" "Python" "Raptor" "Raven" "Razorback" "Salamander" "Scorpion" "Serpent" "Shark" "Sparrow" "Sparrowhawk" "Spider" "Tiger" "Viper" "Vixen" "Vulture" "Wolverine" "Wasp" "Wolf"
+			"Cyclops" "Dragon" "Drake" "Dryad" "Firedrake" "Griffin" "Minotaur" "Ogre" "Pegasus" "Phantom" "Siren" "Vampire" "Witcher"
+			"Arcus" "Arrow" "Dagger" "Dart" "Fencer" "Katana" "Lance" "Javelin" "Pike" "Rapier" "Rocket" "Sabre" "Sceptre" "Scimitar" "Sickle" "Spear"
+			"Aerondight" "Ame-no-Habakiri" "Asi" "Durendal" "Excalibur" "Goujian" "Gramr" "Harpe" "Joyeuse" "Kusanagi" "Tizona" "Zulfiqar"
+			"Apollo" "Artemis" "Asgard" "Calypso" "Castor" "Daedalus" "Goliath" "Hermes" "Lucifer" "Medusa" "Merlin" "Odin" "Poseidon" "Serapis" "Sirius" "Sphinx" "Tantalus" "Taurus" "Ulysses" "Valkyrie" "Vesper" "Vulcan" "Wizard"
+			"Archer" "Aztec" "Brigade" "Caesar" "Cossak" "Cavalry" "Cavalier" "Crusader" "Duke" "Gladiator" "Highlander" "Monarch" "Paldain" "Prince" "Raider" "Ranger" "Saladin" "Scythian" "Spartan" "Sultan" 
+			"Trojan" "Templar" "Viking" "Warrior"
+			"Tempest" "Tornado" "Typhoon" "Meteor" "Thunder" "Thunderbolt" "Lightning" "Quake" "Hurricane" "Comet" "Storm" "Aurora" "Cyclone" "Monsoon" "Sirocco" "Zephyr" "Firebolt" "Whirlwind"
+			"Diamond" "Ruby" "Emerald" "Sapphire" "Pearl"
+			"Agile" "Akula" "Albion" "Allegiance" "Alliance" "Ambush" "Arbiter" "Artful" "Astute" "Audacious" "Audacity" "Avenger" "Boxer" "Brazen" "Champion" "Charity" "Conquest" "Daring" "Dauntless" "Decoy" "Defender" 
+			"Defiance" "Desperate" "Dispatch" "Escort" "Fearless" "Firebrand" "Firm" "Fury" "Glory" "Iron Duke" "Legion" "Leviathan" "Liberty" "Loyal" "Majestic" "Mistral" "Mohawk" "Mystic" "Nomad" "Obedient" 
+			"Observer" "Paragon" "Pathfinder" "Patrol" "Polar" "Protector" "Prudent" "Psychic" "Quest" "Reliance" "Resolute" "Restoration" "Revolution" "Roar" "Rover" "Savage" "Scorcher" "Sentinel" "Sentry" "Skirmisher" 
+			"Sovereign" "Spirit" "Spiteful" "Spitfire" "Spur" "Stalker" "Steadfast" "Striker" "Surprise" "Swift" "Talent" "Tazer" "Tetrarch" "Tireless" "Torch" "Torrent" "Transit" "Trenchant" "Trespasser" "Triad" 
+			"Trident" "Triumph" "Trooper" "Turbulent" "Unbeaten" "Union" "Unity" "Universal" "Unrivaled" "Unruly" "Unseen" "Unshaken" "Untamed" "Untiring" "Unwavering" "Uproar" "Urgent" "Usurper" "Valiant" "Vanguard" 
+			"Vanquisher" "Vector" "Vendetta" "Vengeance" "Venturer" "Versatile" "Victor" "Vigilant" "Violet" "Wakeful" "Watcher"
+		}
+		
+		destroyer = {
+		###Battles
+			"Hastings" "Iwo Jima" "Leipzig" "Normandy" "Trafalgar" "Salamis" "Saratoga" "Midway" "Constantinople" "Actium" "Jerusalem" "Vienna" "Stalingrad" "Teutoburg" "Marne" "Marathon" "Granada" "Tsushima" "Cannae" "Alesia"
+			"Tenochtitlan" "Tours" "Plains of Abraham" "Gettysburg" "Gaugamela" "Yarmouk" "Lepanto" "Adrianople" "Poltava" "Tannenberg" "Megiddo" "Six-Day" "Pearl Harbor" "Dien Bien Phu" "Tet" "Colenso" "Amphipolis" "Kleidon" "Okinawa" "Chichi Jima" "Coral Sea" 
+			"Hohenfriedberg" "Magdeburg" "Waterloo" "Kadesh" "Troy" "Opis" "Assur" "Susa" "Pelusium" "Bai ju" "Sardis" "Ephesus" "Sepeia" "Eretria" "Thermopylae" "Himeria" "Byzantium" "Jinyang" "Potidaea" "Pylos"
+			"Agincourt" "Ain Jalut" "Borodino" "Lutzen" "Austerlitz" "Yom Kippur" "Peipus" "San Jacinto" "Metaurus" "Incheon" "Pharsalus" "Ipsus" "Hattin" "Jutland" "Aegospotami" "Valmy" "Boyne" "Nineveh" 
+			"Navas de Tolosa" "Poyang" "Leuthen" "Medway" "Chrysopolis" "Naseby" "Mohacs" "Nancy" "Bach Dang" "Sekingahara" "Alkmaar" "Koeniggraetz" "Mylae" "Panipat" "Patay" "Leuctra" "Sacheon" "Malplaquet" "Solferino" "Beneventum" 
+			"Fehrbellin" "Castillon" "Julu" "Chaeronea" "Taraori" "Thymbra" "Carchemish" "Muye" "Magnesia" "Agnadello" "Tricamarum" "Boyaca" "Lechfeld" "Sempach" "Chalons" "Navarino" "Isandlwana" "Sentinum" "Nihawand" "Guadalcanal"
+			"Melos" "Mytilene" "Arginusae" "Munychia" "Piraeus" "Allia" "Tegyra" "Market Garden" "Maling" "Guiling" "Issus" "Megalopolis" "Guagamela" "Persian Gate" "Aornos" "Gaza" "Aquilonia" "Yique" "Populonia" "Heraclea"
+			"Kursk" "Alamo" "Dunkirk" "Verdun" "Pydna" "Kohima" "Geoktepe" "Hansan-do" "Tarain" "Qadishyah" "Badr" "Caishi" "Mingtiao" "Banquan" "Zhuolu" "Kunyang" "Yangxia" "Fei River" "Yamen" "Gaixia"
+			"Shanhai Pass" "Red Cliffs" "Blenheim" "Pultowa" "Changping" "Salsu" "Sekigahara" "Odawara" "Okehazama" "Kalka River" "Yehuling" "Bagdoura" "Pasargadae" "El Alamein"
+		}
+		
+		cruiser = {
+		###Cities	
+			"Budapest" "Cairo" "Cape Town" "Emden" "Geneva" "Hyderabad" "Jakarta" "London" "Madrid" "Manila" "Nairobi" "New Delhi" "Perugia" "Seoul" "Shanghai" "Shenyang" "Tokyo" "Warsaw" "Paris" "Bangkok" 
+			"Singapore" "Berlin" "Seoul" "Karachi" "Beijing" "Guangzhou" "Sao Paulo" "Mexico City" "Mumbai" "Osaka" "Moscow" "Dhaka" "Los Angeles" "Kolkata" "Buenos Aires" "Tehran" "Istanbul" "Lagos" "Shenzen" "Rio de Janeiro" 
+			"Kinshasa" "Tianjin" "Lima" "Chengdu" "Nagoya" "Lahore" "Chennai" "Chicago" "Saigon" "Bengaluru" "Dongguan" "Johannesburg" "Wuhan" "Taipei" "Hangzhou" "Hong Kong" "Chonquing" "Ahmedabad" "Kuala Lumpur" "Quanzhou" 
+			"Essen" "Baghdad" "Toronto" "Santiago" "Dallas" "Nanjing" "Shenyang" "Xi'an" "San Francisco" "Luanda" "Quingdao" "Houston" "Miami" "Bandung" "Riyadh" "Pune" "Philadelphia" "Surat" "Edinburgh" "Cardiff"
+			"Rhodes" "Tunis" "Cologne" "Fez" "Birmingham" "Yerevan" "T'bilisi" "Tripoli" "Abu Dhabi" "Belgrade" "Brisbane" "Montevideo" "Prague" "Cordoba" "Florence" "Munich" "Kyoto" "San Antonio" "Kwangju" "Fukuoka"
+			"Auckland" "Wellington" "Kawasaki" "Vijayawada" "Kampala" "Daejeon" "Kobe" "Oran" "Semarang" "Novosibirsk" "Caloocan" "Maracaibo" "Tijuana" "Kathmandu" "Tabriz" "Hamburg" "Bucharest" "Tainan" "Caracas" "Minsk"
+			"Karaj" "Jinan" "Accra" "Havana" "Guatemala" "Ottawa" "Shantou" "Yangon" "Abidjan" "Giza" "Yokohama" "Pyongyang" "Kyiv" "Basra" "Quito" "Douala" "Phnom Penh" "Ho Chi Minh City" "Bogota" 
+			"Milan" "Suzhou" "Saint Petersburg" "Khartoum" "Atlanta" "Zhengzhou" "Washington D.C." "Surabaya" "Harbin" "Barcelona" "Alexandria" "Kabul" "Guadalajara" "Ankara" "Belo Horizonte" "Boston" "Xiamen" "Kuwait" "Dar es Salaam" "Phoenix" 
+			"Dalian" "Accra" "Monterrey" "New York" "Sydney" "Fuzhou" "Medan" "Dubai" "Melbourne" "Rome" "Busan" "Jinan" "Ningbo" "Hanoi" "Naples" "Taiyuan" "Jeddah" "Detroit" "Hefei" "Changsha" 
+			"Kunming" "Wuxi" "Medellin" "Faisalabad" "Aleppo" "Kano" "Montreal" "Dakar" "Athens" "Changzhou" "Durban" "Porto Alegre" "Jaipur" "Fortaleza" "Addis Abeba" "Changchun" "Shijazhuang" "Recife" "Mashhad" "Seattle" 
+			"Casablanca" "Salvador" "Lucknow" "Chittagong" "Wenzhou" "Ibadan" "Izmir" "Curitiba" "San Diego" "Zhangjiagang" "Kanpur" "Zhongshan" "Sana'a" "Tel Aviv" "Frankfurt" "Hanberg" "Salzberg" "Islamabad" "Nagasaki" "Hiroshima" 
+			"La Paz" "Odessa" "Kharkiv" 
+		}
+		
+		battleship = {
+		###Mountains	
+			"Elbrus" "Everest" "Fuji" "Austen" "Qogir" "Kachenjunga" "Lhotse" "Makalu" "Cho Oyu" "Dhaulagiri" "Manaslu" "Nanga Parbat" "Annapurna" "Gasherbrum" "Broad Peak" "Sishapangma" "Gyachung Kang" "Himalchuli" "Masherbrum" "Nanda Devi" 
+			"Rakaposhi" "Kamet" "Ojos del Salado" "Vinson" "Mount Whitney" "Popocatepetl" "Ararat" "Ruwenzori" "Montblanc" "Matterhorn" "Rainier" "Dent Blanche" "Mauna Kea" "Grosslockner" "Mount Cook" "Zugspitze" "Kyffhaeuser" "Brocken" "Ben Nevis" "Hohenzollern" 
+			"Aigulle du Midi" "Mawensi" "Mount Cameroon" "Mount Vinson" "Dome du Gouter" "Tajamulco" "Mauna Loa" "Eiger" "Piz Bernia" "Erebus" "Ruwenzori" "Mustag Ata" "Finsteraarhorn" "Cristobal Colon" "Citlaltepetl" "Puncak Jaya" "Damavand" "Klyuchevskaya" "Jengish Chokusu" "Gunnbjorn Fjeld" 
+			"Etna" "Denali" "Illimani"
+		###Scientists
+			"al-Haytham" "Alexander Fleming" Archimedes "Ashoke Sen" Attenborough Bell Bohr "Berners-Lee" Charpentier Darwin "da Vinci" Doudna Edison Einstein Faraday Fermi Feynman Franklin Freud Galileo 
+			Gates Goodall Hawking Herschel Hubble Kelvin Kepler Korolev Lovelace "Maria Curie" Mendel Musk Pavlov "Pierre Curie" "Robert Koch" Sagan Schrödinger Tesla "Tu Youyou" Turing 
+			Newton "Venkata Raman" Wales "Washington Carver" Watson Wright Yamanaka "Zhang Heng"
+		###Philosophers/Authors
+			Aristotle Buddha Chomsky Cicero Confucius Copernicus Hobbes Kant Keynes Lenin Locke Marx Orwell Plato Plutarch Shakespeare Socrates Solon Thales Thucydides 
+			Tolkien Tolstoy
+		###Political
+			"Jane Addams" "Al Gore" "Benjamin Davis" "Desmond Tutu" Francis Gandhi Jefferson "John Paul II" "Leymah Gbowee" Lincoln "Malala Yousafzai" Mandela "Manuel Santos" "Martin Luther King Jr" Menchú Nightingale Pankhurst Parks "Tenzin Gyatso" 
+		###Generals/Military Rulers
+			Alexander Ashoka Augustus Aurelian Boudica Chandragupta Charlemagne Churchill Cleopatra Cyrus Darius Eisenhower "Genghis Khan" "Hannibal Barca" "Julius Caesar" Justinian "Kittur Chennamma" Leonidas Mithridates "Oda Nobunaga" Pericles 
+			"Qin Shi Huang"	Saladin "Sun Tzu" Taizong Themistocles "Tokugawa Ieyasu" "Toyotomi Hideyoshi" Vegetius "von Bismarck" Washington Xerxes "Yi-Sun-sin" Zelenskyy Zenobia
+		###Explorers
+			"Marco Polo" Pocahontas Sacajawea 
+		###Artists
+			Beethoven Michelangelo Mozart Picasso "Van Gogh" Wagner
+		###Royalty (Modern)
+			"Elizabeth II" Victoria
+		}
+		
+		titan = {
+		###Mountains	
+			"Aconcagua" "Kilimanjaro" "Logan" "Orizaba" "Shasta" "Tai Shan" "Olympus" "Vesuvius" 
+		}
+
+		colossus = {
+		###Mixed	
+			"Guardian" "Crucible" "Harbinger" "Sol Invictus" "Liberty" "Freedom's Call"
+		}
+		
+		ion_cannon = {
+		###Greek and NATO alphabet	
+			Alpha Beta Bravo Zulu Tango Sierra Whiskey November Delta Echo Golf Hotel Foxtrot Kilo Uniform Victor India Xray Gamma Epsilon 
+			Zeta Omega Iota Sigma Omicron Tau Upsilon Theta Kappa Mu Iambda Eta Rho Charlie
+		}
+			
+		military_station_small = {
+		###Mixed	
+			Lance Typhoon Ambush Vigilant Trident Watcher Astute Archer Siren Raptor
+		}
+			
+		mining_station = {}
+		research_station = {}
+		#terraform_station = {}
+		observation_station = {}
+	}
+	
+	fleet_names = {
+		sequential_name = MESP_ALLIANCE_FLEET
+	}
+
+	army_names = {
+		machine_defense = {
+			sequential_name = MESP_ALLIANCE_xxPLANETARYGUARD_ORD
+		}
+
+		machine_assault_1 = {
+			sequential_name = MESP_ALLIANCE_xxEXPEDITIONARYFORCE_ORD
+		}
+
+		machine_assault_2 = {
+			sequential_name = MESP_ALLIANCE_xxEXPEDITIONARYFORCE_ORD
+		}
+
+		machine_assault_3 = {
+			sequential_name = MESP_ALLIANCE_xxEXPEDITIONARYFORCE_ORD
+		}
+
+		defense_army = {
+			sequential_name = MESP_ALLIANCE_xxPLANETARYGUARD_ORD
+		}
+
+		assault_army = {
+			sequential_name = MESP_ALLIANCE_xxEXPEDITIONARYFORCE_ORD
+		}
+
+		slave_army = {
+			sequential_name = MESP_ALLIANCE_xxINDENTUREDRIFLES_ORD
+		}
+
+		clone_army = {
+			sequential_name = MESP_ALLIANCE_xxCLONEARMY_ORD
+		}
+
+		undead_army = {
+			sequential_name = MESP_ALLIANCE_xxDREADCOMMANDO_ORD
+		}
+
+		robotic_army = {
+			sequential_name = MESP_ALLIANCE_xxHUNTERKILLERGROUP_ORD
+		}
+
+		robotic_defense_army = {
+			sequential_name = MESP_ALLIANCE_xxGROUNDDEFENSEMATRIX_ORD
+		}
+
+		psionic_army = {
+			sequential_name = MESP_ALLIANCE_xxPSICOMMANDO_ORD
+		}
+
+		xenomorph_army = {
+			sequential_name = MESP_ALLIANCE_xxBIOWARFAREDIVISION_ORD
+		}
+
+		gene_warrior_army = {
+			sequential_name = MESP_ALLIANCE_xxBIOENGINEEREDSQUADRON_ORD
+		}
+
+		occupation_army = {
+			sequential_name = MESP_ALLIANCE_xxGARRISONFORCE_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = MESP_ALLIANCE_xxMECHANIZEDGARRISON_ORD
+		}
+
+		primitive_army = {
+			sequential_name = MESP_ALLIANCE_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = MESP_ALLIANCE_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = MESP_ALLIANCE_POSTATOMICARMYxx_SEQ
+		}
+	}
+
+	planet_names = {
+		generic = {
+			names = {	
+				Cyrene "Eden Prime" Drasta "Ferris Fields" "New Canton" Feros "Freedom's Progress" Sirona Tiptree Yandoa Elysium Bekenstein Demeter "Terra Nova" Tiptree Horizon Mindoir
+				}
+		}
+		
+		pc_desert = {
+			names = {
+				Akuze Asteria Ontarom
+			}
+		}
+		
+		pc_arid = {
+			names = {
+				Cuervo "Fehl Prime" Shanxi Trebin "Intai'sei"
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+				Anhur Benning Sathur Watson 
+			}
+		}
+		
+		pc_continental = {
+			names = {
+				Amaterasu Chasca
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+				Arvuna Proteus Trident
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+				Joab
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+				Sanctum
+			}
+		}
+		
+		pc_savannah = {
+			names = {
+			
+			}
+		}
+
+		pc_alpine = {
+			names = { 
+				
+			}
+		}
+		
+		pc_gaia = {
+			names = {
+			
+			}
+		}
+		
+		pc_nuked = {
+			names = {
+				
+			}
+		}
+		
+		pc_ai = {
+			names = {
+				
+			}
+		}
+		
+		pc_machine = {
+			names = {
+				
+			}
+		}
+	}
+
+	### CHARACTERS
+	character_names = {
+		names1 = {
+			weight = 40
+			first_names_male = {
+				MESP_ALLIANCE_CHR_John MESP_ALLIANCE_CHR_Brian MESP_ALLIANCE_CHR_Peter MESP_ALLIANCE_CHR_Adam MESP_ALLIANCE_CHR_James MESP_ALLIANCE_CHR_William MESP_ALLIANCE_CHR_Jacob MESP_ALLIANCE_CHR_Christopher MESP_ALLIANCE_CHR_Joshua MESP_ALLIANCE_CHR_Michael MESP_ALLIANCE_CHR_Ethan MESP_ALLIANCE_CHR_Joseph MESP_ALLIANCE_CHR_Matthew MESP_ALLIANCE_CHR_Anthony MESP_ALLIANCE_CHR_Daniel MESP_ALLIANCE_CHR_Ryan MESP_ALLIANCE_CHR_Samuel MESP_ALLIANCE_CHR_Kevin
+				MESP_ALLIANCE_CHR_David MESP_ALLIANCE_CHR_Logan MESP_ALLIANCE_CHR_Carter MESP_ALLIANCE_CHR_Benjamin MESP_ALLIANCE_CHR_Andrew MESP_ALLIANCE_CHR_Henry MESP_ALLIANCE_CHR_Nicholas MESP_ALLIANCE_CHR_Gavin MESP_ALLIANCE_CHR_Owen MESP_ALLIANCE_CHR_Jack MESP_ALLIANCE_CHR_Wyatt MESP_ALLIANCE_CHR_Wayne MESP_ALLIANCE_CHR_Walter MESP_ALLIANCE_CHR_Charles MESP_ALLIANCE_CHR_Louis MESP_ALLIANCE_CHR_Merritt MESP_ALLIANCE_CHR_Earl MESP_ALLIANCE_CHR_Alfred MESP_ALLIANCE_CHR_Vernon
+				MESP_ALLIANCE_CHR_Edward MESP_ALLIANCE_CHR_Donald MESP_ALLIANCE_CHR_George MESP_ALLIANCE_CHR_Paul MESP_ALLIANCE_CHR_Greg MESP_ALLIANCE_CHR_Thomas MESP_ALLIANCE_CHR_Robert MESP_ALLIANCE_CHR_Gene MESP_ALLIANCE_CHR_Glen MESP_ALLIANCE_CHR_Hugh MESP_ALLIANCE_CHR_Ronald MESP_ALLIANCE_CHR_Francis MESP_ALLIANCE_CHR_Stephen MESP_ALLIANCE_CHR_Jon MESP_ALLIANCE_CHR_Richard MESP_ALLIANCE_CHR_Mark MESP_ALLIANCE_CHR_Marcus MESP_ALLIANCE_CHR_Scott MESP_ALLIANCE_CHR_Duncan
+				MESP_ALLIANCE_CHR_Douglas MESP_ALLIANCE_CHR_Keith MESP_ALLIANCE_CHR_Howard MESP_ALLIANCE_CHR_Russell MESP_ALLIANCE_CHR_Clayton MESP_ALLIANCE_CHR_Lee MESP_ALLIANCE_CHR_Steve MESP_ALLIANCE_CHR_Tom MESP_ALLIANCE_CHR_Clay MESP_ALLIANCE_CHR_Oliver MESP_ALLIANCE_CHR_Kenneth MESP_ALLIANCE_CHR_Ralph MESP_ALLIANCE_CHR_Andy MESP_ALLIANCE_CHR_Tony MESP_ALLIANCE_CHR_Tyrone MESP_ALLIANCE_CHR_Lawrence MESP_ALLIANCE_CHR_Patrick MESP_ALLIANCE_CHR_Harry MESP_ALLIANCE_CHR_Alan
+				MESP_ALLIANCE_CHR_Eugene MESP_ALLIANCE_CHR_Frank MESP_ALLIANCE_CHR_Craig MESP_ALLIANCE_CHR_Jason MESP_ALLIANCE_CHR_Martin MESP_ALLIANCE_CHR_Jonathan MESP_ALLIANCE_CHR_Harrison MESP_ALLIANCE_CHR_Connor MESP_ALLIANCE_CHR_Gaylord MESP_ALLIANCE_CHR_Sean MESP_ALLIANCE_CHR_Cooper MESP_ALLIANCE_CHR_Stanley MESP_ALLIANCE_CHR_Calhoun MESP_ALLIANCE_CHR_Neil MESP_ALLIANCE_CHR_Jeffrey MESP_ALLIANCE_CHR_Harold MESP_ALLIANCE_CHR_Raymond MESP_ALLIANCE_CHR_Fred
+				MESP_ALLIANCE_CHR_Marshall MESP_ALLIANCE_CHR_Silas MESP_ALLIANCE_CHR_Roy MESP_ALLIANCE_CHR_Jesse MESP_ALLIANCE_CHR_Ken MESP_ALLIANCE_CHR_Bruce MESP_ALLIANCE_CHR_Norris MESP_ALLIANCE_CHR_Horatio MESP_ALLIANCE_CHR_Clarence MESP_ALLIANCE_CHR_Lloyd MESP_ALLIANCE_CHR_Duane MESP_ALLIANCE_CHR_Mortimer MESP_ALLIANCE_CHR_Ben MESP_ALLIANCE_CHR_Ernest MESP_ALLIANCE_CHR_Warren MESP_ALLIANCE_CHR_Graham MESP_ALLIANCE_CHR_Marvin MESP_ALLIANCE_CHR_Orson MESP_ALLIANCE_CHR_Dennis
+				MESP_ALLIANCE_CHR_Jackson MESP_ALLIANCE_CHR_Dwight MESP_ALLIANCE_CHR_Harlan MESP_ALLIANCE_CHR_Arthur MESP_ALLIANCE_CHR_Percival MESP_ALLIANCE_CHR_Montgomery MESP_ALLIANCE_CHR_Clyde MESP_ALLIANCE_CHR_Rodney MESP_ALLIANCE_CHR_Gerald MESP_ALLIANCE_CHR_Franklin MESP_ALLIANCE_CHR_Jake MESP_ALLIANCE_CHR_Horace MESP_ALLIANCE_CHR_Irving MESP_ALLIANCE_CHR_Seth MESP_ALLIANCE_CHR_Randolph MESP_ALLIANCE_CHR_Floyd MESP_ALLIANCE_CHR_Carl
+				MESP_ALLIANCE_CHR_Brent MESP_ALLIANCE_CHR_Cliff MESP_ALLIANCE_CHR_Malcolm MESP_ALLIANCE_CHR_Timothy MESP_ALLIANCE_CHR_Wallace MESP_ALLIANCE_CHR_Pierce MESP_ALLIANCE_CHR_Edmund MESP_ALLIANCE_CHR_Gary MESP_ALLIANCE_CHR_Tony MESP_ALLIANCE_CHR_Nathan MESP_ALLIANCE_CHR_Eric MESP_ALLIANCE_CHR_Albert MESP_ALLIANCE_CHR_Robin MESP_ALLIANCE_CHR_Geoffrey MESP_ALLIANCE_CHR_Larry MESP_ALLIANCE_CHR_Ian MESP_ALLIANCE_CHR_Leonard MESP_ALLIANCE_CHR_Gordon MESP_ALLIANCE_CHR_Derek
+				MESP_ALLIANCE_CHR_Maxwell MESP_ALLIANCE_CHR_Alec MESP_ALLIANCE_CHR_Bernard MESP_ALLIANCE_CHR_Stuart MESP_ALLIANCE_CHR_Rupert MESP_ALLIANCE_CHR_Dean MESP_ALLIANCE_CHR_Philip MESP_ALLIANCE_CHR_Ross MESP_ALLIANCE_CHR_Colin MESP_ALLIANCE_CHR_Darren MESP_ALLIANCE_CHR_Melvin MESP_ALLIANCE_CHR_Justin MESP_ALLIANCE_CHR_Zack MESP_ALLIANCE_CHR_Elliot MESP_ALLIANCE_CHR_Simon MESP_ALLIANCE_CHR_Morgan MESP_ALLIANCE_CHR_Clark MESP_ALLIANCE_CHR_Xavier MESP_ALLIANCE_CHR_Jared
+				MESP_ALLIANCE_CHR_Edgar MESP_ALLIANCE_CHR_Crispin MESP_ALLIANCE_CHR_Nelson MESP_ALLIANCE_CHR_Emmett MESP_ALLIANCE_CHR_Trevor MESP_ALLIANCE_CHR_Travis MESP_ALLIANCE_CHR_Lance MESP_ALLIANCE_CHR_Adrian MESP_ALLIANCE_CHR_Desmond MESP_ALLIANCE_CHR_Brendan MESP_ALLIANCE_CHR_Brett MESP_ALLIANCE_CHR_Ambrose MESP_ALLIANCE_CHR_Basil MESP_ALLIANCE_CHR_Kieran MESP_ALLIANCE_CHR_Conan MESP_ALLIANCE_CHR_Dermot MESP_ALLIANCE_CHR_Dudley MESP_ALLIANCE_CHR_Felix
+				MESP_ALLIANCE_CHR_Finn MESP_ALLIANCE_CHR_Oscar MESP_ALLIANCE_CHR_Sidney MESP_ALLIANCE_CHR_Aaron MESP_ALLIANCE_CHR_Vincent MESP_ALLIANCE_CHR_Angus MESP_ALLIANCE_CHR_Grant MESP_ALLIANCE_CHR_Luke MESP_ALLIANCE_CHR_Miles MESP_ALLIANCE_CHR_Morton MESP_ALLIANCE_CHR_Randall MESP_ALLIANCE_CHR_Reginald MESP_ALLIANCE_CHR_Herbert MESP_ALLIANCE_CHR_Wesley MESP_ALLIANCE_CHR_Nigel MESP_ALLIANCE_CHR_Alexander MESP_ALLIANCE_CHR_Dominic MESP_ALLIANCE_CHR_Bradley
+				MESP_ALLIANCE_CHR_Liam MESP_ALLIANCE_CHR_Dirk MESP_ALLIANCE_CHR_SirBenjamin MESP_ALLIANCE_CHR_SirJames MESP_ALLIANCE_CHR_SirWalter MESP_ALLIANCE_CHR_SirNigel MESP_ALLIANCE_CHR_SirMontgomery MESP_ALLIANCE_CHR_SirDouglas MESP_ALLIANCE_CHR_SirAndrew MESP_ALLIANCE_CHR_Vance MESP_ALLIANCE_CHR_Kyle MESP_ALLIANCE_CHR_Chester
+			}
+			first_names_female = {
+				MESP_ALLIANCE_CHR_Olivia MESP_ALLIANCE_CHR_Emily MESP_ALLIANCE_CHR_Sophie MESP_ALLIANCE_CHR_Jessica MESP_ALLIANCE_CHR_Alice MESP_ALLIANCE_CHR_Scarlett MESP_ALLIANCE_CHR_Emma MESP_ALLIANCE_CHR_Daisy MESP_ALLIANCE_CHR_Eve MESP_ALLIANCE_CHR_Phoebe MESP_ALLIANCE_CHR_Sienna MESP_ALLIANCE_CHR_Anna MESP_ALLIANCE_CHR_Mary MESP_ALLIANCE_CHR_Megan MESP_ALLIANCE_CHR_Elizabeth MESP_ALLIANCE_CHR_Amy MESP_ALLIANCE_CHR_Darcy MESP_ALLIANCE_CHR_Matilda MESP_ALLIANCE_CHR_Erin
+				MESP_ALLIANCE_CHR_Lucy MESP_ALLIANCE_CHR_Grace MESP_ALLIANCE_CHR_Evelyn MESP_ALLIANCE_CHR_Amber MESP_ALLIANCE_CHR_Harriet MESP_ALLIANCE_CHR_Caitlyn MESP_ALLIANCE_CHR_Jasmine MESP_ALLIANCE_CHR_Madison MESP_ALLIANCE_CHR_Kate MESP_ALLIANCE_CHR_Eleanor MESP_ALLIANCE_CHR_Alexandra MESP_ALLIANCE_CHR_Sarah MESP_ALLIANCE_CHR_Martha MESP_ALLIANCE_CHR_Bethany MESP_ALLIANCE_CHR_Rebecca MESP_ALLIANCE_CHR_Victoria
+				MESP_ALLIANCE_CHR_Gabriella MESP_ALLIANCE_CHR_Naomi MESP_ALLIANCE_CHR_Lauren MESP_ALLIANCE_CHR_Clara MESP_ALLIANCE_CHR_Laura MESP_ALLIANCE_CHR_Kayla MESP_ALLIANCE_CHR_Nicole MESP_ALLIANCE_CHR_Skye MESP_ALLIANCE_CHR_Eliza MESP_ALLIANCE_CHR_Patricia MESP_ALLIANCE_CHR_Linda MESP_ALLIANCE_CHR_Barbara MESP_ALLIANCE_CHR_Jennifer MESP_ALLIANCE_CHR_Maria MESP_ALLIANCE_CHR_Susan MESP_ALLIANCE_CHR_Margaret MESP_ALLIANCE_CHR_Dorothy
+				MESP_ALLIANCE_CHR_Lisa MESP_ALLIANCE_CHR_Nancy MESP_ALLIANCE_CHR_Helen MESP_ALLIANCE_CHR_Sandra MESP_ALLIANCE_CHR_Donna MESP_ALLIANCE_CHR_Carol MESP_ALLIANCE_CHR_Ruth MESP_ALLIANCE_CHR_Sharon MESP_ALLIANCE_CHR_Michelle MESP_ALLIANCE_CHR_Kimberly MESP_ALLIANCE_CHR_Deborah MESP_ALLIANCE_CHR_Amelia MESP_ALLIANCE_CHR_Charlotte MESP_ALLIANCE_CHR_Isabella MESP_ALLIANCE_CHR_Ruby MESP_ALLIANCE_CHR_Addison MESP_ALLIANCE_CHR_Alyssa
+				MESP_ALLIANCE_CHR_Abigail MESP_ALLIANCE_CHR_Julia MESP_ALLIANCE_CHR_Samantha MESP_ALLIANCE_CHR_Brooklyn MESP_ALLIANCE_CHR_Ashley MESP_ALLIANCE_CHR_Natalie MESP_ALLIANCE_CHR_Brianna MESP_ALLIANCE_CHR_Chloe MESP_ALLIANCE_CHR_Hailey MESP_ALLIANCE_CHR_Lillian MESP_ALLIANCE_CHR_Judith MESP_ALLIANCE_CHR_Alison MESP_ALLIANCE_CHR_Amanda MESP_ALLIANCE_CHR_Angela MESP_ALLIANCE_CHR_Audrey MESP_ALLIANCE_CHR_Beatrice
+				MESP_ALLIANCE_CHR_Brenda MESP_ALLIANCE_CHR_Bridget MESP_ALLIANCE_CHR_Caroline MESP_ALLIANCE_CHR_Cassandra MESP_ALLIANCE_CHR_Charity MESP_ALLIANCE_CHR_Cecilia MESP_ALLIANCE_CHR_Anne MESP_ALLIANCE_CHR_Clarissa MESP_ALLIANCE_CHR_Christabel MESP_ALLIANCE_CHR_Cheryl MESP_ALLIANCE_CHR_Cynthia MESP_ALLIANCE_CHR_Cadence MESP_ALLIANCE_CHR_Cordelia MESP_ALLIANCE_CHR_Daphne MESP_ALLIANCE_CHR_Deanna
+				MESP_ALLIANCE_CHR_Denise MESP_ALLIANCE_CHR_Dolores MESP_ALLIANCE_CHR_Doreen MESP_ALLIANCE_CHR_Drusilia MESP_ALLIANCE_CHR_Edith MESP_ALLIANCE_CHR_Edna MESP_ALLIANCE_CHR_Eleonor MESP_ALLIANCE_CHR_Eileen MESP_ALLIANCE_CHR_Edwina MESP_ALLIANCE_CHR_Ellen MESP_ALLIANCE_CHR_Estelle MESP_ALLIANCE_CHR_Ethel MESP_ALLIANCE_CHR_Felicity MESP_ALLIANCE_CHR_Fiona MESP_ALLIANCE_CHR_Genevieve MESP_ALLIANCE_CHR_Gertie MESP_ALLIANCE_CHR_Gwen
+				MESP_ALLIANCE_CHR_Gwendolyn MESP_ALLIANCE_CHR_Henrietta MESP_ALLIANCE_CHR_Imogen MESP_ALLIANCE_CHR_Iris MESP_ALLIANCE_CHR_Imelda MESP_ALLIANCE_CHR_Jacqueline MESP_ALLIANCE_CHR_Jane MESP_ALLIANCE_CHR_Jenna MESP_ALLIANCE_CHR_Joanna MESP_ALLIANCE_CHR_Josephine MESP_ALLIANCE_CHR_Julianne MESP_ALLIANCE_CHR_Kathleen MESP_ALLIANCE_CHR_Kierra MESP_ALLIANCE_CHR_Kaylee MESP_ALLIANCE_CHR_Leah MESP_ALLIANCE_CHR_Lois
+				MESP_ALLIANCE_CHR_Loretta MESP_ALLIANCE_CHR_Lorna MESP_ALLIANCE_CHR_Louisa MESP_ALLIANCE_CHR_Lynnette MESP_ALLIANCE_CHR_Lucinda MESP_ALLIANCE_CHR_Mabel MESP_ALLIANCE_CHR_Marcia MESP_ALLIANCE_CHR_Marilyn MESP_ALLIANCE_CHR_Marissa MESP_ALLIANCE_CHR_Marjorie MESP_ALLIANCE_CHR_Maud MESP_ALLIANCE_CHR_Melanie MESP_ALLIANCE_CHR_Myrna MESP_ALLIANCE_CHR_Mavis MESP_ALLIANCE_CHR_Nadine MESP_ALLIANCE_CHR_Paula MESP_ALLIANCE_CHR_Penelope
+				MESP_ALLIANCE_CHR_Philippa MESP_ALLIANCE_CHR_Priscilla MESP_ALLIANCE_CHR_Rhonda MESP_ALLIANCE_CHR_Rita MESP_ALLIANCE_CHR_Roberta MESP_ALLIANCE_CHR_Rosamund MESP_ALLIANCE_CHR_Rosemary MESP_ALLIANCE_CHR_Roxanne MESP_ALLIANCE_CHR_Sabrina MESP_ALLIANCE_CHR_Selma MESP_ALLIANCE_CHR_Selina MESP_ALLIANCE_CHR_Sibyl MESP_ALLIANCE_CHR_Suzanne MESP_ALLIANCE_CHR_Tara MESP_ALLIANCE_CHR_Tabitha MESP_ALLIANCE_CHR_Thelma
+				MESP_ALLIANCE_CHR_Teresa MESP_ALLIANCE_CHR_Tiffany MESP_ALLIANCE_CHR_Vanessa MESP_ALLIANCE_CHR_Vivian MESP_ALLIANCE_CHR_Melissa MESP_ALLIANCE_CHR_Wanda MESP_ALLIANCE_CHR_Wendy MESP_ALLIANCE_CHR_Winifred MESP_ALLIANCE_CHR_Victoria MESP_ALLIANCE_CHR_Yvette MESP_ALLIANCE_CHR_Vera MESP_ALLIANCE_CHR_Zelda MESP_ALLIANCE_CHR_Joan MESP_ALLIANCE_CHR_Pamela MESP_ALLIANCE_CHR_Sherry MESP_ALLIANCE_CHR_Adrienne MESP_ALLIANCE_CHR_Monica
+				MESP_ALLIANCE_CHR_Irene MESP_ALLIANCE_CHR_Heather MESP_ALLIANCE_CHR_Lindsay MESP_ALLIANCE_CHR_Gillian MESP_ALLIANCE_CHR_Kristen MESP_ALLIANCE_CHR_Odette MESP_ALLIANCE_CHR_Felicia MESP_ALLIANCE_CHR_Christina MESP_ALLIANCE_CHR_Candace MESP_ALLIANCE_CHR_Arlene MESP_ALLIANCE_CHR_Tisha MESP_ALLIANCE_CHR_Majel MESP_ALLIANCE_CHR_Fran MESP_ALLIANCE_CHR_Doris MESP_ALLIANCE_CHR_Julie MESP_ALLIANCE_CHR_Courtney MESP_ALLIANCE_CHR_Shelly
+				MESP_ALLIANCE_CHR_Frances MESP_ALLIANCE_CHR_Mandy MESP_ALLIANCE_CHR_Mindy MESP_ALLIANCE_CHR_Rachel MESP_ALLIANCE_CHR_Miranda MESP_ALLIANCE_CHR_Virginia MESP_ALLIANCE_CHR_Gina MESP_ALLIANCE_CHR_Karla MESP_ALLIANCE_CHR_Tricia MESP_ALLIANCE_CHR_Diane MESP_ALLIANCE_CHR_Phyllis MESP_ALLIANCE_CHR_Sally MESP_ALLIANCE_CHR_Elaine MESP_ALLIANCE_CHR_Kara MESP_ALLIANCE_CHR_Shannon MESP_ALLIANCE_CHR_Susie MESP_ALLIANCE_CHR_Elle MESP_ALLIANCE_CHR_Gail MESP_ALLIANCE_CHR_Ann
+				MESP_ALLIANCE_CHR_Kathryn MESP_ALLIANCE_CHR_Tina MESP_ALLIANCE_CHR_Carrie MESP_ALLIANCE_CHR_Miriam MESP_ALLIANCE_CHR_Vivica MESP_ALLIANCE_CHR_Tamara MESP_ALLIANCE_CHR_Judy MESP_ALLIANCE_CHR_Willow MESP_ALLIANCE_CHR_Hilary MESP_ALLIANCE_CHR_Claire MESP_ALLIANCE_CHR_Danielle MESP_ALLIANCE_CHR_Teri MESP_ALLIANCE_CHR_Jackie MESP_ALLIANCE_CHR_Kelly MESP_ALLIANCE_CHR_Bonnie MESP_ALLIANCE_CHR_Holly MESP_ALLIANCE_CHR_Janice MESP_ALLIANCE_CHR_Brittney
+				MESP_ALLIANCE_CHR_Bianca MESP_ALLIANCE_CHR_Stephanie MESP_ALLIANCE_CHR_Natasha MESP_ALLIANCE_CHR_Lydia MESP_ALLIANCE_CHR_Mona MESP_ALLIANCE_CHR_Meredith MESP_ALLIANCE_CHR_Lynda MESP_ALLIANCE_CHR_Erica MESP_ALLIANCE_CHR_Heidi MESP_ALLIANCE_CHR_Paige MESP_ALLIANCE_CHR_Carmen MESP_ALLIANCE_CHR_Hayden MESP_ALLIANCE_CHR_Mallory MESP_ALLIANCE_CHR_Mercedes MESP_ALLIANCE_CHR_Marion MESP_ALLIANCE_CHR_Winona MESP_ALLIANCE_CHR_Jill
+				MESP_ALLIANCE_CHR_Molly MESP_ALLIANCE_CHR_Constance MESP_ALLIANCE_CHR_Jenny MESP_ALLIANCE_CHR_Penny MESP_ALLIANCE_CHR_Meryl MESP_ALLIANCE_CHR_Jodie MESP_ALLIANCE_CHR_Veronica MESP_ALLIANCE_CHR_April MESP_ALLIANCE_CHR_Sigourney MESP_ALLIANCE_CHR_Jillian MESP_ALLIANCE_CHR_Honor
+			}
+			second_names = {
+				MESP_ALLIANCE_CHR_Smith MESP_ALLIANCE_CHR_Jones MESP_ALLIANCE_CHR_Williams MESP_ALLIANCE_CHR_Taylor MESP_ALLIANCE_CHR_Brown MESP_ALLIANCE_CHR_Davies MESP_ALLIANCE_CHR_Evans MESP_ALLIANCE_CHR_Wilson MESP_ALLIANCE_CHR_Johnson MESP_ALLIANCE_CHR_Robinson MESP_ALLIANCE_CHR_Wright MESP_ALLIANCE_CHR_Thompson MESP_ALLIANCE_CHR_Evans MESP_ALLIANCE_CHR_Walker MESP_ALLIANCE_CHR_White MESP_ALLIANCE_CHR_Roberts MESP_ALLIANCE_CHR_Green MESP_ALLIANCE_CHR_Hall
+				MESP_ALLIANCE_CHR_Wood MESP_ALLIANCE_CHR_Jackson MESP_ALLIANCE_CHR_Clark MESP_ALLIANCE_CHR_Lewis MESP_ALLIANCE_CHR_Mason MESP_ALLIANCE_CHR_Mitchell MESP_ALLIANCE_CHR_Cox MESP_ALLIANCE_CHR_Campbell MESP_ALLIANCE_CHR_Stewart MESP_ALLIANCE_CHR_Quinn MESP_ALLIANCE_CHR_Murphy MESP_ALLIANCE_CHR_Hamilton MESP_ALLIANCE_CHR_Moore MESP_ALLIANCE_CHR_Murray MESP_ALLIANCE_CHR_McLaughlin MESP_ALLIANCE_CHR_Martin MESP_ALLIANCE_CHR_ONeill
+				MESP_ALLIANCE_CHR_Anderson MESP_ALLIANCE_CHR_Scott MESP_ALLIANCE_CHR_MacDonald MESP_ALLIANCE_CHR_Reid MESP_ALLIANCE_CHR_Ross MESP_ALLIANCE_CHR_Watson MESP_ALLIANCE_CHR_Patterson MESP_ALLIANCE_CHR_Morrison MESP_ALLIANCE_CHR_Sanders MESP_ALLIANCE_CHR_Harris MESP_ALLIANCE_CHR_Hughes MESP_ALLIANCE_CHR_Driscoll MESP_ALLIANCE_CHR_Price MESP_ALLIANCE_CHR_Jenkins MESP_ALLIANCE_CHR_Morgan MESP_ALLIANCE_CHR_Moss
+				MESP_ALLIANCE_CHR_Sinclair MESP_ALLIANCE_CHR_Simpson MESP_ALLIANCE_CHR_Zimmerman MESP_ALLIANCE_CHR_Young MESP_ALLIANCE_CHR_York MESP_ALLIANCE_CHR_Youngfellow MESP_ALLIANCE_CHR_Winters MESP_ALLIANCE_CHR_Worley MESP_ALLIANCE_CHR_Woodard MESP_ALLIANCE_CHR_Whitley MESP_ALLIANCE_CHR_Wheeler MESP_ALLIANCE_CHR_Wentworth MESP_ALLIANCE_CHR_West MESP_ALLIANCE_CHR_Weaver MESP_ALLIANCE_CHR_Webb MESP_ALLIANCE_CHR_Welsh
+				MESP_ALLIANCE_CHR_Sparks MESP_ALLIANCE_CHR_Spencer MESP_ALLIANCE_CHR_Stafford MESP_ALLIANCE_CHR_Stanley MESP_ALLIANCE_CHR_Steel MESP_ALLIANCE_CHR_Sterling MESP_ALLIANCE_CHR_Stevens MESP_ALLIANCE_CHR_Stone MESP_ALLIANCE_CHR_Stewart MESP_ALLIANCE_CHR_Sullivan MESP_ALLIANCE_CHR_Swanson MESP_ALLIANCE_CHR_Sweeney MESP_ALLIANCE_CHR_Swift MESP_ALLIANCE_CHR_Sykes MESP_ALLIANCE_CHR_Terrell MESP_ALLIANCE_CHR_Thornton
+				MESP_ALLIANCE_CHR_Tipton MESP_ALLIANCE_CHR_Turner MESP_ALLIANCE_CHR_Tyler MESP_ALLIANCE_CHR_Underwood MESP_ALLIANCE_CHR_Vincent MESP_ALLIANCE_CHR_Voight MESP_ALLIANCE_CHR_Wade MESP_ALLIANCE_CHR_Washington MESP_ALLIANCE_CHR_Watts MESP_ALLIANCE_CHR_OConnor MESP_ALLIANCE_CHR_ODonnell MESP_ALLIANCE_CHR_OHara MESP_ALLIANCE_CHR_Owens MESP_ALLIANCE_CHR_Page MESP_ALLIANCE_CHR_Palmer MESP_ALLIANCE_CHR_Parker
+				MESP_ALLIANCE_CHR_Perry MESP_ALLIANCE_CHR_Parson MESP_ALLIANCE_CHR_Paxton MESP_ALLIANCE_CHR_Payne MESP_ALLIANCE_CHR_Perkins MESP_ALLIANCE_CHR_Peters MESP_ALLIANCE_CHR_Pershing MESP_ALLIANCE_CHR_Phillips MESP_ALLIANCE_CHR_Pitt MESP_ALLIANCE_CHR_Potter MESP_ALLIANCE_CHR_Reynolds MESP_ALLIANCE_CHR_Reaves MESP_ALLIANCE_CHR_Reese MESP_ALLIANCE_CHR_Richardson MESP_ALLIANCE_CHR_Rivers MESP_ALLIANCE_CHR_Robbins
+				MESP_ALLIANCE_CHR_Robertson MESP_ALLIANCE_CHR_Roswell MESP_ALLIANCE_CHR_Ryan MESP_ALLIANCE_CHR_Salinger MESP_ALLIANCE_CHR_Samuels MESP_ALLIANCE_CHR_Sandler MESP_ALLIANCE_CHR_Savage MESP_ALLIANCE_CHR_Saxton MESP_ALLIANCE_CHR_Schneider MESP_ALLIANCE_CHR_Scowley MESP_ALLIANCE_CHR_Sedgwick MESP_ALLIANCE_CHR_Shannon MESP_ALLIANCE_CHR_Flint MESP_ALLIANCE_CHR_Sibbett MESP_ALLIANCE_CHR_Silverman
+				MESP_ALLIANCE_CHR_Silverstone MESP_ALLIANCE_CHR_Smart MESP_ALLIANCE_CHR_Snow MESP_ALLIANCE_CHR_Kruger MESP_ALLIANCE_CHR_Landau MESP_ALLIANCE_CHR_Lawrence MESP_ALLIANCE_CHR_Lawson MESP_ALLIANCE_CHR_Lee MESP_ALLIANCE_CHR_Leonard MESP_ALLIANCE_CHR_Little MESP_ALLIANCE_CHR_Lowell MESP_ALLIANCE_CHR_Michaels MESP_ALLIANCE_CHR_McGillis MESP_ALLIANCE_CHR_McKinnon MESP_ALLIANCE_CHR_McSwain MESP_ALLIANCE_CHR_McCoy
+				MESP_ALLIANCE_CHR_McCarthy MESP_ALLIANCE_CHR_McCormick MESP_ALLIANCE_CHR_McCreary MESP_ALLIANCE_CHR_Marshall MESP_ALLIANCE_CHR_Lynch MESP_ALLIANCE_CHR_Miller MESP_ALLIANCE_CHR_Montgomery MESP_ALLIANCE_CHR_Morris MESP_ALLIANCE_CHR_Nash MESP_ALLIANCE_CHR_Newman MESP_ALLIANCE_CHR_Nichols MESP_ALLIANCE_CHR_North MESP_ALLIANCE_CHR_Masterson MESP_ALLIANCE_CHR_Mayfield MESP_ALLIANCE_CHR_McCall
+				MESP_ALLIANCE_CHR_Hansen MESP_ALLIANCE_CHR_Harrington MESP_ALLIANCE_CHR_Hart MESP_ALLIANCE_CHR_Hendricks MESP_ALLIANCE_CHR_Holmes MESP_ALLIANCE_CHR_Higgins MESP_ALLIANCE_CHR_Hoffman MESP_ALLIANCE_CHR_Hood MESP_ALLIANCE_CHR_Hutchinson MESP_ALLIANCE_CHR_Hyland MESP_ALLIANCE_CHR_Knight MESP_ALLIANCE_CHR_Kirk MESP_ALLIANCE_CHR_King MESP_ALLIANCE_CHR_Kenway MESP_ALLIANCE_CHR_Kennedy MESP_ALLIANCE_CHR_Kelly
+				MESP_ALLIANCE_CHR_Kane MESP_ALLIANCE_CHR_Nathanson MESP_ALLIANCE_CHR_Jennings MESP_ALLIANCE_CHR_Jacobs MESP_ALLIANCE_CHR_Jefferies MESP_ALLIANCE_CHR_Irwin MESP_ALLIANCE_CHR_Gilbert MESP_ALLIANCE_CHR_Glass MESP_ALLIANCE_CHR_Glover MESP_ALLIANCE_CHR_Goldberg MESP_ALLIANCE_CHR_Goldstein MESP_ALLIANCE_CHR_Goodman MESP_ALLIANCE_CHR_Goodwin MESP_ALLIANCE_CHR_Graham MESP_ALLIANCE_CHR_Grant MESP_ALLIANCE_CHR_Graves
+				MESP_ALLIANCE_CHR_Gray MESP_ALLIANCE_CHR_Greenberg MESP_ALLIANCE_CHR_Gorney MESP_ALLIANCE_CHR_Griffin MESP_ALLIANCE_CHR_Halley MESP_ALLIANCE_CHR_Hunter MESP_ALLIANCE_CHR_Holloway MESP_ALLIANCE_CHR_Hoover MESP_ALLIANCE_CHR_Hutchins MESP_ALLIANCE_CHR_Hill MESP_ALLIANCE_CHR_Hines MESP_ALLIANCE_CHR_Holden MESP_ALLIANCE_CHR_Harvey MESP_ALLIANCE_CHR_Handler MESP_ALLIANCE_CHR_Cohen MESP_ALLIANCE_CHR_Collins MESP_ALLIANCE_CHR_Conrad
+				MESP_ALLIANCE_CHR_Conroy MESP_ALLIANCE_CHR_Cook MESP_ALLIANCE_CHR_Conley MESP_ALLIANCE_CHR_Compton MESP_ALLIANCE_CHR_Cody MESP_ALLIANCE_CHR_Crouch MESP_ALLIANCE_CHR_Crosby MESP_ALLIANCE_CHR_Curtis MESP_ALLIANCE_CHR_Fields MESP_ALLIANCE_CHR_Farrell MESP_ALLIANCE_CHR_Felton MESP_ALLIANCE_CHR_Fisher MESP_ALLIANCE_CHR_Fleming MESP_ALLIANCE_CHR_Forrest MESP_ALLIANCE_CHR_Foster MESP_ALLIANCE_CHR_Fox MESP_ALLIANCE_CHR_Freeman
+				MESP_ALLIANCE_CHR_Futterman MESP_ALLIANCE_CHR_Gardner MESP_ALLIANCE_CHR_Garrett MESP_ALLIANCE_CHR_Gates MESP_ALLIANCE_CHR_Garfield MESP_ALLIANCE_CHR_Gabriel MESP_ALLIANCE_CHR_Daniels MESP_ALLIANCE_CHR_Darling MESP_ALLIANCE_CHR_Easterbrook MESP_ALLIANCE_CHR_Edwards MESP_ALLIANCE_CHR_Edelstein MESP_ALLIANCE_CHR_Elliott MESP_ALLIANCE_CHR_Emerson MESP_ALLIANCE_CHR_Ericson
+				MESP_ALLIANCE_CHR_Duncan MESP_ALLIANCE_CHR_Dickinson MESP_ALLIANCE_CHR_Alexander MESP_ALLIANCE_CHR_Allen MESP_ALLIANCE_CHR_Austin MESP_ALLIANCE_CHR_Bauer MESP_ALLIANCE_CHR_Bancroft MESP_ALLIANCE_CHR_Baker MESP_ALLIANCE_CHR_Bailey MESP_ALLIANCE_CHR_Banks MESP_ALLIANCE_CHR_Barks MESP_ALLIANCE_CHR_Bassett MESP_ALLIANCE_CHR_Brewster MESP_ALLIANCE_CHR_Brooks MESP_ALLIANCE_CHR_Breckenridge MESP_ALLIANCE_CHR_Booth
+				MESP_ALLIANCE_CHR_Bloom MESP_ALLIANCE_CHR_Sherman MESP_ALLIANCE_CHR_Sheridan MESP_ALLIANCE_CHR_Billingsley MESP_ALLIANCE_CHR_Billings MESP_ALLIANCE_CHR_Bergman MESP_ALLIANCE_CHR_Bates MESP_ALLIANCE_CHR_Becker MESP_ALLIANCE_CHR_Bell MESP_ALLIANCE_CHR_Bellflower MESP_ALLIANCE_CHR_Bains MESP_ALLIANCE_CHR_Bean MESP_ALLIANCE_CHR_Cartwright MESP_ALLIANCE_CHR_Carpenter MESP_ALLIANCE_CHR_Buckland
+				MESP_ALLIANCE_CHR_Burness MESP_ALLIANCE_CHR_Burnett MESP_ALLIANCE_CHR_Bush MESP_ALLIANCE_CHR_Butler MESP_ALLIANCE_CHR_French MESP_ALLIANCE_CHR_England MESP_ALLIANCE_CHR_Carroll MESP_ALLIANCE_CHR_Carter MESP_ALLIANCE_CHR_Cavanaugh MESP_ALLIANCE_CHR_Chaffin MESP_ALLIANCE_CHR_Chase MESP_ALLIANCE_CHR_Channing MESP_ALLIANCE_CHR_Chapman MESP_ALLIANCE_CHR_Arnold MESP_ALLIANCE_CHR_Fry MESP_ALLIANCE_CHR_Milton
+				MESP_ALLIANCE_CHR_Sharp MESP_ALLIANCE_CHR_Durston MESP_ALLIANCE_CHR_Howell MESP_ALLIANCE_CHR_Mead MESP_ALLIANCE_CHR_Poole MESP_ALLIANCE_CHR_Ashton MESP_ALLIANCE_CHR_Brockbank MESP_ALLIANCE_CHR_Cooper MESP_ALLIANCE_CHR_Cursham MESP_ALLIANCE_CHR_Dixon MESP_ALLIANCE_CHR_Baxter MESP_ALLIANCE_CHR_Drake MESP_ALLIANCE_CHR_Garland MESP_ALLIANCE_CHR_Wells MESP_ALLIANCE_CHR_Hargreaves MESP_ALLIANCE_CHR_Houghton
+				MESP_ALLIANCE_CHR_Haygarth MESP_ALLIANCE_CHR_Hurst MESP_ALLIANCE_CHR_Kingsford MESP_ALLIANCE_CHR_Lindsay MESP_ALLIANCE_CHR_Rawson MESP_ALLIANCE_CHR_Walden MESP_ALLIANCE_CHR_Walters MESP_ALLIANCE_CHR_Whitfield MESP_ALLIANCE_CHR_Bennett MESP_ALLIANCE_CHR_Cross MESP_ALLIANCE_CHR_Buxton MESP_ALLIANCE_CHR_Dyson MESP_ALLIANCE_CHR_McMillan MESP_ALLIANCE_CHR_Russell MESP_ALLIANCE_CHR_Scott MESP_ALLIANCE_CHR_Beauclerk
+				MESP_ALLIANCE_CHR_Ward MESP_ALLIANCE_CHR_Howard MESP_ALLIANCE_CHR_Lloyd MESP_ALLIANCE_CHR_Tanner MESP_ALLIANCE_CHR_Nicholas MESP_ALLIANCE_CHR_Matthews MESP_ALLIANCE_CHR_Ellis MESP_ALLIANCE_CHR_Whyting MESP_ALLIANCE_CHR_Whittaker MESP_ALLIANCE_CHR_Barton MESP_ALLIANCE_CHR_Hawkins MESP_ALLIANCE_CHR_Garrovick MESP_ALLIANCE_CHR_Spector MESP_ALLIANCE_CHR_Reeves MESP_ALLIANCE_CHR_Vernon MESP_ALLIANCE_CHR_McNiven
+				MESP_ALLIANCE_CHR_Rowley MESP_ALLIANCE_CHR_Sandford MESP_ALLIANCE_CHR_Fawcett MESP_ALLIANCE_CHR_Lockhart MESP_ALLIANCE_CHR_Lang MESP_ALLIANCE_CHR_Oliphant MESP_ALLIANCE_CHR_Wilkins MESP_ALLIANCE_CHR_Balfour MESP_ALLIANCE_CHR_Appleby MESP_ALLIANCE_CHR_Buchanan MESP_ALLIANCE_CHR_Yardley MESP_ALLIANCE_CHR_Shaw MESP_ALLIANCE_CHR_Stokes MESP_ALLIANCE_CHR_Allenby MESP_ALLIANCE_CHR_Cockburn MESP_ALLIANCE_CHR_Mundy
+				MESP_ALLIANCE_CHR_Franklin MESP_ALLIANCE_CHR_Armstrong MESP_ALLIANCE_CHR_Chamberlain MESP_ALLIANCE_CHR_Powell MESP_ALLIANCE_CHR_Abbott MESP_ALLIANCE_CHR_Blair MESP_ALLIANCE_CHR_VanHoof MESP_ALLIANCE_CHR_VanRijn MESP_ALLIANCE_CHR_Burnside MESP_ALLIANCE_CHR_Schofield MESP_ALLIANCE_CHR_Farnsworth MESP_ALLIANCE_CHR_Ford MESP_ALLIANCE_CHR_Warner MESP_ALLIANCE_CHR_Porter
+				MESP_ALLIANCE_CHR_Barksdale MESP_ALLIANCE_CHR_Polk MESP_ALLIANCE_CHR_Gibbons MESP_ALLIANCE_CHR_Archer MESP_ALLIANCE_CHR_Pickett MESP_ALLIANCE_CHR_Houston MESP_ALLIANCE_CHR_Whitfield MESP_ALLIANCE_CHR_Pearson MESP_ALLIANCE_CHR_Lucas MESP_ALLIANCE_CHR_Horner MESP_ALLIANCE_CHR_Bainbridge MESP_ALLIANCE_CHR_Rollins MESP_ALLIANCE_CHR_Casey MESP_ALLIANCE_CHR_Cochrane MESP_ALLIANCE_CHR_Merchant
+				MESP_ALLIANCE_CHR_Bowden MESP_ALLIANCE_CHR_Douglas MESP_ALLIANCE_CHR_Muldoon MESP_ALLIANCE_CHR_Wickham MESP_ALLIANCE_CHR_Milligan MESP_ALLIANCE_CHR_Bradley MESP_ALLIANCE_CHR_Findley MESP_ALLIANCE_CHR_Spooner MESP_ALLIANCE_CHR_Harper MESP_ALLIANCE_CHR_Shepard MESP_ALLIANCE_CHR_Kingston MESP_ALLIANCE_CHR_Knox MESP_ALLIANCE_CHR_Colbeck MESP_ALLIANCE_CHR_Shields MESP_ALLIANCE_CHR_Burns MESP_ALLIANCE_CHR_Gibson
+				MESP_ALLIANCE_CHR_Burton MESP_ALLIANCE_CHR_Crutchley MESP_ALLIANCE_CHR_Gilligan MESP_ALLIANCE_CHR_Bridges MESP_ALLIANCE_CHR_Richter MESP_ALLIANCE_CHR_Fowler MESP_ALLIANCE_CHR_Novak MESP_ALLIANCE_CHR_Longfield MESP_ALLIANCE_CHR_Seabrook MESP_ALLIANCE_CHR_Hazelton MESP_ALLIANCE_CHR_Kingsley MESP_ALLIANCE_CHR_Doggart MESP_ALLIANCE_CHR_Wilcox MESP_ALLIANCE_CHR_Hudson MESP_ALLIANCE_CHR_Hooks MESP_ALLIANCE_CHR_Hicks
+				MESP_ALLIANCE_CHR_Cameron MESP_ALLIANCE_CHR_Hammond MESP_ALLIANCE_CHR_Knotts MESP_ALLIANCE_CHR_Jefferson MESP_ALLIANCE_CHR_Coffey MESP_ALLIANCE_CHR_Adams MESP_ALLIANCE_CHR_Babcock MESP_ALLIANCE_CHR_Baldwin MESP_ALLIANCE_CHR_Bannister MESP_ALLIANCE_CHR_Purcell MESP_ALLIANCE_CHR_Baumgartner MESP_ALLIANCE_CHR_Birch MESP_ALLIANCE_CHR_Blackwood MESP_ALLIANCE_CHR_Blake MESP_ALLIANCE_CHR_Bolander
+				MESP_ALLIANCE_CHR_Bolton MESP_ALLIANCE_CHR_Brock MESP_ALLIANCE_CHR_Brannigan MESP_ALLIANCE_CHR_Burke MESP_ALLIANCE_CHR_Weyland MESP_ALLIANCE_CHR_Burrows MESP_ALLIANCE_CHR_Cairns MESP_ALLIANCE_CHR_Carlyle MESP_ALLIANCE_CHR_Carson MESP_ALLIANCE_CHR_Charlesworth MESP_ALLIANCE_CHR_Church MESP_ALLIANCE_CHR_Clancy MESP_ALLIANCE_CHR_Cullen MESP_ALLIANCE_CHR_Dufresne MESP_ALLIANCE_CHR_Bixby MESP_ALLIANCE_CHR_Featherstone
+				MESP_ALLIANCE_CHR_Ferguson MESP_ALLIANCE_CHR_Foley MESP_ALLIANCE_CHR_Funk MESP_ALLIANCE_CHR_Gorman MESP_ALLIANCE_CHR_Haddock MESP_ALLIANCE_CHR_Grisdale MESP_ALLIANCE_CHR_Grimes MESP_ALLIANCE_CHR_Hoffmeyer MESP_ALLIANCE_CHR_Holt MESP_ALLIANCE_CHR_Ingram MESP_ALLIANCE_CHR_Kaiser MESP_ALLIANCE_CHR_Kearns MESP_ALLIANCE_CHR_Keeler MESP_ALLIANCE_CHR_Kellerman MESP_ALLIANCE_CHR_Kinnear MESP_ALLIANCE_CHR_Kurtz MESP_ALLIANCE_CHR_Kyle
+				MESP_ALLIANCE_CHR_Laidlaw MESP_ALLIANCE_CHR_Lankshear MESP_ALLIANCE_CHR_Lessard MESP_ALLIANCE_CHR_Lowe MESP_ALLIANCE_CHR_MacKenzie MESP_ALLIANCE_CHR_MacNevin MESP_ALLIANCE_CHR_MacInnis MESP_ALLIANCE_CHR_Madigan MESP_ALLIANCE_CHR_Maloney MESP_ALLIANCE_CHR_Marsh MESP_ALLIANCE_CHR_McAllister MESP_ALLIANCE_CHR_McBain MESP_ALLIANCE_CHR_Myers MESP_ALLIANCE_CHR_Nicholson MESP_ALLIANCE_CHR_Olsen
+				MESP_ALLIANCE_CHR_OMalley MESP_ALLIANCE_CHR_Peacock MESP_ALLIANCE_CHR_Peckham MESP_ALLIANCE_CHR_Murdoch MESP_ALLIANCE_CHR_Prefontaine MESP_ALLIANCE_CHR_Pratt MESP_ALLIANCE_CHR_Popovic MESP_ALLIANCE_CHR_Pritchard MESP_ALLIANCE_CHR_Quackenbush MESP_ALLIANCE_CHR_Penebscott MESP_ALLIANCE_CHR_Pfaffenbach MESP_ALLIANCE_CHR_Ramsey MESP_ALLIANCE_CHR_Quincey
+				MESP_ALLIANCE_CHR_Reilly MESP_ALLIANCE_CHR_Reinhart MESP_ALLIANCE_CHR_Renaud MESP_ALLIANCE_CHR_Rolston MESP_ALLIANCE_CHR_Shoebottom MESP_ALLIANCE_CHR_Skinner MESP_ALLIANCE_CHR_Sloan MESP_ALLIANCE_CHR_Snell MESP_ALLIANCE_CHR_Snider MESP_ALLIANCE_CHR_Sorensen MESP_ALLIANCE_CHR_Spiller MESP_ALLIANCE_CHR_Spurgeon MESP_ALLIANCE_CHR_Stanfield MESP_ALLIANCE_CHR_Stackhouse MESP_ALLIANCE_CHR_Stiles
+				MESP_ALLIANCE_CHR_Sutherland MESP_ALLIANCE_CHR_Sutton MESP_ALLIANCE_CHR_Taggart MESP_ALLIANCE_CHR_Townsend MESP_ALLIANCE_CHR_Traynor MESP_ALLIANCE_CHR_Stark MESP_ALLIANCE_CHR_Strudwick MESP_ALLIANCE_CHR_MacArthur MESP_ALLIANCE_CHR_Barnes MESP_ALLIANCE_CHR_Atkins MESP_ALLIANCE_CHR_Ballard MESP_ALLIANCE_CHR_Biggs MESP_ALLIANCE_CHR_Baird MESP_ALLIANCE_CHR_Fredericks MESP_ALLIANCE_CHR_Humphry
+				MESP_ALLIANCE_CHR_Colt MESP_ALLIANCE_CHR_Dillard MESP_ALLIANCE_CHR_Cunningham MESP_ALLIANCE_CHR_DeStefano MESP_ALLIANCE_CHR_Finks MESP_ALLIANCE_CHR_Fletcher MESP_ALLIANCE_CHR_Galloway MESP_ALLIANCE_CHR_Kirby MESP_ALLIANCE_CHR_Sutter MESP_ALLIANCE_CHR_Preston MESP_ALLIANCE_CHR_Tucker MESP_ALLIANCE_CHR_SmithJr MESP_ALLIANCE_CHR_WilliamsJr MESP_ALLIANCE_CHR_EvansJr
+				MESP_ALLIANCE_CHR_WalkerJr MESP_ALLIANCE_CHR_TaylorJr MESP_ALLIANCE_CHR_ScottJr MESP_ALLIANCE_CHR_MeriweatherII MESP_ALLIANCE_CHR_BarksdaleIII MESP_ALLIANCE_CHR_LeadbetterIV MESP_ALLIANCE_CHR_PembertonII MESP_ALLIANCE_CHR_TrapierIII MESP_ALLIANCE_CHR_Kowalski
+				MESP_ALLIANCE_CHR_Rabinowitz MESP_ALLIANCE_CHR_Feldman MESP_ALLIANCE_CHR_Katz MESP_ALLIANCE_CHR_Roykirk MESP_ALLIANCE_CHR_Decker
+			}
+			regnal_first_names_male = {
+				MESP_ALLIANCE_CHR_Alexander MESP_ALLIANCE_CHR_Vladimir MESP_ALLIANCE_CHR_Boris MESP_ALLIANCE_CHR_Tiberius MESP_ALLIANCE_CHR_Theobald MESP_ALLIANCE_CHR_Valerian MESP_ALLIANCE_CHR_Maximus MESP_ALLIANCE_CHR_Lucius
+			}
+			regnal_first_names_female = {
+				MESP_ALLIANCE_CHR_Theodora MESP_ALLIANCE_CHR_Fatima MESP_ALLIANCE_CHR_Miranda MESP_ALLIANCE_CHR_Cordelia MESP_ALLIANCE_CHR_Svetlana MESP_ALLIANCE_CHR_Anastasia MESP_ALLIANCE_CHR_Valentina MESP_ALLIANCE_CHR_Henrietta
+			}
+			regnal_second_names = {
+				MESP_ALLIANCE_CHR_Habsburg MESP_ALLIANCE_CHR_Romanov MESP_ALLIANCE_CHR_Windsor MESP_ALLIANCE_CHR_Mountbatten MESP_ALLIANCE_CHR_Salazar MESP_ALLIANCE_CHR_Nelson
+			}
+		}
+
+		names2 = {
+			weight = 20
+			first_names_male = {
+				MESP_ALLIANCE_CHR_Ivan MESP_ALLIANCE_CHR_Nikolai MESP_ALLIANCE_CHR_Boris MESP_ALLIANCE_CHR_Vladimir MESP_ALLIANCE_CHR_Pyotr MESP_ALLIANCE_CHR_Alexei MESP_ALLIANCE_CHR_Dmitri MESP_ALLIANCE_CHR_Sergei MESP_ALLIANCE_CHR_Viktor MESP_ALLIANCE_CHR_Roman MESP_ALLIANCE_CHR_Igor MESP_ALLIANCE_CHR_Mikhail MESP_ALLIANCE_CHR_Vasily MESP_ALLIANCE_CHR_Pavel MESP_ALLIANCE_CHR_Fyodor MESP_ALLIANCE_CHR_Nikita MESP_ALLIANCE_CHR_Valery
+				MESP_ALLIANCE_CHR_Vladislav MESP_ALLIANCE_CHR_Leonid MESP_ALLIANCE_CHR_Maxim MESP_ALLIANCE_CHR_Yuri MESP_ALLIANCE_CHR_Oleg MESP_ALLIANCE_CHR_Andrei MESP_ALLIANCE_CHR_Konstantin MESP_ALLIANCE_CHR_Vyacheslav MESP_ALLIANCE_CHR_Aleksandr MESP_ALLIANCE_CHR_Stanislav MESP_ALLIANCE_CHR_Anatoli MESP_ALLIANCE_CHR_Miroslav MESP_ALLIANCE_CHR_Artyom MESP_ALLIANCE_CHR_Bogdan
+				MESP_ALLIANCE_CHR_Branislav MESP_ALLIANCE_CHR_Ilya MESP_ALLIANCE_CHR_Jaroslav MESP_ALLIANCE_CHR_Radomir MESP_ALLIANCE_CHR_Kirill MESP_ALLIANCE_CHR_Radoslav MESP_ALLIANCE_CHR_Lubomir MESP_ALLIANCE_CHR_Ratimir MESP_ALLIANCE_CHR_Yegor MESP_ALLIANCE_CHR_Ijon
+			}
+			first_names_female = {
+				MESP_ALLIANCE_CHR_Anna MESP_ALLIANCE_CHR_Yelena MESP_ALLIANCE_CHR_Olga MESP_ALLIANCE_CHR_Oksana MESP_ALLIANCE_CHR_Tatyana MESP_ALLIANCE_CHR_Svetlana MESP_ALLIANCE_CHR_Nadya MESP_ALLIANCE_CHR_Yekaterina MESP_ALLIANCE_CHR_Irina MESP_ALLIANCE_CHR_Galina MESP_ALLIANCE_CHR_Miroslava MESP_ALLIANCE_CHR_Anastasia MESP_ALLIANCE_CHR_Vera MESP_ALLIANCE_CHR_Polina MESP_ALLIANCE_CHR_Lyudmila MESP_ALLIANCE_CHR_Elena
+				MESP_ALLIANCE_CHR_Marina MESP_ALLIANCE_CHR_Darya MESP_ALLIANCE_CHR_Irma MESP_ALLIANCE_CHR_Ksenia MESP_ALLIANCE_CHR_Alexandra MESP_ALLIANCE_CHR_Nadesja MESP_ALLIANCE_CHR_Valentina MESP_ALLIANCE_CHR_Arina MESP_ALLIANCE_CHR_Alya MESP_ALLIANCE_CHR_Galenka MESP_ALLIANCE_CHR_Katya MESP_ALLIANCE_CHR_Ljuba MESP_ALLIANCE_CHR_Radmila MESP_ALLIANCE_CHR_Natacha MESP_ALLIANCE_CHR_Vlada MESP_ALLIANCE_CHR_Nadezhda
+				MESP_ALLIANCE_CHR_Tatiana MESP_ALLIANCE_CHR_Sonia MESP_ALLIANCE_CHR_Mira
+
+			}
+			second_names_male = {
+				MESP_ALLIANCE_CHR_Grishin MESP_ALLIANCE_CHR_Fedorov MESP_ALLIANCE_CHR_Komarov MESP_ALLIANCE_CHR_Pushkov MESP_ALLIANCE_CHR_Petrenko MESP_ALLIANCE_CHR_Shatalov MESP_ALLIANCE_CHR_Ivanov MESP_ALLIANCE_CHR_Kamensky MESP_ALLIANCE_CHR_Vasiliev MESP_ALLIANCE_CHR_Ulanov MESP_ALLIANCE_CHR_Volkov MESP_ALLIANCE_CHR_Gryaznov MESP_ALLIANCE_CHR_Dudnik MESP_ALLIANCE_CHR_Yerzov MESP_ALLIANCE_CHR_Zhirov
+				MESP_ALLIANCE_CHR_Zhivenkov MESP_ALLIANCE_CHR_Kazakov MESP_ALLIANCE_CHR_Krutov MESP_ALLIANCE_CHR_Ivannikov MESP_ALLIANCE_CHR_Kolosov MESP_ALLIANCE_CHR_Kuzin MESP_ALLIANCE_CHR_Larionov MESP_ALLIANCE_CHR_Maksimushkin MESP_ALLIANCE_CHR_Markov MESP_ALLIANCE_CHR_Ostrovsky MESP_ALLIANCE_CHR_Polachev MESP_ALLIANCE_CHR_Rychenkov MESP_ALLIANCE_CHR_Romanov
+				MESP_ALLIANCE_CHR_Sayanovich MESP_ALLIANCE_CHR_Statnik MESP_ALLIANCE_CHR_Sorokin MESP_ALLIANCE_CHR_Turgenev MESP_ALLIANCE_CHR_Titov MESP_ALLIANCE_CHR_Tvardovsky MESP_ALLIANCE_CHR_Antonov MESP_ALLIANCE_CHR_Skobelev MESP_ALLIANCE_CHR_Lazarev MESP_ALLIANCE_CHR_Makarov MESP_ALLIANCE_CHR_Dragomirov MESP_ALLIANCE_CHR_Alekseyev MESP_ALLIANCE_CHR_Tichy
+			}
+			second_names_female = {
+				MESP_ALLIANCE_CHR_Grishina MESP_ALLIANCE_CHR_Fedorova MESP_ALLIANCE_CHR_Komarova MESP_ALLIANCE_CHR_Pushkova MESP_ALLIANCE_CHR_Petrenko MESP_ALLIANCE_CHR_Shatalova MESP_ALLIANCE_CHR_Ivanova MESP_ALLIANCE_CHR_Kamenskaya MESP_ALLIANCE_CHR_Vasilyeva MESP_ALLIANCE_CHR_Ulanova MESP_ALLIANCE_CHR_Volkova MESP_ALLIANCE_CHR_Gryaznova MESP_ALLIANCE_CHR_Dudnik MESP_ALLIANCE_CHR_Yerzova
+				MESP_ALLIANCE_CHR_Zhirova MESP_ALLIANCE_CHR_Zhivenkova MESP_ALLIANCE_CHR_Kazakova MESP_ALLIANCE_CHR_Krutova MESP_ALLIANCE_CHR_Ivannikova MESP_ALLIANCE_CHR_Kolosova MESP_ALLIANCE_CHR_Kuzina MESP_ALLIANCE_CHR_Larionova MESP_ALLIANCE_CHR_Maksimushkina MESP_ALLIANCE_CHR_Markova MESP_ALLIANCE_CHR_Ostrovskaya MESP_ALLIANCE_CHR_Polacheva MESP_ALLIANCE_CHR_Rychenkova
+				MESP_ALLIANCE_CHR_Romanova MESP_ALLIANCE_CHR_Statnik MESP_ALLIANCE_CHR_Sorokina MESP_ALLIANCE_CHR_Turgeneva MESP_ALLIANCE_CHR_Titova MESP_ALLIANCE_CHR_Tvardovskaya MESP_ALLIANCE_CHR_Antonova MESP_ALLIANCE_CHR_Skobeleva MESP_ALLIANCE_CHR_Lazareva MESP_ALLIANCE_CHR_Makarova MESP_ALLIANCE_CHR_Dragomirova MESP_ALLIANCE_CHR_Alekseyeva
+			}
+			regnal_first_names_male = {
+				MESP_ALLIANCE_CHR_Alexander MESP_ALLIANCE_CHR_Vladimir MESP_ALLIANCE_CHR_Boris MESP_ALLIANCE_CHR_Tiberius MESP_ALLIANCE_CHR_Theobald MESP_ALLIANCE_CHR_Valerian MESP_ALLIANCE_CHR_Maximus MESP_ALLIANCE_CHR_Lucius
+			}
+			regnal_first_names_female = {
+				MESP_ALLIANCE_CHR_Theodora MESP_ALLIANCE_CHR_Fatima MESP_ALLIANCE_CHR_Miranda MESP_ALLIANCE_CHR_Cordelia MESP_ALLIANCE_CHR_Svetlana MESP_ALLIANCE_CHR_Anastasia MESP_ALLIANCE_CHR_Valentina MESP_ALLIANCE_CHR_Henrietta
+			}
+			regnal_second_names = {
+				MESP_ALLIANCE_CHR_Habsburg MESP_ALLIANCE_CHR_Romanov MESP_ALLIANCE_CHR_Windsor MESP_ALLIANCE_CHR_Mountbatten MESP_ALLIANCE_CHR_Salazar MESP_ALLIANCE_CHR_Nelson
+			}
+		}
+
+		names3 = {
+			weight = 40
+			first_names_male = {
+				MESP_ALLIANCE_CHR_An MESP_ALLIANCE_CHR_Bao MESP_ALLIANCE_CHR_Bo MESP_ALLIANCE_CHR_Cai MESP_ALLIANCE_CHR_Cheng MESP_ALLIANCE_CHR_De MESP_ALLIANCE_CHR_Dong MESP_ALLIANCE_CHR_Feng MESP_ALLIANCE_CHR_Gang MESP_ALLIANCE_CHR_Guo MESP_ALLIANCE_CHR_Hu MESP_ALLIANCE_CHR_Hui MESP_ALLIANCE_CHR_Jian MESP_ALLIANCE_CHR_Jie MESP_ALLIANCE_CHR_Kang MESP_ALLIANCE_CHR_Li MESP_ALLIANCE_CHR_Liang MESP_ALLIANCE_CHR_Long MESP_ALLIANCE_CHR_Meng MESP_ALLIANCE_CHR_Ning MESP_ALLIANCE_CHR_Peng MESP_ALLIANCE_CHR_Qiang MESP_ALLIANCE_CHR_Shi MESP_ALLIANCE_CHR_Song MESP_ALLIANCE_CHR_Tao MESP_ALLIANCE_CHR_Tian MESP_ALLIANCE_CHR_Wei
+				MESP_ALLIANCE_CHR_You MESP_ALLIANCE_CHR_Yong MESP_ALLIANCE_CHR_Yi MESP_ALLIANCE_CHR_Xiong MESP_ALLIANCE_CHR_Wu
+			}
+			first_names_female = {
+				MESP_ALLIANCE_CHR_Ai MESP_ALLIANCE_CHR_Bi MESP_ALLIANCE_CHR_Cui MESP_ALLIANCE_CHR_Chan MESP_ALLIANCE_CHR_Dai MESP_ALLIANCE_CHR_Dan MESP_ALLIANCE_CHR_Fang MESP_ALLIANCE_CHR_Hong MESP_ALLIANCE_CHR_Hua MESP_ALLIANCE_CHR_Huan MESP_ALLIANCE_CHR_Jiao MESP_ALLIANCE_CHR_Ju MESP_ALLIANCE_CHR_Juan MESP_ALLIANCE_CHR_Lan MESP_ALLIANCE_CHR_Lian MESP_ALLIANCE_CHR_Lin MESP_ALLIANCE_CHR_Mei MESP_ALLIANCE_CHR_Na MESP_ALLIANCE_CHR_Ni MESP_ALLIANCE_CHR_Qian MESP_ALLIANCE_CHR_Qiao MESP_ALLIANCE_CHR_Qing MESP_ALLIANCE_CHR_Shan MESP_ALLIANCE_CHR_Shu MESP_ALLIANCE_CHR_Ting MESP_ALLIANCE_CHR_Wen MESP_ALLIANCE_CHR_Xia MESP_ALLIANCE_CHR_Xian
+				MESP_ALLIANCE_CHR_Xiang MESP_ALLIANCE_CHR_Xiu MESP_ALLIANCE_CHR_Xue MESP_ALLIANCE_CHR_Yan MESP_ALLIANCE_CHR_Ying MESP_ALLIANCE_CHR_Yu MESP_ALLIANCE_CHR_Yuan MESP_ALLIANCE_CHR_Yun MESP_ALLIANCE_CHR_Zhen MESP_ALLIANCE_CHR_Zhi MESP_ALLIANCE_CHR_Zhu MESP_ALLIANCE_CHR_Zi
+			}
+			second_names = {
+				MESP_ALLIANCE_CHR_Liang MESP_ALLIANCE_CHR_Luo MESP_ALLIANCE_CHR_Kuang MESP_ALLIANCE_CHR_Lu MESP_ALLIANCE_CHR_Zheng MESP_ALLIANCE_CHR_Lin MESP_ALLIANCE_CHR_Xu MESP_ALLIANCE_CHR_Xie MESP_ALLIANCE_CHR_Wang MESP_ALLIANCE_CHR_Zhu MESP_ALLIANCE_CHR_Yang MESP_ALLIANCE_CHR_Mao MESP_ALLIANCE_CHR_Shen MESP_ALLIANCE_CHR_Hu MESP_ALLIANCE_CHR_Tan MESP_ALLIANCE_CHR_He MESP_ALLIANCE_CHR_Deng MESP_ALLIANCE_CHR_Wu MESP_ALLIANCE_CHR_Cheng MESP_ALLIANCE_CHR_Gao MESP_ALLIANCE_CHR_Wan MESP_ALLIANCE_CHR_Kong MESP_ALLIANCE_CHR_Pan MESP_ALLIANCE_CHR_Sima MESP_ALLIANCE_CHR_Zhuge MESP_ALLIANCE_CHR_Ouyang MESP_ALLIANCE_CHR_Situ
+				MESP_ALLIANCE_CHR_Huang MESP_ALLIANCE_CHR_Zhao MESP_ALLIANCE_CHR_Zhang
+			}
+			regnal_first_names_male = {
+				MESP_ALLIANCE_CHR_You MESP_ALLIANCE_CHR_Yong MESP_ALLIANCE_CHR_Yi MESP_ALLIANCE_CHR_Xiong MESP_ALLIANCE_CHR_Wu MESP_ALLIANCE_CHR_Feng MESP_ALLIANCE_CHR_Gang MESP_ALLIANCE_CHR_Guo MESP_ALLIANCE_CHR_Hu MESP_ALLIANCE_CHR_Hui
+			}
+			regnal_first_names_female = {
+				MESP_ALLIANCE_CHR_Ai MESP_ALLIANCE_CHR_Bi MESP_ALLIANCE_CHR_Lian MESP_ALLIANCE_CHR_Lin MESP_ALLIANCE_CHR_Mei MESP_ALLIANCE_CHR_Na MESP_ALLIANCE_CHR_Ni MESP_ALLIANCE_CHR_Xiu MESP_ALLIANCE_CHR_Xue MESP_ALLIANCE_CHR_Yan MESP_ALLIANCE_CHR_Ying MESP_ALLIANCE_CHR_Yu MESP_ALLIANCE_CHR_Yuan
+			}
+			regnal_second_names = {
+				MESP_ALLIANCE_CHR_Wang MESP_ALLIANCE_CHR_Zhu MESP_ALLIANCE_CHR_Yang
+			}
+		}
+
+		names4 = {
+			weight = 15
+			first_names_male = {
+				MESP_ALLIANCE_CHR_Karl MESP_ALLIANCE_CHR_Wilhelm MESP_ALLIANCE_CHR_Otto MESP_ALLIANCE_CHR_Heinrich MESP_ALLIANCE_CHR_Friedrich MESP_ALLIANCE_CHR_Paul MESP_ALLIANCE_CHR_Hans MESP_ALLIANCE_CHR_Gustav MESP_ALLIANCE_CHR_Max MESP_ALLIANCE_CHR_Ernst MESP_ALLIANCE_CHR_Hermann MESP_ALLIANCE_CHR_Walter MESP_ALLIANCE_CHR_Werner MESP_ALLIANCE_CHR_Gunther MESP_ALLIANCE_CHR_Wolfgang MESP_ALLIANCE_CHR_Helmuth MESP_ALLIANCE_CHR_Kurt MESP_ALLIANCE_CHR_Rolf
+				MESP_ALLIANCE_CHR_Peter MESP_ALLIANCE_CHR_Klaus MESP_ALLIANCE_CHR_Gerhard MESP_ALLIANCE_CHR_Heinz MESP_ALLIANCE_CHR_Horst MESP_ALLIANCE_CHR_Manfred MESP_ALLIANCE_CHR_Uwe MESP_ALLIANCE_CHR_Jurgen MESP_ALLIANCE_CHR_Dieter MESP_ALLIANCE_CHR_Andreas MESP_ALLIANCE_CHR_Thomas MESP_ALLIANCE_CHR_Stefan MESP_ALLIANCE_CHR_Lukas MESP_ALLIANCE_CHR_Felix MESP_ALLIANCE_CHR_Martin MESP_ALLIANCE_CHR_Fritz MESP_ALLIANCE_CHR_Johann MESP_ALLIANCE_CHR_Erich MESP_ALLIANCE_CHR_Arnold
+				MESP_ALLIANCE_CHR_Bruno MESP_ALLIANCE_CHR_Franz MESP_ALLIANCE_CHR_Rudolf MESP_ALLIANCE_CHR_Erhard MESP_ALLIANCE_CHR_Jorg MESP_ALLIANCE_CHR_Axel MESP_ALLIANCE_CHR_Emil MESP_ALLIANCE_CHR_Gerhardt MESP_ALLIANCE_CHR_Gottfried MESP_ALLIANCE_CHR_Holger MESP_ALLIANCE_CHR_Joachim MESP_ALLIANCE_CHR_Konrad MESP_ALLIANCE_CHR_Lothar MESP_ALLIANCE_CHR_Ludwig MESP_ALLIANCE_CHR_Matthias MESP_ALLIANCE_CHR_Moritz MESP_ALLIANCE_CHR_Reinhard
+				MESP_ALLIANCE_CHR_Sigismund MESP_ALLIANCE_CHR_Ulrich MESP_ALLIANCE_CHR_Udo MESP_ALLIANCE_CHR_Hravn
+			}
+			first_names_female = {
+				MESP_ALLIANCE_CHR_Anna MESP_ALLIANCE_CHR_Elsa MESP_ALLIANCE_CHR_Emma MESP_ALLIANCE_CHR_Helga MESP_ALLIANCE_CHR_Ursula MESP_ALLIANCE_CHR_Gisela MESP_ALLIANCE_CHR_Ingrid MESP_ALLIANCE_CHR_Ilse MESP_ALLIANCE_CHR_Jessika MESP_ALLIANCE_CHR_Sandra MESP_ALLIANCE_CHR_Stefanie MESP_ALLIANCE_CHR_Andrea MESP_ALLIANCE_CHR_Anja MESP_ALLIANCE_CHR_Katrin MESP_ALLIANCE_CHR_Birgit MESP_ALLIANCE_CHR_Martina MESP_ALLIANCE_CHR_Heike MESP_ALLIANCE_CHR_Sabine MESP_ALLIANCE_CHR_Erika
+				MESP_ALLIANCE_CHR_Edith MESP_ALLIANCE_CHR_Lena MESP_ALLIANCE_CHR_Lisa MESP_ALLIANCE_CHR_Katharina MESP_ALLIANCE_CHR_Claudia MESP_ALLIANCE_CHR_Silvia MESP_ALLIANCE_CHR_Tina MESP_ALLIANCE_CHR_Annike MESP_ALLIANCE_CHR_Renate MESP_ALLIANCE_CHR_Bettina MESP_ALLIANCE_CHR_Wibke MESP_ALLIANCE_CHR_Sara MESP_ALLIANCE_CHR_Lina MESP_ALLIANCE_CHR_Julia MESP_ALLIANCE_CHR_Marith MESP_ALLIANCE_CHR_Heidi MESP_ALLIANCE_CHR_Angelika MESP_ALLIANCE_CHR_Christel
+				MESP_ALLIANCE_CHR_Gretchen MESP_ALLIANCE_CHR_Hilde MESP_ALLIANCE_CHR_Hildegard MESP_ALLIANCE_CHR_Gertrude MESP_ALLIANCE_CHR_Wilhelmina MESP_ALLIANCE_CHR_Lisbeth MESP_ALLIANCE_CHR_Kerstin MESP_ALLIANCE_CHR_Johanna MESP_ALLIANCE_CHR_Anita
+			}
+			second_names = {
+				MESP_ALLIANCE_CHR_Muller MESP_ALLIANCE_CHR_Schmidt MESP_ALLIANCE_CHR_Schneider MESP_ALLIANCE_CHR_Fischer MESP_ALLIANCE_CHR_Weber MESP_ALLIANCE_CHR_Meyer MESP_ALLIANCE_CHR_Wagner MESP_ALLIANCE_CHR_Schulz MESP_ALLIANCE_CHR_Becker MESP_ALLIANCE_CHR_Hoffmann MESP_ALLIANCE_CHR_Bauer MESP_ALLIANCE_CHR_Brinkmann MESP_ALLIANCE_CHR_Brill MESP_ALLIANCE_CHR_Dietrich MESP_ALLIANCE_CHR_Erhard MESP_ALLIANCE_CHR_Grasser
+				MESP_ALLIANCE_CHR_vonGebser MESP_ALLIANCE_CHR_vonFritsch MESP_ALLIANCE_CHR_vonWrangel MESP_ALLIANCE_CHR_vonHalkett MESP_ALLIANCE_CHR_vonBoyen MESP_ALLIANCE_CHR_vonFalkenstein MESP_ALLIANCE_CHR_Dreyer MESP_ALLIANCE_CHR_Wolf MESP_ALLIANCE_CHR_Klein MESP_ALLIANCE_CHR_Richter MESP_ALLIANCE_CHR_Schafer
+				MESP_ALLIANCE_CHR_Neumann MESP_ALLIANCE_CHR_Braun MESP_ALLIANCE_CHR_Schwarz MESP_ALLIANCE_CHR_Kruger MESP_ALLIANCE_CHR_Stein MESP_ALLIANCE_CHR_Keller MESP_ALLIANCE_CHR_Schubert MESP_ALLIANCE_CHR_Baumann MESP_ALLIANCE_CHR_Ziegler MESP_ALLIANCE_CHR_Brandt MESP_ALLIANCE_CHR_Sauer MESP_ALLIANCE_CHR_Kreutz MESP_ALLIANCE_CHR_Bergmeister MESP_ALLIANCE_CHR_Andbert
+			}
+			regnal_first_names_male = {
+				MESP_ALLIANCE_CHR_Alexander MESP_ALLIANCE_CHR_Vladimir MESP_ALLIANCE_CHR_Boris MESP_ALLIANCE_CHR_Tiberius MESP_ALLIANCE_CHR_Theobald MESP_ALLIANCE_CHR_Valerian MESP_ALLIANCE_CHR_Maximus MESP_ALLIANCE_CHR_Lucius
+			}
+			regnal_first_names_female = {
+				MESP_ALLIANCE_CHR_Theodora MESP_ALLIANCE_CHR_Fatima MESP_ALLIANCE_CHR_Miranda MESP_ALLIANCE_CHR_Cordelia MESP_ALLIANCE_CHR_Svetlana MESP_ALLIANCE_CHR_Anastasia MESP_ALLIANCE_CHR_Valentina MESP_ALLIANCE_CHR_Henrietta
+			}
+			regnal_second_names = {
+				MESP_ALLIANCE_CHR_Habsburg MESP_ALLIANCE_CHR_Romanov MESP_ALLIANCE_CHR_Windsor MESP_ALLIANCE_CHR_Mountbatten MESP_ALLIANCE_CHR_Salazar MESP_ALLIANCE_CHR_Nelson
+			}
+		}
+
+		names5 = {
+			weight = 15
+			first_names_male = {
+				MESP_ALLIANCE_CHR_Philippe MESP_ALLIANCE_CHR_Pierre MESP_ALLIANCE_CHR_Jean-Marie MESP_ALLIANCE_CHR_Marcel MESP_ALLIANCE_CHR_Francois MESP_ALLIANCE_CHR_Hubert MESP_ALLIANCE_CHR_Paul MESP_ALLIANCE_CHR_Antoine MESP_ALLIANCE_CHR_Michel MESP_ALLIANCE_CHR_Henri MESP_ALLIANCE_CHR_Marc MESP_ALLIANCE_CHR_Jean MESP_ALLIANCE_CHR_Maurice MESP_ALLIANCE_CHR_Rene MESP_ALLIANCE_CHR_Claude MESP_ALLIANCE_CHR_Yves MESP_ALLIANCE_CHR_Jacques
+				MESP_ALLIANCE_CHR_Simon MESP_ALLIANCE_CHR_Olivier MESP_ALLIANCE_CHR_Joseph MESP_ALLIANCE_CHR_Robert MESP_ALLIANCE_CHR_Georges MESP_ALLIANCE_CHR_Andre MESP_ALLIANCE_CHR_Raymond MESP_ALLIANCE_CHR_Gaston MESP_ALLIANCE_CHR_Charles MESP_ALLIANCE_CHR_Thierry MESP_ALLIANCE_CHR_Guy MESP_ALLIANCE_CHR_Patrice MESP_ALLIANCE_CHR_Mathieu MESP_ALLIANCE_CHR_Jean-Francois MESP_ALLIANCE_CHR_Lucien MESP_ALLIANCE_CHR_Jean-Paul
+				MESP_ALLIANCE_CHR_Daniel MESP_ALLIANCE_CHR_Thibault MESP_ALLIANCE_CHR_Luc MESP_ALLIANCE_CHR_Dominic MESP_ALLIANCE_CHR_Sebastien MESP_ALLIANCE_CHR_Hugo MESP_ALLIANCE_CHR_Jamie
+			}
+			first_names_female = {
+				MESP_ALLIANCE_CHR_Chloe MESP_ALLIANCE_CHR_Ines MESP_ALLIANCE_CHR_Manon MESP_ALLIANCE_CHR_Camille MESP_ALLIANCE_CHR_Clara MESP_ALLIANCE_CHR_Juliette MESP_ALLIANCE_CHR_Clemence MESP_ALLIANCE_CHR_Jeanne MESP_ALLIANCE_CHR_Charlotte MESP_ALLIANCE_CHR_Marie MESP_ALLIANCE_CHR_Nina MESP_ALLIANCE_CHR_Julia MESP_ALLIANCE_CHR_Elise MESP_ALLIANCE_CHR_Justine MESP_ALLIANCE_CHR_Yasmine MESP_ALLIANCE_CHR_Elina MESP_ALLIANCE_CHR_Andrea
+				MESP_ALLIANCE_CHR_Eleonore MESP_ALLIANCE_CHR_Clarisse MESP_ALLIANCE_CHR_Fanny MESP_ALLIANCE_CHR_Selma MESP_ALLIANCE_CHR_Leila MESP_ALLIANCE_CHR_Veronique MESP_ALLIANCE_CHR_Sophie MESP_ALLIANCE_CHR_Helena MESP_ALLIANCE_CHR_Daphne MESP_ALLIANCE_CHR_Suzanne MESP_ALLIANCE_CHR_Melanie MESP_ALLIANCE_CHR_Bernadette MESP_ALLIANCE_CHR_Maud MESP_ALLIANCE_CHR_Angeline MESP_ALLIANCE_CHR_Celine MESP_ALLIANCE_CHR_Jessica
+				MESP_ALLIANCE_CHR_Pauline MESP_ALLIANCE_CHR_Viviane MESP_ALLIANCE_CHR_Jeanette
+			}
+			second_names = {
+				MESP_ALLIANCE_CHR_Martin MESP_ALLIANCE_CHR_Bernard MESP_ALLIANCE_CHR_Dubois MESP_ALLIANCE_CHR_Durand MESP_ALLIANCE_CHR_Leroy MESP_ALLIANCE_CHR_Moreau MESP_ALLIANCE_CHR_Lambert MESP_ALLIANCE_CHR_Dupont MESP_ALLIANCE_CHR_Leclerc MESP_ALLIANCE_CHR_Laurent MESP_ALLIANCE_CHR_Renard MESP_ALLIANCE_CHR_Tremblay MESP_ALLIANCE_CHR_Gagnon MESP_ALLIANCE_CHR_Roy MESP_ALLIANCE_CHR_Bouchard MESP_ALLIANCE_CHR_Gauthier
+				MESP_ALLIANCE_CHR_Morin MESP_ALLIANCE_CHR_Lavoie MESP_ALLIANCE_CHR_Fortin MESP_ALLIANCE_CHR_Gagne MESP_ALLIANCE_CHR_Duval MESP_ALLIANCE_CHR_Hebert MESP_ALLIANCE_CHR_LeGall MESP_ALLIANCE_CHR_LeRoux MESP_ALLIANCE_CHR_Deville MESP_ALLIANCE_CHR_Gerard MESP_ALLIANCE_CHR_Duchaine MESP_ALLIANCE_CHR_Jauvin MESP_ALLIANCE_CHR_Gilbert MESP_ALLIANCE_CHR_Bergeron MESP_ALLIANCE_CHR_Paquette
+				MESP_ALLIANCE_CHR_Pelletier MESP_ALLIANCE_CHR_Remy MESP_ALLIANCE_CHR_Giroud MESP_ALLIANCE_CHR_Bosquet MESP_ALLIANCE_CHR_deCastelnau MESP_ALLIANCE_CHR_deMontaignac MESP_ALLIANCE_CHR_Lebouef MESP_ALLIANCE_CHR_Pellissier MESP_ALLIANCE_CHR_Deveraux
+			}
+			regnal_first_names_male = {
+				MESP_ALLIANCE_CHR_Alexander MESP_ALLIANCE_CHR_Vladimir MESP_ALLIANCE_CHR_Boris MESP_ALLIANCE_CHR_Tiberius MESP_ALLIANCE_CHR_Theobald MESP_ALLIANCE_CHR_Valerian MESP_ALLIANCE_CHR_Maximus MESP_ALLIANCE_CHR_Lucius
+			}
+			regnal_first_names_female = {
+				MESP_ALLIANCE_CHR_Theodora MESP_ALLIANCE_CHR_Fatima MESP_ALLIANCE_CHR_Miranda MESP_ALLIANCE_CHR_Cordelia MESP_ALLIANCE_CHR_Svetlana MESP_ALLIANCE_CHR_Anastasia MESP_ALLIANCE_CHR_Valentina MESP_ALLIANCE_CHR_Henrietta
+			}
+			regnal_second_names = {
+				MESP_ALLIANCE_CHR_Habsburg MESP_ALLIANCE_CHR_Romanov MESP_ALLIANCE_CHR_Windsor MESP_ALLIANCE_CHR_Mountbatten MESP_ALLIANCE_CHR_Salazar MESP_ALLIANCE_CHR_Nelson
+			}
+		}
+
+		names6 = {
+			weight = 15
+			first_names_male = {
+				MESP_ALLIANCE_CHR_Hiroto MESP_ALLIANCE_CHR_Hikaru MESP_ALLIANCE_CHR_Takumi MESP_ALLIANCE_CHR_Tsubasa MESP_ALLIANCE_CHR_Ren MESP_ALLIANCE_CHR_Minato MESP_ALLIANCE_CHR_Shota MESP_ALLIANCE_CHR_Yuuto MESP_ALLIANCE_CHR_Sota MESP_ALLIANCE_CHR_Yuma MESP_ALLIANCE_CHR_Takeru MESP_ALLIANCE_CHR_Rikuto MESP_ALLIANCE_CHR_Tatsuki MESP_ALLIANCE_CHR_Ryuto MESP_ALLIANCE_CHR_Haru MESP_ALLIANCE_CHR_Yushin MESP_ALLIANCE_CHR_Kosei MESP_ALLIANCE_CHR_Yoshinobu
+				MESP_ALLIANCE_CHR_Jiro MESP_ALLIANCE_CHR_Hiroshi MESP_ALLIANCE_CHR_Yoshida MESP_ALLIANCE_CHR_Mitsue MESP_ALLIANCE_CHR_Keisuke MESP_ALLIANCE_CHR_Saburo MESP_ALLIANCE_CHR_Junichi MESP_ALLIANCE_CHR_Yoshi MESP_ALLIANCE_CHR_Koshiro MESP_ALLIANCE_CHR_Kentaro MESP_ALLIANCE_CHR_Koichiro
+			}
+			first_names_female = {
+				MESP_ALLIANCE_CHR_Haruna MESP_ALLIANCE_CHR_Sakura MESP_ALLIANCE_CHR_Misaki MESP_ALLIANCE_CHR_Aoi MESP_ALLIANCE_CHR_Mihane MESP_ALLIANCE_CHR_Miyu MESP_ALLIANCE_CHR_Rin MESP_ALLIANCE_CHR_Nanami MESP_ALLIANCE_CHR_Yui MESP_ALLIANCE_CHR_Hina MESP_ALLIANCE_CHR_Honoka MESP_ALLIANCE_CHR_Riko MESP_ALLIANCE_CHR_Yuna MESP_ALLIANCE_CHR_Koharu MESP_ALLIANCE_CHR_Hinata MESP_ALLIANCE_CHR_Mei MESP_ALLIANCE_CHR_Saki MESP_ALLIANCE_CHR_Ichika MESP_ALLIANCE_CHR_Hiyori MESP_ALLIANCE_CHR_Yusuki
+				MESP_ALLIANCE_CHR_Shiori MESP_ALLIANCE_CHR_Natsuki MESP_ALLIANCE_CHR_Ayane MESP_ALLIANCE_CHR_Kaho MESP_ALLIANCE_CHR_Hana MESP_ALLIANCE_CHR_Momoka MESP_ALLIANCE_CHR_Himari MESP_ALLIANCE_CHR_Yume MESP_ALLIANCE_CHR_Aomame MESP_ALLIANCE_CHR_Noriko MESP_ALLIANCE_CHR_Kazumi MESP_ALLIANCE_CHR_Kimiko
+			}
+			second_names = {
+				MESP_ALLIANCE_CHR_Sato MESP_ALLIANCE_CHR_Suzuki MESP_ALLIANCE_CHR_Takahashi MESP_ALLIANCE_CHR_Tanaka MESP_ALLIANCE_CHR_Watanabe MESP_ALLIANCE_CHR_Ito MESP_ALLIANCE_CHR_Nakamura MESP_ALLIANCE_CHR_Kobayashi MESP_ALLIANCE_CHR_Yamamoto MESP_ALLIANCE_CHR_Kato MESP_ALLIANCE_CHR_Yoshida MESP_ALLIANCE_CHR_Yamada MESP_ALLIANCE_CHR_Sasaki MESP_ALLIANCE_CHR_Yamaguchi MESP_ALLIANCE_CHR_Matsumoto
+				MESP_ALLIANCE_CHR_Inoue MESP_ALLIANCE_CHR_Kimura MESP_ALLIANCE_CHR_Shimizu MESP_ALLIANCE_CHR_Hayashi MESP_ALLIANCE_CHR_Saito MESP_ALLIANCE_CHR_Yamazaki MESP_ALLIANCE_CHR_Nakajima MESP_ALLIANCE_CHR_Mori MESP_ALLIANCE_CHR_Abe MESP_ALLIANCE_CHR_Ikeda MESP_ALLIANCE_CHR_Hashimoto MESP_ALLIANCE_CHR_Ishikawa MESP_ALLIANCE_CHR_Yamashita MESP_ALLIANCE_CHR_Ogawa MESP_ALLIANCE_CHR_Ishii MESP_ALLIANCE_CHR_Hasegawa
+				MESP_ALLIANCE_CHR_Goto MESP_ALLIANCE_CHR_Okada MESP_ALLIANCE_CHR_Fujita MESP_ALLIANCE_CHR_Sakamoto MESP_ALLIANCE_CHR_Murakami MESP_ALLIANCE_CHR_Nishimura MESP_ALLIANCE_CHR_Nakagawa MESP_ALLIANCE_CHR_Harada MESP_ALLIANCE_CHR_Okamoto MESP_ALLIANCE_CHR_Miura MESP_ALLIANCE_CHR_Takaya MESP_ALLIANCE_CHR_Amano MESP_ALLIANCE_CHR_Higuchi MESP_ALLIANCE_CHR_Ota
+			}
+			regnal_first_names_male = {
+				MESP_ALLIANCE_CHR_Teruhito MESP_ALLIANCE_CHR_Nekuhiko MESP_ALLIANCE_CHR_Mimatsuhiko MESP_ALLIANCE_CHR_Anaho MESP_ALLIANCE_CHR_Hironari MESP_ALLIANCE_CHR_Norinaga
+			}
+			regnal_first_names_female = {
+				MESP_ALLIANCE_CHR_Nukatabe MESP_ALLIANCE_CHR_Toyomike MESP_ALLIANCE_CHR_Takara MESP_ALLIANCE_CHR_Niinomi MESP_ALLIANCE_CHR_Hidaka MESP_ALLIANCE_CHR_Takama MESP_ALLIANCE_CHR_Okiko MESP_ALLIANCE_CHR_Toshiko
+			}
+			regnal_second_names = {
+				MESP_ALLIANCE_CHR_noMikoto MESP_ALLIANCE_CHR_Sumeramikoto MESP_ALLIANCE_CHR_Otomo MESP_ALLIANCE_CHR_Suijin MESP_ALLIANCE_CHR_Mononobe MESP_ALLIANCE_CHR_Yamato
+			}
+		}
+
+		names7 = {
+			weight = 15
+			first_names_male = {
+				MESP_ALLIANCE_CHR_Aarav MESP_ALLIANCE_CHR_Vivaan MESP_ALLIANCE_CHR_Aditya MESP_ALLIANCE_CHR_Arjun MESP_ALLIANCE_CHR_Reyansh MESP_ALLIANCE_CHR_Arnav MESP_ALLIANCE_CHR_Krishna MESP_ALLIANCE_CHR_Ishaan MESP_ALLIANCE_CHR_Shaurya MESP_ALLIANCE_CHR_Atharv MESP_ALLIANCE_CHR_Advik MESP_ALLIANCE_CHR_Pranav MESP_ALLIANCE_CHR_Advaith MESP_ALLIANCE_CHR_Dhruv MESP_ALLIANCE_CHR_Kabir MESP_ALLIANCE_CHR_Ritvik MESP_ALLIANCE_CHR_Aarush
+				MESP_ALLIANCE_CHR_Kayaan MESP_ALLIANCE_CHR_Darsh MESP_ALLIANCE_CHR_Veer MESP_ALLIANCE_CHR_Rahul MESP_ALLIANCE_CHR_Mahesh MESP_ALLIANCE_CHR_Shyam MESP_ALLIANCE_CHR_Raj MESP_ALLIANCE_CHR_Kumar MESP_ALLIANCE_CHR_Palash MESP_ALLIANCE_CHR_Rakesh MESP_ALLIANCE_CHR_Nishant MESP_ALLIANCE_CHR_Neeraj MESP_ALLIANCE_CHR_Prathamesh MESP_ALLIANCE_CHR_Shubham
+			}
+			first_names_female = {
+				MESP_ALLIANCE_CHR_Saanvi MESP_ALLIANCE_CHR_Aanya MESP_ALLIANCE_CHR_Aadhya MESP_ALLIANCE_CHR_Aaradhya MESP_ALLIANCE_CHR_Ananya MESP_ALLIANCE_CHR_Pari MESP_ALLIANCE_CHR_Anika MESP_ALLIANCE_CHR_Navya MESP_ALLIANCE_CHR_Diya MESP_ALLIANCE_CHR_Avani MESP_ALLIANCE_CHR_Myra MESP_ALLIANCE_CHR_Ira MESP_ALLIANCE_CHR_Aahana MESP_ALLIANCE_CHR_Anvi MESP_ALLIANCE_CHR_Prisha MESP_ALLIANCE_CHR_Riya MESP_ALLIANCE_CHR_Aarohi MESP_ALLIANCE_CHR_Anaya MESP_ALLIANCE_CHR_Akshara
+				MESP_ALLIANCE_CHR_Shanaya MESP_ALLIANCE_CHR_Kyra MESP_ALLIANCE_CHR_Siya MESP_ALLIANCE_CHR_Priyanka MESP_ALLIANCE_CHR_Divya MESP_ALLIANCE_CHR_Mahima MESP_ALLIANCE_CHR_Shivangi MESP_ALLIANCE_CHR_Juvina MESP_ALLIANCE_CHR_Anoushka MESP_ALLIANCE_CHR_Anushri MESP_ALLIANCE_CHR_Apoorva MESP_ALLIANCE_CHR_Sanjana
+			}
+			second_names = {
+				MESP_ALLIANCE_CHR_Kumar MESP_ALLIANCE_CHR_Moorthi MESP_ALLIANCE_CHR_Shastri MESP_ALLIANCE_CHR_Prasad MESP_ALLIANCE_CHR_Acharya MESP_ALLIANCE_CHR_Swamy MESP_ALLIANCE_CHR_Pillai MESP_ALLIANCE_CHR_Gowda MESP_ALLIANCE_CHR_Nayak MESP_ALLIANCE_CHR_Desmukh MESP_ALLIANCE_CHR_Bhat MESP_ALLIANCE_CHR_Bhandary MESP_ALLIANCE_CHR_Poojary MESP_ALLIANCE_CHR_Upadhyay MESP_ALLIANCE_CHR_Chowta MESP_ALLIANCE_CHR_Naik
+				MESP_ALLIANCE_CHR_Kulkarni MESP_ALLIANCE_CHR_Dodamani MESP_ALLIANCE_CHR_Patil MESP_ALLIANCE_CHR_Gupta MESP_ALLIANCE_CHR_Sharma MESP_ALLIANCE_CHR_Namboodiri MESP_ALLIANCE_CHR_Pannikar MESP_ALLIANCE_CHR_Potti MESP_ALLIANCE_CHR_Kutty MESP_ALLIANCE_CHR_Varma MESP_ALLIANCE_CHR_Sondharam MESP_ALLIANCE_CHR_Sooriyaprakash MESP_ALLIANCE_CHR_Chandran MESP_ALLIANCE_CHR_Vijay
+				MESP_ALLIANCE_CHR_Venktaesan MESP_ALLIANCE_CHR_Puttappa
+			}
+			regnal_first_names_male = {
+				MESP_ALLIANCE_CHR_Kayaan MESP_ALLIANCE_CHR_Darsh MESP_ALLIANCE_CHR_Veer MESP_ALLIANCE_CHR_Rahul MESP_ALLIANCE_CHR_Mahesh MESP_ALLIANCE_CHR_Shaurya MESP_ALLIANCE_CHR_Atharv MESP_ALLIANCE_CHR_Advik MESP_ALLIANCE_CHR_Pranav
+			}
+			regnal_first_names_female = {
+				MESP_ALLIANCE_CHR_Saanvi MESP_ALLIANCE_CHR_Aanya MESP_ALLIANCE_CHR_Aadhya MESP_ALLIANCE_CHR_Aaradhya MESP_ALLIANCE_CHR_Ananya MESP_ALLIANCE_CHR_Priyanka MESP_ALLIANCE_CHR_Divya MESP_ALLIANCE_CHR_Mahima MESP_ALLIANCE_CHR_Shivangi
+			}
+			regnal_second_names = {
+				MESP_ALLIANCE_CHR_Kumar MESP_ALLIANCE_CHR_Moorthi MESP_ALLIANCE_CHR_Shastri MESP_ALLIANCE_CHR_Prasad MESP_ALLIANCE_CHR_Acharya MESP_ALLIANCE_CHR_Patil MESP_ALLIANCE_CHR_Gupta MESP_ALLIANCE_CHR_Sharma MESP_ALLIANCE_CHR_Namboodiri MESP_ALLIANCE_CHR_Pannikar MESP_ALLIANCE_CHR_Potti MESP_ALLIANCE_CHR_Kutty MESP_ALLIANCE_CHR_Varma MESP_ALLIANCE_CHR_Sondharam
+			}
+		}
+
+		names8 = {
+			weight = 25
+			first_names_male = {
+				MESP_ALLIANCE_CHR_Diego MESP_ALLIANCE_CHR_Luis MESP_ALLIANCE_CHR_Pedro MESP_ALLIANCE_CHR_Joaquin MESP_ALLIANCE_CHR_Jose MESP_ALLIANCE_CHR_Emilio MESP_ALLIANCE_CHR_Eduardo MESP_ALLIANCE_CHR_Alejandro MESP_ALLIANCE_CHR_Carlos MESP_ALLIANCE_CHR_Fernando MESP_ALLIANCE_CHR_Francisco MESP_ALLIANCE_CHR_Julio MESP_ALLIANCE_CHR_JoseAntonio MESP_ALLIANCE_CHR_JoseManuel MESP_ALLIANCE_CHR_Juan
+				MESP_ALLIANCE_CHR_JoseMaria MESP_ALLIANCE_CHR_Ignacio MESP_ALLIANCE_CHR_Manuel MESP_ALLIANCE_CHR_Pablo MESP_ALLIANCE_CHR_Miguel MESP_ALLIANCE_CHR_Ramon MESP_ALLIANCE_CHR_Raimundo MESP_ALLIANCE_CHR_Santiago MESP_ALLIANCE_CHR_Ricardo MESP_ALLIANCE_CHR_Marcelo MESP_ALLIANCE_CHR_Javier MESP_ALLIANCE_CHR_Gaspar MESP_ALLIANCE_CHR_Alfonso MESP_ALLIANCE_CHR_Lorenzo MESP_ALLIANCE_CHR_Enrique
+				MESP_ALLIANCE_CHR_Ernesto MESP_ALLIANCE_CHR_Gerardo MESP_ALLIANCE_CHR_Guillermo MESP_ALLIANCE_CHR_Jesus MESP_ALLIANCE_CHR_Salvadore MESP_ALLIANCE_CHR_Sergio MESP_ALLIANCE_CHR_Roberto MESP_ALLIANCE_CHR_Esteban
+			}
+			first_names_female = {
+				MESP_ALLIANCE_CHR_Hortensia MESP_ALLIANCE_CHR_Isabel MESP_ALLIANCE_CHR_Valentina MESP_ALLIANCE_CHR_Alejandra MESP_ALLIANCE_CHR_Alicia MESP_ALLIANCE_CHR_Antonia MESP_ALLIANCE_CHR_Carla MESP_ALLIANCE_CHR_Carmen MESP_ALLIANCE_CHR_Catalina MESP_ALLIANCE_CHR_Dolores MESP_ALLIANCE_CHR_Estefania MESP_ALLIANCE_CHR_Eva MESP_ALLIANCE_CHR_Fernanda MESP_ALLIANCE_CHR_Florencia
+				MESP_ALLIANCE_CHR_Gabriela MESP_ALLIANCE_CHR_Grizelda MESP_ALLIANCE_CHR_Maria MESP_ALLIANCE_CHR_Lorena MESP_ALLIANCE_CHR_Magdalena MESP_ALLIANCE_CHR_Mercedes MESP_ALLIANCE_CHR_Miriam MESP_ALLIANCE_CHR_Paulina MESP_ALLIANCE_CHR_Sofia MESP_ALLIANCE_CHR_Yolanda MESP_ALLIANCE_CHR_Camila MESP_ALLIANCE_CHR_Luciana MESP_ALLIANCE_CHR_Valeria MESP_ALLIANCE_CHR_Mariana MESP_ALLIANCE_CHR_Daniela
+				MESP_ALLIANCE_CHR_Martina MESP_ALLIANCE_CHR_Julieta MESP_ALLIANCE_CHR_Antonella MESP_ALLIANCE_CHR_Renata MESP_ALLIANCE_CHR_Agustina MESP_ALLIANCE_CHR_Constanza MESP_ALLIANCE_CHR_Fabiana
+			}
+			second_names = {
+				MESP_ALLIANCE_CHR_Garcia MESP_ALLIANCE_CHR_Martinez MESP_ALLIANCE_CHR_Rodriguez MESP_ALLIANCE_CHR_Fernandez MESP_ALLIANCE_CHR_Sanchez MESP_ALLIANCE_CHR_Lopez MESP_ALLIANCE_CHR_Martin MESP_ALLIANCE_CHR_Perez MESP_ALLIANCE_CHR_Gonzalez MESP_ALLIANCE_CHR_Alvarez MESP_ALLIANCE_CHR_Gomez MESP_ALLIANCE_CHR_Diaz MESP_ALLIANCE_CHR_Dominguez MESP_ALLIANCE_CHR_Hernandez
+				MESP_ALLIANCE_CHR_Ramirez MESP_ALLIANCE_CHR_Mendez MESP_ALLIANCE_CHR_Perez MESP_ALLIANCE_CHR_Vasquez MESP_ALLIANCE_CHR_Ruiz MESP_ALLIANCE_CHR_Aguera MESP_ALLIANCE_CHR_Alonso MESP_ALLIANCE_CHR_Batista MESP_ALLIANCE_CHR_Esguerra MESP_ALLIANCE_CHR_Flores MESP_ALLIANCE_CHR_delaGuardia MESP_ALLIANCE_CHR_delaCruz MESP_ALLIANCE_CHR_delaVega
+				MESP_ALLIANCE_CHR_deVargas MESP_ALLIANCE_CHR_Ibanez MESP_ALLIANCE_CHR_Moralez MESP_ALLIANCE_CHR_Riveros MESP_ALLIANCE_CHR_Rosario MESP_ALLIANCE_CHR_Velazco MESP_ALLIANCE_CHR_Torres MESP_ALLIANCE_CHR_Quesada MESP_ALLIANCE_CHR_Saldana MESP_ALLIANCE_CHR_Salazar MESP_ALLIANCE_CHR_Ortega MESP_ALLIANCE_CHR_Ortiz MESP_ALLIANCE_CHR_Solano MESP_ALLIANCE_CHR_Romero
+			}
+			regnal_first_names_male = {
+				MESP_ALLIANCE_CHR_Santiago MESP_ALLIANCE_CHR_Ricardo MESP_ALLIANCE_CHR_Marcelo MESP_ALLIANCE_CHR_Javier MESP_ALLIANCE_CHR_Ernesto MESP_ALLIANCE_CHR_Gerardo MESP_ALLIANCE_CHR_Guillermo
+			}
+			regnal_first_names_female = {
+				MESP_ALLIANCE_CHR_Alicia MESP_ALLIANCE_CHR_Antonia MESP_ALLIANCE_CHR_Carla MESP_ALLIANCE_CHR_Carmen MESP_ALLIANCE_CHR_Catalina MESP_ALLIANCE_CHR_Dolores MESP_ALLIANCE_CHR_Martina MESP_ALLIANCE_CHR_Julieta MESP_ALLIANCE_CHR_Antonella MESP_ALLIANCE_CHR_Renata
+			}
+			regnal_second_names = {
+				MESP_ALLIANCE_CHR_Fernandez MESP_ALLIANCE_CHR_Sanchez MESP_ALLIANCE_CHR_Lopez MESP_ALLIANCE_CHR_Martin MESP_ALLIANCE_CHR_Perez MESP_ALLIANCE_CHR_Gonzalez MESP_ALLIANCE_CHR_Alvarez MESP_ALLIANCE_CHR_Gomez MESP_ALLIANCE_CHR_Diaz
+			}
+		}
+
+		names9 = {
+			weight = 15
+			first_names_male = {
+				MESP_ALLIANCE_CHR_Abdullah MESP_ALLIANCE_CHR_Abbas MESP_ALLIANCE_CHR_Abed MESP_ALLIANCE_CHR_Ahmad MESP_ALLIANCE_CHR_Ahmed MESP_ALLIANCE_CHR_Ali MESP_ALLIANCE_CHR_Ammar MESP_ALLIANCE_CHR_Amir MESP_ALLIANCE_CHR_Hamza MESP_ALLIANCE_CHR_Hassan MESP_ALLIANCE_CHR_Hydar MESP_ALLIANCE_CHR_Ibrahim MESP_ALLIANCE_CHR_Jamal MESP_ALLIANCE_CHR_Kareem MESP_ALLIANCE_CHR_Khathem MESP_ALLIANCE_CHR_Khalil MESP_ALLIANCE_CHR_Khalid MESP_ALLIANCE_CHR_Malik MESP_ALLIANCE_CHR_Mahdi
+				MESP_ALLIANCE_CHR_Hussein MESP_ALLIANCE_CHR_Mohamed MESP_ALLIANCE_CHR_Mohammad MESP_ALLIANCE_CHR_Mohammed MESP_ALLIANCE_CHR_Muhammad MESP_ALLIANCE_CHR_Muhammed MESP_ALLIANCE_CHR_Nasir MESP_ALLIANCE_CHR_Omar MESP_ALLIANCE_CHR_Rashad MESP_ALLIANCE_CHR_Rashid MESP_ALLIANCE_CHR_Samir MESP_ALLIANCE_CHR_Tariq MESP_ALLIANCE_CHR_Yahir MESP_ALLIANCE_CHR_Yasin MESP_ALLIANCE_CHR_Yusuf MESP_ALLIANCE_CHR_Barak
+			}
+			first_names_female = {
+				MESP_ALLIANCE_CHR_Alma MESP_ALLIANCE_CHR_Amani MESP_ALLIANCE_CHR_Amira MESP_ALLIANCE_CHR_Aisha MESP_ALLIANCE_CHR_Fatima MESP_ALLIANCE_CHR_Hala MESP_ALLIANCE_CHR_Hana MESP_ALLIANCE_CHR_Hasti MESP_ALLIANCE_CHR_Imani MESP_ALLIANCE_CHR_Jana MESP_ALLIANCE_CHR_Jaliyah MESP_ALLIANCE_CHR_Jazmin MESP_ALLIANCE_CHR_Jenna MESP_ALLIANCE_CHR_Kaliyah MESP_ALLIANCE_CHR_Layan MESP_ALLIANCE_CHR_Leen MESP_ALLIANCE_CHR_Leila MESP_ALLIANCE_CHR_Lydia MESP_ALLIANCE_CHR_Malak MESP_ALLIANCE_CHR_Maryam
+				MESP_ALLIANCE_CHR_Maritza MESP_ALLIANCE_CHR_Mina MESP_ALLIANCE_CHR_Naima MESP_ALLIANCE_CHR_Noor MESP_ALLIANCE_CHR_Salma MESP_ALLIANCE_CHR_Samira MESP_ALLIANCE_CHR_Sanaa MESP_ALLIANCE_CHR_Yesenia MESP_ALLIANCE_CHR_Zahra MESP_ALLIANCE_CHR_Satayesh MESP_ALLIANCE_CHR_Zeinab MESP_ALLIANCE_CHR_Reihaneh MESP_ALLIANCE_CHR_Mobina MESP_ALLIANCE_CHR_Narges MESP_ALLIANCE_CHR_Masoumeh MESP_ALLIANCE_CHR_Sakineh MESP_ALLIANCE_CHR_Aya
+			}
+			second_names = {
+				MESP_ALLIANCE_CHR_Barakat MESP_ALLIANCE_CHR_Abbas MESP_ALLIANCE_CHR_AbdelNour MESP_ALLIANCE_CHR_Abboud MESP_ALLIANCE_CHR_al-Ahdal MESP_ALLIANCE_CHR_al-Ajlani MESP_ALLIANCE_CHR_al-Bariqi MESP_ALLIANCE_CHR_al-Mubarak MESP_ALLIANCE_CHR_Adwam MESP_ALLIANCE_CHR_Akkad MESP_ALLIANCE_CHR_Alawi MESP_ALLIANCE_CHR_al-Asiri MESP_ALLIANCE_CHR_al-Atrash MESP_ALLIANCE_CHR_al-Dimashqi
+				MESP_ALLIANCE_CHR_Bakir MESP_ALLIANCE_CHR_Hussein MESP_ALLIANCE_CHR_al-Hazmi MESP_ALLIANCE_CHR_al-Bishi MESP_ALLIANCE_CHR_El-Baz MESP_ALLIANCE_CHR_Ibrahim MESP_ALLIANCE_CHR_Ishak MESP_ALLIANCE_CHR_Ismail MESP_ALLIANCE_CHR_El-Farouk MESP_ALLIANCE_CHR_Hassan MESP_ALLIANCE_CHR_El-Ghazali MESP_ALLIANCE_CHR_Bilal MESP_ALLIANCE_CHR_Nadir MESP_ALLIANCE_CHR_Juhani MESP_ALLIANCE_CHR_Jawahir MESP_ALLIANCE_CHR_Hamidi
+				MESP_ALLIANCE_CHR_al-Jazari MESP_ALLIANCE_CHR_al-Samarrai MESP_ALLIANCE_CHR_Salman MESP_ALLIANCE_CHR_Qasim MESP_ALLIANCE_CHR_Qudsi MESP_ALLIANCE_CHR_Qaderi MESP_ALLIANCE_CHR_al-Qadi MESP_ALLIANCE_CHR_Farrokhzad MESP_ALLIANCE_CHR_Madani MESP_ALLIANCE_CHR_Sassani MESP_ALLIANCE_CHR_Turani MESP_ALLIANCE_CHR_Khadem MESP_ALLIANCE_CHR_Ghorbani MESP_ALLIANCE_CHR_Jamshidi MESP_ALLIANCE_CHR_Rahimi
+			}
+			regnal_first_names_male = {
+				MESP_ALLIANCE_CHR_Abdullah MESP_ALLIANCE_CHR_Abbas MESP_ALLIANCE_CHR_Abed MESP_ALLIANCE_CHR_Khalil MESP_ALLIANCE_CHR_Khalid MESP_ALLIANCE_CHR_Malik MESP_ALLIANCE_CHR_Mahdi MESP_ALLIANCE_CHR_Nasir MESP_ALLIANCE_CHR_Omar MESP_ALLIANCE_CHR_Rashad MESP_ALLIANCE_CHR_Rashid MESP_ALLIANCE_CHR_Samir
+			}
+			regnal_first_names_female = {
+				MESP_ALLIANCE_CHR_Zeinab MESP_ALLIANCE_CHR_Reihaneh MESP_ALLIANCE_CHR_Mobina MESP_ALLIANCE_CHR_Narges MESP_ALLIANCE_CHR_Masoumeh MESP_ALLIANCE_CHR_Sakineh MESP_ALLIANCE_CHR_Aya MESP_ALLIANCE_CHR_Alma MESP_ALLIANCE_CHR_Amani MESP_ALLIANCE_CHR_Amira
+			}
+			regnal_second_names = {
+				MESP_ALLIANCE_CHR_arakat MESP_ALLIANCE_CHR_Abbas MESP_ALLIANCE_CHR_AbdelNour MESP_ALLIANCE_CHR_Abboud MESP_ALLIANCE_CHR_al-Ahdal MESP_ALLIANCE_CHR_al-Jazari MESP_ALLIANCE_CHR_al-Samarrai MESP_ALLIANCE_CHR_Salman MESP_ALLIANCE_CHR_Qasim MESP_ALLIANCE_CHR_Qudsi MESP_ALLIANCE_CHR_Qaderi MESP_ALLIANCE_CHR_al-Qadi MESP_ALLIANCE_CHR_Farrokhzad MESP_ALLIANCE_CHR_Madani
+			}
+		}
+
+		names10 = {
+			weight = 15
+			first_names_male = {
+				MESP_ALLIANCE_CHR_Faraji MESP_ALLIANCE_CHR_Imamu MESP_ALLIANCE_CHR_Jelani MESP_ALLIANCE_CHR_Jengo MESP_ALLIANCE_CHR_Jumaane MESP_ALLIANCE_CHR_Khamisi MESP_ALLIANCE_CHR_Kibwe MESP_ALLIANCE_CHR_Mosi MESP_ALLIANCE_CHR_Mwenye MESP_ALLIANCE_CHR_Sefu MESP_ALLIANCE_CHR_Simba MESP_ALLIANCE_CHR_Tendaji MESP_ALLIANCE_CHR_Zuberi MESP_ALLIANCE_CHR_Abasi MESP_ALLIANCE_CHR_Annan MESP_ALLIANCE_CHR_Azizi MESP_ALLIANCE_CHR_Badru MESP_ALLIANCE_CHR_Bakari MESP_ALLIANCE_CHR_Bwana
+				MESP_ALLIANCE_CHR_Chane MESP_ALLIANCE_CHR_Chuma MESP_ALLIANCE_CHR_Enzi MESP_ALLIANCE_CHR_Faraji MESP_ALLIANCE_CHR_Hanisi MESP_ALLIANCE_CHR_Idi MESP_ALLIANCE_CHR_Issa MESP_ALLIANCE_CHR_Jabari MESP_ALLIANCE_CHR_Akani MESP_ALLIANCE_CHR_Aluwanip MESP_ALLIANCE_CHR_Ayanda MESP_ALLIANCE_CHR_Bambanani MESP_ALLIANCE_CHR_Bheka MESP_ALLIANCE_CHR_Bhekithemba MESP_ALLIANCE_CHR_Bhekizizwe MESP_ALLIANCE_CHR_Butholezwe MESP_ALLIANCE_CHR_Dikotsi
+				MESP_ALLIANCE_CHR_Dzingai MESP_ALLIANCE_CHR_Esaia MESP_ALLIANCE_CHR_Hangwani MESP_ALLIANCE_CHR_Humbe MESP_ALLIANCE_CHR_Kabelo MESP_ALLIANCE_CHR_Khathu MESP_ALLIANCE_CHR_Khumbu MESP_ALLIANCE_CHR_Kutlwano MESP_ALLIANCE_CHR_Kwanele MESP_ALLIANCE_CHR_Lentswe MESP_ALLIANCE_CHR_Lesebo MESP_ALLIANCE_CHR_Letswalo MESP_ALLIANCE_CHR_Lutendo MESP_ALLIANCE_CHR_Mahlubandile MESP_ALLIANCE_CHR_Makalo MESP_ALLIANCE_CHR_Mareka
+				MESP_ALLIANCE_CHR_Masingita MESP_ALLIANCE_CHR_Moeketsi MESP_ALLIANCE_CHR_Molapo MESP_ALLIANCE_CHR_Mosemotsane MESP_ALLIANCE_CHR_Motlalentwa MESP_ALLIANCE_CHR_Mothusi MESP_ALLIANCE_CHR_Msizi MESP_ALLIANCE_CHR_Mzwamadoda MESP_ALLIANCE_CHR_Nthofeela MESP_ALLIANCE_CHR_Oagile MESP_ALLIANCE_CHR_Paseka MESP_ALLIANCE_CHR_Phahamo MESP_ALLIANCE_CHR_Poloko MESP_ALLIANCE_CHR_Qukeza MESP_ALLIANCE_CHR_Refilwe
+				MESP_ALLIANCE_CHR_Sanele MESP_ALLIANCE_CHR_Sbu MESP_ALLIANCE_CHR_Sehlolo MESP_ALLIANCE_CHR_Sekgolokhane MESP_ALLIANCE_CHR_Sibusiso MESP_ALLIANCE_CHR_Sizwe MESP_ALLIANCE_CHR_Teboho MESP_ALLIANCE_CHR_Thabiso MESP_ALLIANCE_CHR_Themba MESP_ALLIANCE_CHR_Thuso MESP_ALLIANCE_CHR_Tsebo MESP_ALLIANCE_CHR_Tsehla MESP_ALLIANCE_CHR_Tshawe MESP_ALLIANCE_CHR_Unathi MESP_ALLIANCE_CHR_Wandile MESP_ALLIANCE_CHR_Mbutu MESP_ALLIANCE_CHR_Kofi
+			}
+			first_names_female = {
+				MESP_ALLIANCE_CHR_Asha MESP_ALLIANCE_CHR_Abla MESP_ALLIANCE_CHR_Adhra MESP_ALLIANCE_CHR_Adila MESP_ALLIANCE_CHR_Aeeshah MESP_ALLIANCE_CHR_Afiya MESP_ALLIANCE_CHR_Chausiku MESP_ALLIANCE_CHR_Eshe MESP_ALLIANCE_CHR_Furaha MESP_ALLIANCE_CHR_Imani MESP_ALLIANCE_CHR_Kamaria MESP_ALLIANCE_CHR_Marjani MESP_ALLIANCE_CHR_Mchumba MESP_ALLIANCE_CHR_Mwanajuma MESP_ALLIANCE_CHR_Nia MESP_ALLIANCE_CHR_Nuru MESP_ALLIANCE_CHR_Sanaa MESP_ALLIANCE_CHR_Sauda MESP_ALLIANCE_CHR_Subira
+				MESP_ALLIANCE_CHR_Zuri MESP_ALLIANCE_CHR_Aizivaishe MESP_ALLIANCE_CHR_Anatswanashe MESP_ALLIANCE_CHR_Anodiwa MESP_ALLIANCE_CHR_Anokosha MESP_ALLIANCE_CHR_Awande MESP_ALLIANCE_CHR_Bokang MESP_ALLIANCE_CHR_Bongani MESP_ALLIANCE_CHR_Dikeledi MESP_ALLIANCE_CHR_Edzai MESP_ALLIANCE_CHR_Fikile MESP_ALLIANCE_CHR_Gugu MESP_ALLIANCE_CHR_Kagiso MESP_ALLIANCE_CHR_Keneuwe MESP_ALLIANCE_CHR_Koketso MESP_ALLIANCE_CHR_Langalibalele
+				MESP_ALLIANCE_CHR_Lerato MESP_ALLIANCE_CHR_Lindidwe MESP_ALLIANCE_CHR_Litsoanelo MESP_ALLIANCE_CHR_Lulama MESP_ALLIANCE_CHR_Majobo MESP_ALLIANCE_CHR_Maletsatsi MESP_ALLIANCE_CHR_Matshediso MESP_ALLIANCE_CHR_Mbali MESP_ALLIANCE_CHR_Mmaabo MESP_ALLIANCE_CHR_Mncedisi MESP_ALLIANCE_CHR_Mohau MESP_ALLIANCE_CHR_Moratuoa MESP_ALLIANCE_CHR_Muambiwa MESP_ALLIANCE_CHR_Nnyadzeni MESP_ALLIANCE_CHR_Nofoto
+				MESP_ALLIANCE_CHR_Nthati MESP_ALLIANCE_CHR_Ntsebo MESP_ALLIANCE_CHR_Ntswaki MESP_ALLIANCE_CHR_Phathu MESP_ALLIANCE_CHR_Reneilwe MESP_ALLIANCE_CHR_Rudzani MESP_ALLIANCE_CHR_Shandu MESP_ALLIANCE_CHR_Sinethemba MESP_ALLIANCE_CHR_Sizani MESP_ALLIANCE_CHR_Thanduxolo MESP_ALLIANCE_CHR_Tshanduko MESP_ALLIANCE_CHR_Tungu MESP_ALLIANCE_CHR_Zinhle
+			}
+			second_names = {
+				MESP_ALLIANCE_CHR_Azikiwe MESP_ALLIANCE_CHR_Awolowo MESP_ALLIANCE_CHR_Balewa MESP_ALLIANCE_CHR_Akintola MESP_ALLIANCE_CHR_Nzeogwu MESP_ALLIANCE_CHR_Onwuatuegwu MESP_ALLIANCE_CHR_Okeke MESP_ALLIANCE_CHR_Okonkwo MESP_ALLIANCE_CHR_Babangida MESP_ALLIANCE_CHR_Buhari MESP_ALLIANCE_CHR_Dimka MESP_ALLIANCE_CHR_Ibori MESP_ALLIANCE_CHR_Jomo-Gbomo MESP_ALLIANCE_CHR_Iwu MESP_ALLIANCE_CHR_Bamgboshe MESP_ALLIANCE_CHR_Biobaku
+				MESP_ALLIANCE_CHR_Tinibu MESP_ALLIANCE_CHR_Akinjide MESP_ALLIANCE_CHR_Akiloye MESP_ALLIANCE_CHR_Adeyemi MESP_ALLIANCE_CHR_Sekibo MESP_ALLIANCE_CHR_Bankole MESP_ALLIANCE_CHR_Nnamani MESP_ALLIANCE_CHR_Okadigbo MESP_ALLIANCE_CHR_Ironsi MESP_ALLIANCE_CHR_Ojukwu MESP_ALLIANCE_CHR_Chukwumereije MESP_ALLIANCE_CHR_Iweala MESP_ALLIANCE_CHR_Okonjo MESP_ALLIANCE_CHR_Gbadamosi MESP_ALLIANCE_CHR_Olanrewaju
+				MESP_ALLIANCE_CHR_Madaki MESP_ALLIANCE_CHR_Oyinlola MESP_ALLIANCE_CHR_Onyejekwe MESP_ALLIANCE_CHR_Jakande MESP_ALLIANCE_CHR_Ngige MESP_ALLIANCE_CHR_Uba MESP_ALLIANCE_CHR_Ohakim MESP_ALLIANCE_CHR_Alakija MESP_ALLIANCE_CHR_Onobanjo MESP_ALLIANCE_CHR_Mbanefo MESP_ALLIANCE_CHR_Mbadinuju MESP_ALLIANCE_CHR_Ekwensi MESP_ALLIANCE_CHR_Gowon MESP_ALLIANCE_CHR_Saro-Wiwa MESP_ALLIANCE_CHR_Naidoo MESP_ALLIANCE_CHR_Swanepoel
+				MESP_ALLIANCE_CHR_Msibi MESP_ALLIANCE_CHR_Ngobese MESP_ALLIANCE_CHR_Ngema MESP_ALLIANCE_CHR_Masuku MESP_ALLIANCE_CHR_Khonjwayo MESP_ALLIANCE_CHR_Khumalo MESP_ALLIANCE_CHR_Kwayi MESP_ALLIANCE_CHR_Mambi MESP_ALLIANCE_CHR_Mbanjwa MESP_ALLIANCE_CHR_Mkhwemte MESP_ALLIANCE_CHR_Mtakwenda MESP_ALLIANCE_CHR_Ngwanya MESP_ALLIANCE_CHR_Nkwali MESP_ALLIANCE_CHR_Thwane MESP_ALLIANCE_CHR_Skhosana MESP_ALLIANCE_CHR_Tshangisa
+				MESP_ALLIANCE_CHR_Tshonyane MESP_ALLIANCE_CHR_Xhamela MESP_ALLIANCE_CHR_Xoko MESP_ALLIANCE_CHR_Zangwa MESP_ALLIANCE_CHR_Ndungwane MESP_ALLIANCE_CHR_Bhukhwana MESP_ALLIANCE_CHR_Dzana MESP_ALLIANCE_CHR_Gatyeni MESP_ALLIANCE_CHR_Gxarha MESP_ALLIANCE_CHR_Jwarha MESP_ALLIANCE_CHR_Khawuta
+			}
+			regnal_first_names_male = {
+				MESP_ALLIANCE_CHR_Faraji MESP_ALLIANCE_CHR_Imamu MESP_ALLIANCE_CHR_Jelani MESP_ALLIANCE_CHR_Jengo MESP_ALLIANCE_CHR_Jumaane MESP_ALLIANCE_CHR_Khamisi MESP_ALLIANCE_CHR_Kwanele MESP_ALLIANCE_CHR_Lentswe MESP_ALLIANCE_CHR_Lesebo MESP_ALLIANCE_CHR_Letswalo MESP_ALLIANCE_CHR_Lutendo MESP_ALLIANCE_CHR_Mahlubandile MESP_ALLIANCE_CHR_Makalo MESP_ALLIANCE_CHR_Mareka
+			}
+			regnal_first_names_female = {
+				MESP_ALLIANCE_CHR_Kagiso MESP_ALLIANCE_CHR_Keneuwe MESP_ALLIANCE_CHR_Koketso MESP_ALLIANCE_CHR_Langalibalele MESP_ALLIANCE_CHR_Ntsebo MESP_ALLIANCE_CHR_Ntswaki MESP_ALLIANCE_CHR_Phathu MESP_ALLIANCE_CHR_Reneilwe MESP_ALLIANCE_CHR_Rudzani MESP_ALLIANCE_CHR_Shandu
+			}
+			regnal_second_names = {
+				MESP_ALLIANCE_CHR_Azikiwe MESP_ALLIANCE_CHR_Awolowo MESP_ALLIANCE_CHR_Balewa MESP_ALLIANCE_CHR_Akintola MESP_ALLIANCE_CHR_Nzeogwu MESP_ALLIANCE_CHR_Onwuatuegwu
+			}
+		}
+
+		names11 = {
+			weight = 15
+			first_names_male = {
+				MESP_ALLIANCE_CHR_Mario MESP_ALLIANCE_CHR_Luigi MESP_ALLIANCE_CHR_Giovanni MESP_ALLIANCE_CHR_Giuseppe MESP_ALLIANCE_CHR_Antonio MESP_ALLIANCE_CHR_Roberto MESP_ALLIANCE_CHR_Andrea MESP_ALLIANCE_CHR_Stefano MESP_ALLIANCE_CHR_Marco MESP_ALLIANCE_CHR_Franscesco MESP_ALLIANCE_CHR_Angelo MESP_ALLIANCE_CHR_Vincenzo MESP_ALLIANCE_CHR_Pietro MESP_ALLIANCE_CHR_Salvatore MESP_ALLIANCE_CHR_Carlo MESP_ALLIANCE_CHR_Franco
+				MESP_ALLIANCE_CHR_Domenico MESP_ALLIANCE_CHR_Bruno MESP_ALLIANCE_CHR_Paulo MESP_ALLIANCE_CHR_Michele MESP_ALLIANCE_CHR_Giorgio MESP_ALLIANCE_CHR_Sergio MESP_ALLIANCE_CHR_Luciano MESP_ALLIANCE_CHR_Alessandro MESP_ALLIANCE_CHR_Alfonso MESP_ALLIANCE_CHR_Benito MESP_ALLIANCE_CHR_Fabrizio MESP_ALLIANCE_CHR_Cesare MESP_ALLIANCE_CHR_Enrico MESP_ALLIANCE_CHR_Gustavo MESP_ALLIANCE_CHR_Silvio MESP_ALLIANCE_CHR_Umberto
+				MESP_ALLIANCE_CHR_Nicola MESP_ALLIANCE_CHR_Matteo MESP_ALLIANCE_CHR_Ignazio MESP_ALLIANCE_CHR_Camillo MESP_ALLIANCE_CHR_Daniele MESP_ALLIANCE_CHR_Cristian MESP_ALLIANCE_CHR_Alberto MESP_ALLIANCE_CHR_Guido MESP_ALLIANCE_CHR_Lorenzo MESP_ALLIANCE_CHR_Tommaso MESP_ALLIANCE_CHR_Fabio
+			}
+			first_names_female = {
+				MESP_ALLIANCE_CHR_Maria MESP_ALLIANCE_CHR_Anna MESP_ALLIANCE_CHR_Giuseppina MESP_ALLIANCE_CHR_Rosa MESP_ALLIANCE_CHR_Angela MESP_ALLIANCE_CHR_Giovanna MESP_ALLIANCE_CHR_Teresa MESP_ALLIANCE_CHR_Lucia MESP_ALLIANCE_CHR_Carmela MESP_ALLIANCE_CHR_Caterina MESP_ALLIANCE_CHR_Francesca MESP_ALLIANCE_CHR_Antonietta MESP_ALLIANCE_CHR_Carla MESP_ALLIANCE_CHR_Elena MESP_ALLIANCE_CHR_Concetta MESP_ALLIANCE_CHR_Rita
+				MESP_ALLIANCE_CHR_Margherita MESP_ALLIANCE_CHR_Franca MESP_ALLIANCE_CHR_Paola MESP_ALLIANCE_CHR_Vittoria MESP_ALLIANCE_CHR_Arianna MESP_ALLIANCE_CHR_Orietta MESP_ALLIANCE_CHR_Nicoletta MESP_ALLIANCE_CHR_Clara MESP_ALLIANCE_CHR_Stefania MESP_ALLIANCE_CHR_Gisella MESP_ALLIANCE_CHR_Claudia MESP_ALLIANCE_CHR_Lorenza MESP_ALLIANCE_CHR_Gabriella MESP_ALLIANCE_CHR_Isabella MESP_ALLIANCE_CHR_Valeria
+				MESP_ALLIANCE_CHR_Lucrezia MESP_ALLIANCE_CHR_Dina MESP_ALLIANCE_CHR_Benedetta MESP_ALLIANCE_CHR_Pietra
+			}
+			second_names = {
+				MESP_ALLIANCE_CHR_Rossi MESP_ALLIANCE_CHR_Russo MESP_ALLIANCE_CHR_Ferrari MESP_ALLIANCE_CHR_Bianchi MESP_ALLIANCE_CHR_Ricci MESP_ALLIANCE_CHR_Marino MESP_ALLIANCE_CHR_DeLuca MESP_ALLIANCE_CHR_Costa MESP_ALLIANCE_CHR_Giordano MESP_ALLIANCE_CHR_Mancini MESP_ALLIANCE_CHR_Rizzo MESP_ALLIANCE_CHR_Lombardi MESP_ALLIANCE_CHR_Moretti MESP_ALLIANCE_CHR_Ravelli MESP_ALLIANCE_CHR_Conti MESP_ALLIANCE_CHR_Gallo MESP_ALLIANCE_CHR_Bello
+				MESP_ALLIANCE_CHR_Albricci MESP_ALLIANCE_CHR_Badoglio MESP_ALLIANCE_CHR_Cappello MESP_ALLIANCE_CHR_DiRobilant MESP_ALLIANCE_CHR_DiSavoia MESP_ALLIANCE_CHR_Garibaldi MESP_ALLIANCE_CHR_Saletta MESP_ALLIANCE_CHR_Pallavicino MESP_ALLIANCE_CHR_Pianelli MESP_ALLIANCE_CHR_Mambretti MESP_ALLIANCE_CHR_Marcuzzi MESP_ALLIANCE_CHR_Valeri MESP_ALLIANCE_CHR_Pezzaglia
+				MESP_ALLIANCE_CHR_Balletti MESP_ALLIANCE_CHR_Bianconelli MESP_ALLIANCE_CHR_Antonelli MESP_ALLIANCE_CHR_Corsini MESP_ALLIANCE_CHR_DAlessandro MESP_ALLIANCE_CHR_DAgostino MESP_ALLIANCE_CHR_DeRosa MESP_ALLIANCE_CHR_DeSciglio MESP_ALLIANCE_CHR_DiChiara MESP_ALLIANCE_CHR_DiBartolomei MESP_ALLIANCE_CHR_Delvecchio
+				MESP_ALLIANCE_CHR_DelGrosso MESP_ALLIANCE_CHR_DAntoni MESP_ALLIANCE_CHR_Fazio MESP_ALLIANCE_CHR_DiBella MESP_ALLIANCE_CHR_DiGennaro MESP_ALLIANCE_CHR_Fabbrini MESP_ALLIANCE_CHR_Gambadori MESP_ALLIANCE_CHR_Galvani MESP_ALLIANCE_CHR_Marchetti MESP_ALLIANCE_CHR_Mazzitelli MESP_ALLIANCE_CHR_Olivieri MESP_ALLIANCE_CHR_Pacini MESP_ALLIANCE_CHR_Quadrini
+			}
+			regnal_first_names_male = {
+				MESP_ALLIANCE_CHR_Mario MESP_ALLIANCE_CHR_Luigi MESP_ALLIANCE_CHR_Giovanni MESP_ALLIANCE_CHR_Enrico MESP_ALLIANCE_CHR_Gustavo MESP_ALLIANCE_CHR_Silvio MESP_ALLIANCE_CHR_Umberto
+			}
+			regnal_first_names_female = {
+				MESP_ALLIANCE_CHR_Theodora MESP_ALLIANCE_CHR_Fatima MESP_ALLIANCE_CHR_Miranda MESP_ALLIANCE_CHR_Cordelia MESP_ALLIANCE_CHR_Svetlana MESP_ALLIANCE_CHR_Anastasia MESP_ALLIANCE_CHR_Valentina MESP_ALLIANCE_CHR_Henrietta
+			}
+			regnal_second_names = {
+				MESP_ALLIANCE_CHR_Ferrari MESP_ALLIANCE_CHR_Bianchi MESP_ALLIANCE_CHR_Ricci MESP_ALLIANCE_CHR_Marino MESP_ALLIANCE_CHR_DeLuca MESP_ALLIANCE_CHR_Costa MESP_ALLIANCE_CHR_Giordano
+			}
+		}
+	}
+}

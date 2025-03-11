@@ -1,0 +1,73 @@
+# This is a template which multiple species can use. 
+
+krogan_male_01_outfit = {
+	default = "gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_red.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_red.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_red.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+		default = "gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_red.dds"
+		random = {
+			list = {
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_red.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_blue.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_black.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_new_2.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_new_3.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_new_4.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_new_5.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_new_6.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_new_7.dds"		
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_grunt_black.dds"		
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_grunt_blue.dds"		
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_grunt_red.dds"		
+			}
+		}		
+	}
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_red.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_blue.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_black.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_new_2.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_new_3.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_new_4.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_new_5.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_new_6.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_new_7.dds"		
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_grunt_black.dds"		
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_grunt_blue.dds"		
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_grunt_red.dds"	
+	}
+
+	#leader scope 
+	ruler = { #for rulers
+		default = "gfx/models/portraits/krogan/krogan_reptilian_massive_14_grunt_black.dds"
+		
+		# All Governments type
+		random = {
+			list = {
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_red.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_blue.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_black.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_new_2.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_new_3.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_new_4.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_new_5.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_new_6.dds"
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_wrex_new_7.dds"		
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_grunt_black.dds"		
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_grunt_blue.dds"		
+			"gfx/models/portraits/krogan/krogan_reptilian_massive_14_grunt_red.dds"	
+			}
+		}
+	}
+}

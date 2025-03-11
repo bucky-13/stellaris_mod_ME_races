@@ -1,0 +1,172 @@
+
+
+portraits = {
+
+	# Yalari
+	yalari_male = {	
+		entity = "humanoid_hp_14_entity"	
+		clothes_selector = "yalari_clothes" 
+		attachment_selector = "yalari_14_hair"	
+		greeting_sound = "humanoid_portrait_j_male"
+
+		character_textures = {
+			"gfx/models/portraits/yalari/yalari_14_yellow.dds"
+			"gfx/models/portraits/yalari/yalari_14_red.dds"
+			"gfx/models/portraits/yalari/yalari_14_blue.dds"
+			"gfx/models/portraits/yalari/yalari_14_cyan.dds"
+		}
+		custom_attachment_label = "HAIR_STYLE"
+
+		custom_close_up_position_offset = { x = 10 y = 60 }
+		custom_close_up_scale = 1.30
+		#custom_mid_close_up_position_offset = { x = 0 y = -100 }
+		#custom_mid_close_up_scale = 0.75
+	}
+
+	yalari_female	= {	
+		entity = "humanoid_hp_15_entity"	
+		clothes_selector = "yalari_clothes" 
+		attachment_selector = "yalari_15_hair"	
+		greeting_sound = "humanoid_portrait_j_male"
+		character_textures = {
+			"gfx/models/portraits/yalari/yalari_15_green.dds"
+			"gfx/models/portraits/yalari/yalari_15_purple.dds"
+			"gfx/models/portraits/yalari/yalari_15_white.dds"
+			"gfx/models/portraits/yalari/yalari_15_tan.dds"
+		}
+		custom_attachment_label = "HAIR_STYLE"
+
+		custom_close_up_position_offset = { x = 10 y = 60 }
+		custom_close_up_scale = 1.30
+		#custom_mid_close_up_position_offset = { x = 0 y = -100 }
+		#custom_mid_close_up_scale = 0.75
+	}
+}
+
+portrait_groups = {
+	yalari = {
+		default = yalari_male
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = male
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					yalari_male
+				}
+			}
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = female
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					yalari_female
+				}
+			}
+
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					yalari_male
+				}
+			}
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					yalari_female
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					yalari_male
+				}
+			}
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					yalari_female
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					yalari_male
+				}
+			}
+			add = {
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					yalari_female
+				}
+			}
+		}
+
+		ruler = {
+			add = {
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					yalari_male
+				}
+			}
+			add = {
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					yalari_female
+				}
+			}
+		}
+	}
+}

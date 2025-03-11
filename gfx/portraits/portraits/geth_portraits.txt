@@ -1,0 +1,268 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+
+portraits = {
+
+	geth_01 = {	
+		entity = "portrait_geth_entity" 
+		clothes_selector = "no_texture" 
+		attachment_selector = "no_texture"	
+		greeting_sound = "arthropoid_01_greetings" 
+			character_textures = {
+       "gfx/models/portraits/geth/geth_grey.dds"
+			}
+		}
+	geth_02 = {	
+		entity = "portrait_geth_entity" 
+		clothes_selector = "no_texture" 
+		attachment_selector = "no_texture"	
+		greeting_sound = "arthropoid_01_greetings" 
+			character_textures = {
+        "gfx/models/portraits/geth/geth_black.dds"
+			}
+		}
+	geth_03 = {	
+		entity = "portrait_geth_entity" 
+		clothes_selector = "no_texture" 
+		attachment_selector = "no_texture"	
+		greeting_sound = "arthropoid_01_greetings" 
+			character_textures = {
+       "gfx/models/portraits/geth/geth_legion.dds"
+			}
+		}
+	geth_04 = {	
+		entity = "portrait_geth_entity" 
+		clothes_selector = "no_texture" 
+		attachment_selector = "no_texture"	
+		greeting_sound = "arthropoid_01_greetings" 
+			character_textures = {
+        "gfx/models/portraits/geth/geth_legion_new.dds"
+			}
+		}
+	geth_05 = {	
+		entity = "portrait_geth_entity" 
+		clothes_selector = "no_texture" 
+		attachment_selector = "no_texture"	
+		greeting_sound = "arthropoid_01_greetings" 
+			character_textures = {
+        "gfx/models/portraits/geth/geth_legion_ver3.dds"
+			}
+		}
+	geth_06 = {	
+		entity = "portrait_geth_entity" 
+		clothes_selector = "no_texture" 
+		attachment_selector = "no_texture"	
+		greeting_sound = "arthropoid_01_greetings" 
+			character_textures = {
+        "gfx/models/portraits/geth/geth_red.dds"
+			}
+		}
+	geth_07 = {	
+		entity = "portrait_geth_entity" 
+		clothes_selector = "no_texture" 
+		attachment_selector = "no_texture"	
+		greeting_sound = "arthropoid_01_greetings" 
+			character_textures = {
+        "gfx/models/portraits/geth/geth_white.dds"
+			}
+		}
+		
+}	
+
+portrait_groups = {
+	geth =  {
+
+		default = geth_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { 
+						OR = {
+							gender = male 
+							gender = indeterminable 
+						}
+					}
+				}
+				portraits = {
+					geth_01
+					geth_02
+					geth_03
+					geth_04
+					geth_05
+					geth_06
+					geth_07
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { 
+						OR = {
+							gender = female 
+							gender = indeterminable 
+						}
+					}
+				}
+				portraits = {
+					geth_01
+					geth_02
+					geth_03
+					geth_04
+					geth_05
+					geth_06
+					geth_07
+				}
+			}
+
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					geth_01
+					geth_02
+					geth_03
+					geth_04
+					geth_05
+					geth_06
+					geth_07
+				}
+			}
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					geth_01
+					geth_02
+					geth_03
+					geth_04
+					geth_05
+					geth_06
+					geth_07
+				}
+			}	
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					geth_01
+					geth_02
+					geth_03
+					geth_04
+					geth_05
+					geth_06
+					geth_07
+				}
+			}
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					geth_01
+					geth_02
+					geth_03
+					geth_04
+					geth_05
+					geth_06
+					geth_07
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					geth_01
+					geth_02
+					geth_03
+					geth_04
+					geth_05
+					geth_06
+					geth_07
+				}
+			}
+			add = {
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					geth_01
+					geth_02
+					geth_03
+					geth_04
+					geth_05
+					geth_06
+					geth_07
+				}
+			}		
+		}
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					geth_01
+					geth_02
+					geth_03
+					geth_04
+					geth_05
+					geth_06
+					geth_07
+				}
+			}
+			add = {
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					geth_01
+					geth_02
+					geth_03
+					geth_04
+					geth_05
+					geth_06
+					geth_07
+				}
+			}
+		}
+	}
+}

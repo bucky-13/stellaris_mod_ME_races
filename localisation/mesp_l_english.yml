@@ -1,0 +1,46 @@
+﻿l_english:
+
+MassEffect: MassEffect
+
+########## Species Names Lists ############
+ name_list_Systems_Alliance: "Systems Alliance"
+ name_list_Quarian_Flotilla: "Quarian Flotilla"
+ name_list_Salarian_Union: "Salarian Union"
+ name_list_Turian_Hierarchy: "Turian Hierarchy"
+ name_list_Krogan_Clans: "Krogan Clans"
+ name_list_Batarian_Hegemony: "Batarian Hegemony"
+
+########## Mass Effect Flags ##########
+ FLAG_CATEGORY_masseffect: "Mass Effect Gold"
+ FLAG_CATEGORY_masseffectsilver: "Mass Effect Silver"
+
+########## Star Systems ################
+ mesp_aethon_cluster_system_initializer_NAME: "Aethon Cluster"
+ mesp_aethon_cluster_system_initializer_DESC: "The Aethon Cluster is home to the birthplace of the Volus, Irune in the system of Aru, and four other systems."
+
+ mesp_annos_basin_system_initializer_NAME: "Annos Basin"
+ mesp_annos_basin_system_initializer_DESC: "The Annos Basin is home to the birthplace of the Salarians, Sur'Kesh in the system of Pranas, and three other systems."
+
+ mesp_apien_crest_system_initializer_NAME: "Apien Crest"
+ mesp_apien_crest_system_initializer_DESC: "The Apien Crest is home to the birthplace of the Turians, Palaven in the system of Trebia, and four other systems."
+
+ mesp_aralakh_nebula_system_initializer_NAME: "Aralakh Nebula"
+ mesp_aralakh_nebula_system_initializer_DESC: "The Aralakh Nebula is home to the birthplace of the Krogan, Tuchanka in the system of Aralakh, and four other systems."
+
+ mesp_kites_nest_system_initializer_NAME: "Kite's Nest"
+ mesp_kites_nest_system_initializer_DESC: "The Kite's Nest is home to the birthplace of the Batarians, Khar'shan in the system of Harsa, and three other systems."
+
+ mesp_local_cluster_system_initializer_NAME: "Local Cluster"
+ mesp_local_cluster_system_initializer_DESC: "The Local Cluster is home to the birthplace of Humanity, Earth in the system of Sol, and four other systems, including Arcturus, Euler, Exodus and Utopia."
+
+ mesp_ninmah_cluster_system_initializer_NAME: "Ninmah Cluster"
+ mesp_ninmah_cluster_system_initializer_DESC: "The Ninmah Cluster is home to the birthplace of the Rachni, Suen in the system of Maskim Xul, and three other systems."
+
+ mesp_olyn_protectorate_system_initializer_NAME: "Olyn Protectorate"
+ mesp_olyn_protectorate_system_initializer_DESC: "The Olyn Protectorate is home to the birthplace of the Hanar, Kahje in the system of Kanala, and five other systems."
+
+ mesp_perseus_veil_system_initializer_NAME: "Perseus Veil"
+ mesp_perseus_veil_system_initializer_DESC: "The Perseus Veil is home to the birthplace of the Quarians, Rannoch in the system of Tikkun, and three other systems."
+
+ mesp_silean_nebula_system_initializer_NAME: "Silean Nebula"
+ mesp_silean_nebula_system_initializer_DESC: "The Silean Nebula is home to the birthplace of the Elcor, Dekuuna in the system of Phontes, and four other systems."
