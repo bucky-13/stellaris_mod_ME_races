@@ -38,14 +38,13 @@ quarian_female_clothes_01 = {
 		random = {
 			trigger = { leader_class = commander }
 			list = {
-				"gfx/models/portraits/quarian/quarian_female_clothes_general.dds" = { leader_class = commander leader_should_wear_general_uniform = yes }
-				
-				"gfx/models/portraits/quarian/quarian_female_clothes_admiral.dds" = { leader_class = commander leader_should_wear_general_uniform = no }
-				"gfx/models/portraits/quarian/quarian_female_clothes_admiral1.dds" = { leader_class = commander leader_should_wear_general_uniform = no }
-				"gfx/models/portraits/quarian/quarian_female_clothes_admiral2.dds" = { leader_class = commander leader_should_wear_general_uniform = no }
-				"gfx/models/portraits/quarian/quarian_female_clothes_admiral3.dds" = { leader_class = commander leader_should_wear_general_uniform = no }
-				"gfx/models/portraits/quarian/quarian_female_clothes_admiral4.dds" = { leader_class = commander leader_should_wear_general_uniform = no }
-				"gfx/models/portraits/quarian/quarian_female_clothes_admiral5.dds" = { leader_class = commander leader_should_wear_general_uniform = no }
+				"gfx/models/portraits/quarian/quarian_female_clothes_general.dds"
+				"gfx/models/portraits/quarian/quarian_female_clothes_admiral.dds"
+				"gfx/models/portraits/quarian/quarian_female_clothes_admiral1.dds"
+				"gfx/models/portraits/quarian/quarian_female_clothes_admiral2.dds"
+				"gfx/models/portraits/quarian/quarian_female_clothes_admiral3.dds"
+				"gfx/models/portraits/quarian/quarian_female_clothes_admiral4.dds"
+				"gfx/models/portraits/quarian/quarian_female_clothes_admiral5.dds"
 			}
 		}
 
@@ -77,6 +76,27 @@ quarian_female_clothes_01 = {
 				"gfx/models/portraits/quarian/quarian_female_clothes_ruler3.dds"
 				"gfx/models/portraits/quarian/quarian_female_clothes_ruler4.dds"
 				"gfx/models/portraits/quarian/quarian_female_clothes_ruler5.dds"
+				"gfx/models/portraits/quarian/quarian_female_clothes_governor.dds"
+				"gfx/models/portraits/quarian/quarian_female_clothes_governor1.dds"
+				"gfx/models/portraits/quarian/quarian_female_clothes_governor2.dds"
+				"gfx/models/portraits/quarian/quarian_female_clothes_governor3.dds"
+				"gfx/models/portraits/quarian/quarian_female_clothes_governor4.dds"
+				"gfx/models/portraits/quarian/quarian_female_clothes_governor5.dds"
+				"gfx/models/portraits/quarian/quarian_female_clothes_governor6.dds"
+				"gfx/models/portraits/quarian/quarian_female_clothes_scientist.dds"
+				"gfx/models/portraits/quarian/quarian_female_clothes_scientist1.dds"
+				"gfx/models/portraits/quarian/quarian_female_clothes_scientist2.dds"
+				"gfx/models/portraits/quarian/quarian_female_clothes_scientist3.dds"
+				"gfx/models/portraits/quarian/quarian_female_clothes_scientist4.dds"
+				"gfx/models/portraits/quarian/quarian_female_clothes_scientist5.dds"
+				"gfx/models/portraits/quarian/quarian_female_clothes_scientist6.dds"
+				"gfx/models/portraits/quarian/quarian_female_clothes_general.dds"
+				"gfx/models/portraits/quarian/quarian_female_clothes_admiral.dds"
+				"gfx/models/portraits/quarian/quarian_female_clothes_admiral1.dds"
+				"gfx/models/portraits/quarian/quarian_female_clothes_admiral2.dds"
+				"gfx/models/portraits/quarian/quarian_female_clothes_admiral3.dds"
+				"gfx/models/portraits/quarian/quarian_female_clothes_admiral4.dds"
+				"gfx/models/portraits/quarian/quarian_female_clothes_admiral5.dds"
 			}
 		}
 	}

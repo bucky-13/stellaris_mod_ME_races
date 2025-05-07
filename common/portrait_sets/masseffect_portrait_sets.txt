@@ -82,39 +82,3 @@ cerberus = {
 		"cerberus"
 	}
 }
-
-krogan = {
-	species_class = REP
-
-	portraits = {
-		"krogan"
-	}
-
-	non_randomized_portraits = {
-		"krogan"
-	}
-}
-
-geth = {
-	species_class = MACHINE
-
-	portraits = {
-		"geth"
-	}
-
-	non_randomized_portraits = {
-		"geth"
-	}
-}
-
-yalari = {
-	species_class = HUM
-
-	portraits = {
-		"yalari"
-	}
-
-	non_randomized_portraits = {
-		"yalari"
-	}
-}

@@ -45,8 +45,7 @@ alliance_female_outfit = {
 		"gfx/models/portraits/alliance/asari_outfit_ruler_1b.dds"					
 		"gfx/models/portraits/alliance/asari_outfit_ruler_1c.dds"		
 		"gfx/models/portraits/alliance/asari_outfit_ruler_1d.dds"		
-		"gfx/models/portraits/alliance/asari_outfit_ruler_1e.dds"					
-		"gfx/models/portraits/alliance/asari_outfit_rulr_1b.dds"					
+		"gfx/models/portraits/alliance/asari_outfit_ruler_1e.dds"						
 			}
 		}		
 	}
@@ -80,8 +79,7 @@ alliance_female_outfit = {
 		"gfx/models/portraits/alliance/asari_outfit_ruler_1b.dds"		
 		"gfx/models/portraits/alliance/asari_outfit_ruler_1c.dds"		
 		"gfx/models/portraits/alliance/asari_outfit_ruler_1d.dds"		
-		"gfx/models/portraits/alliance/asari_outfit_ruler_1e.dds"		
-		"gfx/models/portraits/alliance/asari_outfit_rulr_1b.dds"		
+		"gfx/models/portraits/alliance/asari_outfit_ruler_1e.dds"			
 	}
 
 	#leader scope 
@@ -120,7 +118,6 @@ alliance_female_outfit = {
 		"gfx/models/portraits/alliance/asari_outfit_ruler_1c.dds"	
 		"gfx/models/portraits/alliance/asari_outfit_ruler_1d.dds"		
 		"gfx/models/portraits/alliance/asari_outfit_ruler_1e.dds"		
-		"gfx/models/portraits/alliance/asari_outfit_rulr_1b.dds"	
 			}
 		}
 	}

@@ -9,7 +9,6 @@ humanoids = {
 		cerberus
 		asari
 		quarian
-		yalari
 	}
 }
 
@@ -26,13 +25,5 @@ reptilians = {
 
 	sets = {
 		salarian
-		krogan
-	}
-}
-machines = {
-	name = MACHINE
-
-	sets = {
-		geth
 	}
 }
